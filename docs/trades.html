@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trades</title>
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body data-page-title="Congressional trades">
+  <header class="site-header wrap">
+    <a class="site-name" href="index.html" data-site-name></a>
+    <nav aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="federal.html">Federal</a>
+      <a href="trades.html" aria-current="page">Trades</a>
+      <a href="status.html">Status</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main class="wrap">
+    <h1>Congressional trades</h1>
+    <p class="lead">STOCK Act periodic transaction reports, written as short items with a link to the official filing.</p>
+    <p id="updated" class="note">Loading…</p>
+    <form id="filters" class="filters cols-2">
+      <label>
+        Member
+        <input id="member" type="search" name="member" placeholder="Name" autocomplete="off">
+      </label>
+      <label>
+        Chamber
+        <select id="chamber" name="chamber">
+          <option value="">Both chambers</option>
+          <option value="house">House</option>
+          <option value="senate">Senate</option>
+        </select>
+      </label>
+      <label>
+        Party
+        <select id="party" name="party">
+          <option value="">Any party</option>
+          <option value="Democratic">Democratic</option>
+          <option value="Republican">Republican</option>
+          <option value="Independent">Independent</option>
+        </select>
+      </label>
+      <label>
+        From
+        <input id="from" type="date" name="from">
+      </label>
+      <label>
+        To
+        <input id="to" type="date" name="to">
+      </label>
+    </form>
+    <div id="feed" aria-live="polite"></div>
+  </main>
+  <footer class="site-footer wrap">
+    <p>Disclosures, not accusations. Official filings are the record.</p>
+  </footer>
+  <script src="js/config.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/trades.js"></script>
+</body>
+</html>

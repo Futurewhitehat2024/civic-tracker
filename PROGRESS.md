@@ -8,14 +8,15 @@
 - Added the display name as the single `name` value in `docs/js/config.js`, plus shared CSS and a small shared script.
 - Added home (`docs/index.html`) and about (`docs/about.html`).
 - Added the federal actions page (`docs/federal.html`, `docs/js/federal.js`). It loads `data/federal.json` and filters by text and `kind` in the browser.
+- Added the congressional trades page (`docs/trades.html`, `docs/js/trades.js`). It loads `data/trades.json`, writes a short line per filing, and filters by member, chamber, party, and date.
 
 ## In progress
 
-Trades and status pages are not written yet.
+The status page is not written yet.
 
 ## Next step
 
-Add the congressional trades feed with member, chamber, party, and date filter stubs.
+Add `docs/status.html` to read `data/status.json` and list each scraper's last run, record count, and errors.
 
 ## Decisions
 
