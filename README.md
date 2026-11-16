@@ -53,6 +53,19 @@ House electronic transaction reports are parsed from the PDF text. Scanned PDFs 
 
 Requests identify themselves as `CivicTracker-bot/1.0` and pause between calls to the same host. The client refuses `efdsearch.senate.gov`.
 
+## Scheduled run
+
+`.github/workflows/scrape.yml` runs every day at 11:00 UTC (06:00 EST, 07:00 EDT). That run uses each source's saved cursor. GitHub only runs the schedule from the default branch, so it starts after this workflow is on `main`.
+
+Actions → Scrape → Run workflow accepts:
+
+- `sources`: `all`, `federal`, `trades`, or a comma-separated list
+- `from_date` and `to_date`: `YYYY-MM-DD` backfill. Leave both empty for the normal cursor run.
+
+Add the repository secret `DATA_GOV_API_KEY` for Congress.gov bills. The workflow passes it as an environment variable and the scraper does not print it. Without the secret, that source is skipped and `status.json` says so.
+
+The workflow commits updated JSON and `state/` as `github-actions[bot]`. It does not turn on GitHub Pages.
+
 Fetch URLs are relative (`data/federal.json`), so they work on a project site such as `https://<user>.github.io/civic-tracker/` and on a local server.
 
 ## Enable GitHub Pages

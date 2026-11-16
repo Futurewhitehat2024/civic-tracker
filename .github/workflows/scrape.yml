@@ -1,0 +1,61 @@
+# Live capture is the scheduled run. A manual run can pass a date range to backfill.
+# 11:00 UTC is 06:00 EST and 07:00 EDT. GitHub cron does not follow daylight saving time.
+name: Scrape
+
+on:
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: "all, federal, trades, or a comma-separated source list"
+        required: false
+        default: "all"
+        type: string
+      from_date:
+        description: "Backfill start YYYY-MM-DD. Empty uses each source cursor."
+        required: false
+        default: ""
+        type: string
+      to_date:
+        description: "Backfill end YYYY-MM-DD. Empty uses today in America/New_York."
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: civic-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Fetch official records
+        env:
+          DATA_GOV_API_KEY: ${{ secrets.DATA_GOV_API_KEY }}
+          SCRAPE_SOURCES: ${{ github.event_name == 'workflow_dispatch' && inputs.sources || 'all' }}
+          SCRAPE_FROM: ${{ github.event_name == 'workflow_dispatch' && inputs.from_date || '' }}
+          SCRAPE_TO: ${{ github.event_name == 'workflow_dispatch' && inputs.to_date || '' }}
+        run: python -m scrapers
+      - name: Commit data and cursors
+        run: |
+          git config user.name "civic-tracker-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/federal.json docs/data/trades.json docs/data/status.json state
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Update scraped federal and trade records"
+            git push
+          fi

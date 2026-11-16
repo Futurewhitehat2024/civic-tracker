@@ -20,13 +20,15 @@
 
 - House PTR scraper parses electronic filings and lists scanned PDFs as links. Senate eFD rows are links only. `docs/SENATE-EFD.md` records that the search is not automated.
 
+- Added `.github/workflows/scrape.yml` (daily cursor run plus manual date-range backfill) and `.github/workflows/ci.yml` (ruff and pytest).
+
 ## In progress
 
-GitHub Actions schedule and `workflow_dispatch` date-range backfill. GitHub Pages is still off. Creating the Pages site returned 403, "Resource not accessible by integration". The token used here is not a repo admin. This work will not turn Pages on.
+Nothing further is required for the scraper milestone on this branch. GitHub Pages is still off. Creating the Pages site returned 403, "Resource not accessible by integration". The token used here is not a repo admin. This work does not turn Pages on and does not merge to `main`.
 
 ## Next step
 
-Add the scheduled workflow with backfill inputs, and CI that runs the unit tests. Do not enable GitHub Pages.
+A repo admin can merge the pull request, add the Actions secret `DATA_GOV_API_KEY`, and turn on Pages for `main` / `/docs` if the site should be public. The daily schedule runs only after the workflow file is on `main`. Senate eFD automation stays off until a legal review is written into `docs/SENATE-EFD.md`.
 
 ## Decisions
 
@@ -53,4 +55,4 @@ Add the scheduled workflow with backfill inputs, and CI that runs the unit tests
 ## Open questions
 
 - Pages hosting: this environment cannot enable it. A repo admin still needs to turn on `main` / `/docs`.
-- The api.data.gov key is not in this environment. Congress.gov stays skipped until `DATA_GOV_API_KEY` is set as an Actions secret.
+- The api.data.gov key is not in this environment. Congress.gov stays skipped until `DATA_GOV_API_KEY` is set as an Actions secret. The daily schedule does not run until `.github/workflows/scrape.yml` is on `main`.
