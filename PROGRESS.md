@@ -11,14 +11,16 @@
 - Added the congressional trades page (`docs/trades.html`, `docs/js/trades.js`). It loads `data/trades.json`, writes a short line per filing, and filters by member, chamber, party, and date.
 - Added the status page (`docs/status.html`, `docs/js/status.js`). It loads `data/status.json` and lists last run, records, and errors per scraper.
 - Added a noscript note, a plain favicon, and a small headline fix so "exchange" reads as "an exchange". Federal search and type sit on one row on wide screens.
+- README explains the `/docs` layout, the empty JSON feeds, local preview, and how to turn on GitHub Pages.
+- Checked the five pages in Chrome against a local static server: empty states, nav between pages, desktop and mobile layout, and filters using intercepted sample JSON. That sample is not committed.
 
 ## In progress
 
-README still describes only the placeholder project.
+The branch is local only. GitHub Pages is not enabled.
 
 ## Next step
 
-Replace the README with the site layout and Pages instructions. A local browser check of the five pages already passed, including empty states, nav, and filters against intercepted sample JSON (that sample is not committed).
+Push the branch, merge it to `main`, and try to enable Pages for `main` / `/docs`.
 
 ## Decisions
 
