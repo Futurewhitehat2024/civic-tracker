@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Federal</title>
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body data-page-title="Federal actions">
+  <header class="site-header wrap">
+    <a class="site-name" href="index.html" data-site-name></a>
+    <nav aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="federal.html" aria-current="page">Federal</a>
+      <a href="trades.html">Trades</a>
+      <a href="status.html">Status</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main class="wrap">
+    <h1>Federal government actions</h1>
+    <p class="lead">Bills, votes, executive orders, and Federal Register items from official sources.</p>
+    <p id="updated" class="note">Loading…</p>
+    <form id="filters" class="filters cols-2">
+      <label class="wide">
+        Search
+        <input id="q" type="search" name="q" placeholder="Title, identifier, source" autocomplete="off">
+      </label>
+      <label>
+        Type
+        <select id="kind" name="kind">
+          <option value="">All types</option>
+          <option value="bill">Bills</option>
+          <option value="vote">Votes</option>
+          <option value="executive_order">Executive orders</option>
+          <option value="federal_register">Federal Register</option>
+        </select>
+      </label>
+    </form>
+    <div id="feed" aria-live="polite"></div>
+  </main>
+  <footer class="site-footer wrap">
+    <p>Official public records only. Not affiliated with the U.S. government.</p>
+  </footer>
+  <script src="js/config.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/federal.js"></script>
+</body>
+</html>

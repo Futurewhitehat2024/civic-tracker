@@ -7,14 +7,15 @@
 - Documented the item schema in `docs/data/SCHEMA.md`.
 - Added the display name as the single `name` value in `docs/js/config.js`, plus shared CSS and a small shared script.
 - Added home (`docs/index.html`) and about (`docs/about.html`).
+- Added the federal actions page (`docs/federal.html`, `docs/js/federal.js`). It loads `data/federal.json` and filters by text and `kind` in the browser.
 
 ## In progress
 
-Federal, trades, and status pages are not written yet.
+Trades and status pages are not written yet.
 
 ## Next step
 
-Add the federal actions feed with filter and search stubs that read `data/federal.json`.
+Add the congressional trades feed with member, chamber, party, and date filter stubs.
 
 ## Decisions
 
