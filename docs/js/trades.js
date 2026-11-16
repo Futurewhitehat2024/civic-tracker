@@ -56,10 +56,11 @@
   function headline(item) {
     var who = item.member || "A member of Congress";
     var action = item.transactionType || "transaction";
+    var article = /^[aeiou]/i.test(action) ? "an" : "a";
     var asset = item.ticker ? item.ticker + " (" + (item.asset || "asset") + ")" : item.asset || "an asset";
     var amount = item.amountRange ? " (" + item.amountRange + ")" : "";
     var when = item.transactionDate || item.filingDate;
-    return who + " reported a " + action + " of " + asset + amount + (when ? ", dated " + when : "") + ".";
+    return who + " reported " + article + " " + action + " of " + asset + amount + (when ? ", dated " + when : "") + ".";
   }
 
   function render() {
