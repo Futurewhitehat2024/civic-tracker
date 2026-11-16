@@ -13,14 +13,15 @@
 - Added a noscript note, a plain favicon, and a small headline fix so "exchange" reads as "an exchange". Federal search and type sit on one row on wide screens.
 - README explains the `/docs` layout, the empty JSON feeds, local preview, and how to turn on GitHub Pages.
 - Checked the five pages in Chrome against a local static server: empty states, nav between pages, desktop and mobile layout, and filters using intercepted sample JSON. That sample is not committed.
+- Merged to `main` (fast-forward). Pull request: https://github.com/Futurewhitehat2024/civic-tracker/pull/1
 
 ## In progress
 
-The branch is local only. GitHub Pages is not enabled.
+GitHub Pages is still off. Creating the Pages site returned 403, "Resource not accessible by integration". The token used here is not a repo admin.
 
 ## Next step
 
-Push the branch, merge it to `main`, and try to enable Pages for `main` / `/docs`.
+A person with admin on the repo turns on Pages: Settings → Pages → Deploy from a branch → `main` → `/docs`. The site should then be at `https://futurewhitehat2024.github.io/civic-tracker/`.
 
 ## Decisions
 
@@ -35,5 +36,5 @@ Push the branch, merge it to `main`, and try to enable Pages for `main` / `/docs
 
 ## Open questions
 
-- Whether GitHub Pages can be turned on from this environment (needs repo admin on `main` / `/docs`).
+- Pages hosting: this environment cannot enable it. A repo admin still needs to turn on `main` / `/docs`.
 - Which official endpoints the later scrapers will use, and how often they should run. Out of scope until scrapers are added.
