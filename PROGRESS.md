@@ -15,13 +15,15 @@
 - Checked the five pages in Chrome against a local static server: empty states, nav between pages, desktop and mobile layout, and filters using intercepted sample JSON. That sample is not committed.
 - Merged to `main` (fast-forward). Pull request: https://github.com/Futurewhitehat2024/civic-tracker/pull/1
 
+- Added the scraper package skeleton: polite HTTP client, key redaction, JSON feed merge, per-source cursor files, and schema checks for `docs/data/SCHEMA.md`.
+
 ## In progress
 
-GitHub Pages is still off. Creating the Pages site returned 403, "Resource not accessible by integration". The token used here is not a repo admin.
+Federal actions scraper (Federal Register, House and Senate roll calls, Congress.gov bills). GitHub Pages is still off. Creating the Pages site returned 403, "Resource not accessible by integration". The token used here is not a repo admin. This work will not turn Pages on.
 
 ## Next step
 
-A person with admin on the repo turns on Pages: Settings → Pages → Deploy from a branch → `main` → `/docs`. The site should then be at `https://futurewhitehat2024.github.io/civic-tracker/`.
+Write and live-test the federal actions scraper, then commit that milestone before the trades scraper.
 
 ## Decisions
 
@@ -33,8 +35,13 @@ A person with admin on the repo turns on Pages: Settings → Pages → Deploy fr
 - Filter controls run in the browser on the fetched JSON. They are usable once scrapers fill the files. There is no separate filter API.
 - Trade headlines are built in `docs/js/trades.js` from the item fields. The JSON stores the filing fields, not a prewritten sentence.
 - Links are rendered only for absolute `http` and `https` URLs.
+- Scrapers write the three files in `docs/data/` from `SCHEMA.md`. They do not build the spec's per-entity `data/us/` tree or the Astro site. The site is already plain HTML.
+- Python package `scrapers/`. GitHub Actions will run it. No paid APIs and no model calls.
+- `DATA_GOV_API_KEY` is read only from the environment. It is not committed, not logged, and stripped from any URL before a URL is saved. Missing key skips Congress.gov and says so in `status.json`.
+- Cursor files live in `state/<source>.json`, outside `/docs`, so a rerun can resume. Feeds dedupe by `id`.
+- Requests send `CivicTracker-bot/1.0` and wait about a second between calls to the same official host. `efdsearch.senate.gov` is blocked in the client. Senate search automation stays off.
 
 ## Open questions
 
 - Pages hosting: this environment cannot enable it. A repo admin still needs to turn on `main` / `/docs`.
-- Which official endpoints the later scrapers will use, and how often they should run. Out of scope until scrapers are added.
+- The api.data.gov key is not in this environment. Congress.gov stays skipped until `DATA_GOV_API_KEY` is set as an Actions secret.
