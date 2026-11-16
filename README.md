@@ -33,7 +33,21 @@ Those files are committed empty and valid:
 }
 ```
 
-When `items` is empty, the feed shows: "No data yet; scrapers not live". Field names for later scrapers are in [`docs/data/SCHEMA.md`](docs/data/SCHEMA.md). This repository does not include scrapers, API keys, or other secrets.
+When `items` is empty, the feed shows: "No data yet; scrapers not live". Field names are in [`docs/data/SCHEMA.md`](docs/data/SCHEMA.md). The federal feed is filled by the Python scrapers below. Trade filings are not collected yet. API keys are not stored in the repository.
+
+## Scrapers
+
+Python 3.12. From the repository root:
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python -m scrapers --sources federal
+```
+
+`--from YYYY-MM-DD` and `--to YYYY-MM-DD` request a backfill. With no dates, each source continues from `state/<source>.json`, or the last 14 days when that file has no cursor. Congress.gov bills run only when `DATA_GOV_API_KEY` is set in the environment. The value is not printed and is not written into the JSON. If it is missing, `docs/data/status.json` says the source was skipped.
+
+Requests identify themselves as `CivicTracker-bot/1.0` and pause between calls to the same host.
 
 Fetch URLs are relative (`data/federal.json`), so they work on a project site such as `https://<user>.github.io/civic-tracker/` and on a local server.
 

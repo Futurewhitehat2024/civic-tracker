@@ -29,7 +29,8 @@
     <p>Records are meant to come only from official publications. Planned sources are Congress.gov, House and Senate periodic transaction reports filed under the STOCK Act, the Federal Register, and executive-order publications on whitehouse.gov. Campaign sites, social media, and news articles are not sources for the feeds.</p>
 
     <h2>Methodology</h2>
-    <p>Placeholder. Scrapers are not built yet. When they are, this section will name each source, the fields collected, how often the files update, and how duplicate records are handled. The file format they should write is documented in <code>docs/data/SCHEMA.md</code> in the repository.</p>
+    <p>Federal actions come from official records. Executive orders, rules, and proposed rules come from the Federal Register API. House roll calls come from the Clerk's XML files. Senate roll calls come from the Senate LIS XML files. Congress.gov bills are included only when an api.data.gov key is configured for the scraper; until then the status page says they were skipped. Each record links to the official page or XML.</p>
+    <p>A scheduled run keeps a cursor per source and continues after an interruption. Running the same dates again replaces records that share an id, so it does not add duplicates. The first published window is 15 October 2026 through 16 November 2026. Later runs continue from the saved cursor unless a date range is requested. Congressional trade filings are not collected yet.</p>
 
     <h2>AI and data disclaimer</h2>
     <p>Pages display the fields in the JSON feeds. Any summary added later may be drafted with automated tools and can be wrong, incomplete, or out of date. The official filing or government page is the record. This site is not legal, financial, or voting advice, and it is not affiliated with the U.S. government.</p>
