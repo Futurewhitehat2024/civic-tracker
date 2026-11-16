@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vote_summary>
+  <congress>119</congress>
+  <session>2</session>
+  <congress_year>2026</congress_year>
+  <votes>
+    <vote>
+      <vote_number>00262</vote_number>
+      <vote_date>12-Nov</vote_date>
+      <issue>PN1181-7</issue>
+      <question>On the Cloture Motion</question>
+      <result>Agreed to</result>
+    </vote>
+    <vote>
+      <vote_number>00001</vote_number>
+      <vote_date>3-Jan</vote_date>
+      <question>On the Nomination</question>
+      <result>Confirmed</result>
+    </vote>
+  </votes>
+</vote_summary>

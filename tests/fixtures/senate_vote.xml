@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roll_call_vote>
+  <congress>119</congress>
+  <session>2</session>
+  <vote_number>262</vote_number>
+  <vote_date>November 12, 2026,  03:21 PM</vote_date>
+  <vote_question_text>On the Cloture Motion PN1181-7</vote_question_text>
+  <vote_result_text>Cloture Motion Agreed to (49-26)</vote_result_text>
+  <question>On the Cloture Motion</question>
+  <vote_title>Motion to Invoke Cloture: Example Nominee</vote_title>
+  <vote_result>Cloture Motion Agreed to</vote_result>
+  <count>
+    <yeas>49</yeas>
+    <nays>26</nays>
+    <present/>
+    <absent>25</absent>
+  </count>
+</roll_call_vote>

@@ -33,7 +33,38 @@ Those files are committed empty and valid:
 }
 ```
 
-When `items` is empty, the feed shows: "No data yet; scrapers not live". Field names for later scrapers are in [`docs/data/SCHEMA.md`](docs/data/SCHEMA.md). This repository does not include scrapers, API keys, or other secrets.
+When `items` is empty, the feed shows: "No data yet; scrapers not live". Field names are in [`docs/data/SCHEMA.md`](docs/data/SCHEMA.md). API keys are not stored in the repository.
+
+## Scrapers
+
+Python 3.12. From the repository root:
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python -m scrapers --sources all
+```
+
+`--sources` accepts `all`, `federal`, `trades`, or a comma-separated list such as `house-ptr,senate-efd`. `--from YYYY-MM-DD` and `--to YYYY-MM-DD` request a backfill. With no dates, each source continues from `state/<source>.json`, or the last 14 days when that file has no cursor.
+
+Congress.gov bills run only when `DATA_GOV_API_KEY` is set in the environment. The value is not printed and is not written into the JSON. If it is missing, `docs/data/status.json` says the source was skipped.
+
+House electronic transaction reports are parsed from the PDF text. Scanned PDFs stay link-only. Senate rows link to the eFD search and do not download filings. See [`docs/SENATE-EFD.md`](docs/SENATE-EFD.md).
+
+Requests identify themselves as `CivicTracker-bot/1.0` and pause between calls to the same host. The client refuses `efdsearch.senate.gov`.
+
+## Scheduled run
+
+`.github/workflows/scrape.yml` runs every day at 11:00 UTC (06:00 EST, 07:00 EDT). That run uses each source's saved cursor. GitHub only runs the schedule from the default branch, so it starts after this workflow is on `main`.
+
+Actions → Scrape → Run workflow accepts:
+
+- `sources`: `all`, `federal`, `trades`, or a comma-separated list
+- `from_date` and `to_date`: `YYYY-MM-DD` backfill. Leave both empty for the normal cursor run.
+
+Add the repository secret `DATA_GOV_API_KEY` for Congress.gov bills. The workflow passes it as an environment variable and the scraper does not print it. Without the secret, that source is skipped and `status.json` says so.
+
+The workflow commits updated JSON and `state/` as `github-actions[bot]`. It does not turn on GitHub Pages.
 
 Fetch URLs are relative (`data/federal.json`), so they work on a project site such as `https://<user>.github.io/civic-tracker/` and on a local server.
 

@@ -1,4 +1,49 @@
 {
-  "updated": null,
-  "items": []
+  "updated": "2026-11-16T17:58:12-05:00",
+  "items": [
+    {
+      "id": "congress-bills",
+      "name": "Congress.gov bills",
+      "lastRun": "2026-11-16T17:50:44-05:00",
+      "records": 0,
+      "errors": [
+        "DATA_GOV_API_KEY is not set; Congress.gov bills were not fetched."
+      ]
+    },
+    {
+      "id": "federal-register",
+      "name": "Federal Register",
+      "lastRun": "2026-11-16T17:50:44-05:00",
+      "records": 382,
+      "errors": []
+    },
+    {
+      "id": "house-ptr",
+      "name": "House periodic transaction reports",
+      "lastRun": "2026-11-16T17:58:12-05:00",
+      "records": 0,
+      "errors": []
+    },
+    {
+      "id": "house-votes",
+      "name": "House roll-call votes",
+      "lastRun": "2026-11-16T17:50:44-05:00",
+      "records": 0,
+      "errors": []
+    },
+    {
+      "id": "senate-efd",
+      "name": "Senate eFD links",
+      "lastRun": "2026-11-16T17:58:12-05:00",
+      "records": 100,
+      "errors": []
+    },
+    {
+      "id": "senate-votes",
+      "name": "Senate roll-call votes",
+      "lastRun": "2026-11-16T17:50:44-05:00",
+      "records": 0,
+      "errors": []
+    }
+  ]
 }
