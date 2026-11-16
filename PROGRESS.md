@@ -6,14 +6,15 @@
 - Added empty, schema-valid `docs/data/federal.json`, `trades.json`, and `status.json`.
 - Documented the item schema in `docs/data/SCHEMA.md`.
 - Added the display name as the single `name` value in `docs/js/config.js`, plus shared CSS and a small shared script.
+- Added home (`docs/index.html`) and about (`docs/about.html`).
 
 ## In progress
 
-Static pages are not written yet.
+Federal, trades, and status pages are not written yet.
 
 ## Next step
 
-Add the home and about pages, then the two feeds and the status page.
+Add the federal actions feed with filter and search stubs that read `data/federal.json`.
 
 ## Decisions
 
