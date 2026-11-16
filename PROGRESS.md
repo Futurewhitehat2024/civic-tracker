@@ -9,14 +9,15 @@
 - Added home (`docs/index.html`) and about (`docs/about.html`).
 - Added the federal actions page (`docs/federal.html`, `docs/js/federal.js`). It loads `data/federal.json` and filters by text and `kind` in the browser.
 - Added the congressional trades page (`docs/trades.html`, `docs/js/trades.js`). It loads `data/trades.json`, writes a short line per filing, and filters by member, chamber, party, and date.
+- Added the status page (`docs/status.html`, `docs/js/status.js`). It loads `data/status.json` and lists last run, records, and errors per scraper.
 
 ## In progress
 
-The status page is not written yet.
+README still describes only the placeholder project. Pages hosting is not confirmed.
 
 ## Next step
 
-Add `docs/status.html` to read `data/status.json` and list each scraper's last run, record count, and errors.
+Document the site layout and how to enable GitHub Pages, then check the pages in a browser.
 
 ## Decisions
 

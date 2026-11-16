@@ -130,6 +130,10 @@ select {
   padding-left: 1.2rem;
 }
 
+.table-scroll {
+  overflow-x: auto;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
