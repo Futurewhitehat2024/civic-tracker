@@ -20,7 +20,7 @@ from scrapers.runner import parse_sources, run_sources
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
-        description="Fetch official federal actions into docs/data JSON files."
+        description="Fetch official federal actions and congressional trade filings."
     )
     parser.add_argument(
         "--sources",

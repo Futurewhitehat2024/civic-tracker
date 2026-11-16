@@ -55,6 +55,12 @@
 
   function headline(item) {
     var who = item.member || "A member of Congress";
+    if (item.transactionType === "scanned filing") {
+      return who + " filed a periodic transaction report. The clerk posted a scanned PDF, so individual transactions are not parsed here.";
+    }
+    if (item.transactionType === "senate-efd-search") {
+      return who + " — periodic transaction reports are on the Senate eFD search. This site does not download them.";
+    }
     var action = item.transactionType || "transaction";
     var article = /^[aeiou]/i.test(action) ? "an" : "a";
     var asset = item.ticker ? item.ticker + " (" + (item.asset || "asset") + ")" : item.asset || "an asset";
@@ -89,7 +95,11 @@
         item.party,
         item.state,
         item.owner ? "Owner: " + item.owner : "",
-        item.filingDate ? "Filed " + item.filingDate : "",
+        item.transactionType === "senate-efd-search"
+          ? ""
+          : item.filingDate
+            ? "Filed " + item.filingDate
+            : "",
       ]
         .filter(Boolean)
         .join(" · ");

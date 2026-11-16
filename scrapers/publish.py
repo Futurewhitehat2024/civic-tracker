@@ -15,6 +15,7 @@ def publish_trades(
     items: list[dict],
     *,
     replace_prefix: str | None = None,
+    drop_id: str | None = None,
 ) -> tuple[int, list[str]]:
     return _publish(
         ctx,
@@ -24,6 +25,7 @@ def publish_trades(
         ctx.trades_path,
         "filingDate",
         replace_prefix=replace_prefix,
+        drop_id=drop_id,
     )
 
 
@@ -44,6 +46,7 @@ def _publish(
     date_key: str,
     *,
     replace_prefix: str | None = None,
+    drop_id: str | None = None,
 ) -> tuple[int, list[str]]:
     good: list[dict] = []
     errors: list[str] = []
@@ -60,6 +63,7 @@ def _publish(
             updated=ctx.now,
             date_key=date_key,
             replace_prefix=replace_prefix,
+            drop_id=drop_id,
         )
     if len(good) != len(items):
         failed = len(items) - len(good)

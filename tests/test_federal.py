@@ -81,8 +81,9 @@ def test_parse_sources_accepts_groups_and_rejects_unknown() -> None:
         "congress-bills",
     ]
     assert parse_sources("house-votes, senate-votes") == ["house-votes", "senate-votes"]
+    assert parse_sources("trades") == ["house-ptr", "senate-efd"]
     with pytest.raises(SystemExit):
-        parse_sources("trades")
+        parse_sources("not-a-source")
 
 
 def test_federal_register_maps_rules_and_orders_and_rerun_is_stable(tmp_path) -> None:

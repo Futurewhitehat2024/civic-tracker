@@ -18,13 +18,15 @@
 - Added the scraper package skeleton: polite HTTP client, key redaction, JSON feed merge, per-source cursor files, and schema checks for `docs/data/SCHEMA.md`.
 - MILESTONE: federal actions scraper is written, live-tested, and writing `docs/data/federal.json` and `status.json`.
 
+- House PTR scraper parses electronic filings and lists scanned PDFs as links. Senate eFD rows are links only. `docs/SENATE-EFD.md` records that the search is not automated.
+
 ## In progress
 
-Congressional trades scraper is next. GitHub Pages is still off. Creating the Pages site returned 403, "Resource not accessible by integration". The token used here is not a repo admin. This work will not turn Pages on.
+GitHub Actions schedule and `workflow_dispatch` date-range backfill. GitHub Pages is still off. Creating the Pages site returned 403, "Resource not accessible by integration". The token used here is not a repo admin. This work will not turn Pages on.
 
 ## Next step
 
-House periodic transaction reports (parse electronic filings, link scanned PDFs) and Senate eFD links only. Do not request efdsearch.senate.gov.
+Add the scheduled workflow with backfill inputs, and CI that runs the unit tests. Do not enable GitHub Pages.
 
 ## Decisions
 
@@ -46,6 +48,7 @@ House periodic transaction reports (parse electronic filings, link scanned PDFs)
 - Federal Register collection stops at 2,000 hits per date window and splits the dates instead of requesting page 3. Rules and proposed rules are included. Notices are not, so the single JSON file stays a list of rules and orders.
 - The committed window is a backfill of 15 Oct 2026–16 Nov 2026 so the recent executive orders are present. A scheduled run with no dates resumes at `completed_through`.
 - Federal live check on 16 Nov 2026: 379 rules and proposed rules, 3 executive orders (EO 14436, EO 14437, EO 14438), 9 House roll calls, 6 Senate roll calls. A second run kept the same 397 ids. House roll 323 is "Passed. yeas 392, nays 18" for H.R. 2102, matching the Clerk XML. Senate vote 262 matches the LIS XML. Congress.gov recorded the missing-key skip and made no request.
+- Trades live check for filings dated 1–16 Nov 2026: 23 House PTR filings, 134 transaction or scanned-link rows, 0 parse failures after the asset-text fix. Two scanned PDFs (doc ids 9116399 and 9116403) are link-only. Jonathan Jackson's BP row is owner joint, ticker BP, sale (partial), `$1,001 - $15,000`. Richard W. Allen's Sherwin-Williams row is owner spouse. A second run added no ids. Senate list is 100 link rows from senate.gov, including Angela D. Alsobrooks (Democratic, MD). No request was made to efdsearch.senate.gov.
 
 ## Open questions
 

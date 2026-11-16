@@ -51,6 +51,7 @@ def upsert_items(
     updated: str,
     date_key: str,
     replace_prefix: str | None = None,
+    drop_id: str | None = None,
 ) -> list[dict[str, Any]]:
     """Merge items by id. Re-running with the same ids replaces in place."""
     feed = load_feed(path)
@@ -58,7 +59,10 @@ def upsert_items(
     for item in feed["items"]:
         if not isinstance(item, dict) or not item.get("id"):
             continue
-        if replace_prefix and str(item["id"]).startswith(replace_prefix):
+        item_id = str(item["id"])
+        if replace_prefix and item_id.startswith(replace_prefix):
+            continue
+        if drop_id and (item_id == drop_id or item_id.startswith(drop_id + "-")):
             continue
         kept.append(item)
     by_id = {str(item["id"]): item for item in kept}

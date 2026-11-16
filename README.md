@@ -33,7 +33,7 @@ Those files are committed empty and valid:
 }
 ```
 
-When `items` is empty, the feed shows: "No data yet; scrapers not live". Field names are in [`docs/data/SCHEMA.md`](docs/data/SCHEMA.md). The federal feed is filled by the Python scrapers below. Trade filings are not collected yet. API keys are not stored in the repository.
+When `items` is empty, the feed shows: "No data yet; scrapers not live". Field names are in [`docs/data/SCHEMA.md`](docs/data/SCHEMA.md). API keys are not stored in the repository.
 
 ## Scrapers
 
@@ -42,12 +42,16 @@ Python 3.12. From the repository root:
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
-.venv/bin/python -m scrapers --sources federal
+.venv/bin/python -m scrapers --sources all
 ```
 
-`--from YYYY-MM-DD` and `--to YYYY-MM-DD` request a backfill. With no dates, each source continues from `state/<source>.json`, or the last 14 days when that file has no cursor. Congress.gov bills run only when `DATA_GOV_API_KEY` is set in the environment. The value is not printed and is not written into the JSON. If it is missing, `docs/data/status.json` says the source was skipped.
+`--sources` accepts `all`, `federal`, `trades`, or a comma-separated list such as `house-ptr,senate-efd`. `--from YYYY-MM-DD` and `--to YYYY-MM-DD` request a backfill. With no dates, each source continues from `state/<source>.json`, or the last 14 days when that file has no cursor.
 
-Requests identify themselves as `CivicTracker-bot/1.0` and pause between calls to the same host.
+Congress.gov bills run only when `DATA_GOV_API_KEY` is set in the environment. The value is not printed and is not written into the JSON. If it is missing, `docs/data/status.json` says the source was skipped.
+
+House electronic transaction reports are parsed from the PDF text. Scanned PDFs stay link-only. Senate rows link to the eFD search and do not download filings. See [`docs/SENATE-EFD.md`](docs/SENATE-EFD.md).
+
+Requests identify themselves as `CivicTracker-bot/1.0` and pause between calls to the same host. The client refuses `efdsearch.senate.gov`.
 
 Fetch URLs are relative (`data/federal.json`), so they work on a project site such as `https://<user>.github.io/civic-tracker/` and on a local server.
 
