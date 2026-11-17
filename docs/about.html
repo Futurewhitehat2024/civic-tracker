@@ -3,42 +3,117 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About</title>
-  <link rel="stylesheet" href="css/site.css">
+  <title>About · TheGovWatcher</title>
+  <meta name="description" content="What TheGovWatcher shows, where the records come from, how often they are updated, and how to read a disclosure.">
+  <meta name="theme-color" content="#0e2240">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
 </head>
-<body data-page-title="About">
-  <header class="site-header wrap">
-    <a class="site-name" href="index.html" data-site-name></a>
-    <nav aria-label="Primary">
-      <a href="index.html">Home</a>
-      <a href="federal.html">Federal</a>
-      <a href="trades.html">Trades</a>
-      <a href="status.html">Status</a>
-      <a href="about.html" aria-current="page">About</a>
-    </nav>
+<body data-page-title="About" data-load-updated>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <div class="utility">
+        <p>Official public records only</p>
+        <p>Updated daily</p>
+      </div>
+      <a class="brand" href="index.html">
+        <svg class="mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <rect width="32" height="32" fill="#0e2240"/>
+          <rect y="28" width="32" height="4" fill="#9d2936"/>
+          <rect x="4" y="7" width="24" height="2.2" fill="#f4efe4"/>
+          <rect x="5" y="22.2" width="22" height="2.2" fill="#f4efe4"/>
+          <rect x="7.2" y="9.2" width="2.3" height="13" fill="#f4efe4"/>
+          <rect x="14.85" y="9.2" width="2.3" height="13" fill="#f4efe4"/>
+          <rect x="22.5" y="9.2" width="2.3" height="13" fill="#f4efe4"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name" data-site-name>TheGovWatcher</span>
+          <span class="brand-tag" data-site-tagline>Federal actions and congressional trades, from the public record.</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="federal.html">Federal actions</a>
+        <a href="trades.html">Congressional trades</a>
+        <a href="about.html" aria-current="page">About</a>
+      </nav>
+    </div>
   </header>
-  <main class="wrap">
-    <noscript><p class="empty">JavaScript is required to fill in the site name.</p></noscript>
-    <h1>About</h1>
 
-    <h2>Nonpartisan</h2>
-    <p><span data-site-name></span> does not support or oppose candidates, parties, or legislation. It publishes public records and points at the original documents. Party labels, when a filing or official source includes them, are shown as reported.</p>
+  <main id="main" class="wrap page">
+    <header class="page-head">
+      <p class="kicker">About this site</p>
+      <h1>A reading room for the public record.</h1>
+      <p class="deck"><span data-site-name>TheGovWatcher</span> publishes public records and points to the original documents. It does not add a score, a recommendation, or a verdict.</p>
+    </header>
 
-    <h2>Official sources only</h2>
-    <p>Records are meant to come only from official publications. Planned sources are Congress.gov, House and Senate periodic transaction reports filed under the STOCK Act, the Federal Register, and executive-order publications on whitehouse.gov. Campaign sites, social media, and news articles are not sources for the feeds.</p>
-
-    <h2>Methodology</h2>
-    <p>Federal actions come from official records. Executive orders, rules, and proposed rules come from the Federal Register API. House roll calls come from the Clerk's XML files. Senate roll calls come from the Senate LIS XML files. Congress.gov bills are included only when an api.data.gov key is configured for the scraper; until then the status page says they were skipped. Each record links to the official page or XML.</p>
-    <p>House periodic transaction reports come from the Clerk's annual filing index. Electronic reports are read from the PDF text. Scanned PDFs are listed with a link and are not transcribed. Senate filings are not downloaded. Each senator row links to the Senate eFD search, which asks the reader to accept the site's terms. That search is not automated.</p>
-    <p>A run keeps a cursor per source and continues after an interruption. Running the same dates again replaces records that share an id, so it does not add duplicates. The federal window already saved is 15 October 2026 through 16 November 2026. House trade rows in the feed are filings from 1 November 2026 through 16 November 2026. Later runs continue from the saved cursor unless a date range is requested.</p>
-
-    <h2>AI and data disclaimer</h2>
-    <p>Pages display the fields in the JSON feeds. Any summary added later may be drafted with automated tools and can be wrong, incomplete, or out of date. The official filing or government page is the record. This site is not legal, financial, or voting advice, and it is not affiliated with the U.S. government.</p>
-    <p>A periodic transaction report is a disclosure. It is not evidence of improper conduct. A missing row means the scrapers have not collected it here, not that the record does not exist.</p>
+    <div class="about-layout">
+      <nav class="toc" aria-label="On this page">
+        <a href="#purpose">Purpose</a>
+        <a href="#sources">Sources</a>
+        <a href="#records">What you will find</a>
+        <a href="#schedule">Update schedule</a>
+        <a href="#reading">How to read a disclosure</a>
+        <a href="#disclaimer">Disclaimer</a>
+      </nav>
+      <article class="prose">
+        <section id="purpose">
+          <h2>Purpose</h2>
+          <p><span data-site-name>TheGovWatcher</span> is a nonpartisan place to read two kinds of public records: what the federal government does, and the stock trades members of Congress disclose. It does not support or oppose candidates, parties, or legislation.</p>
+          <p>Party labels are shown only when an official source includes them, and they are shown as reported.</p>
+        </section>
+        <section id="sources">
+          <h2>Sources</h2>
+          <p>Information comes from official public records: the Federal Register, Congress.gov, the House Clerk, Senate.gov, and congressional financial disclosure filings.</p>
+          <p>Campaign websites, social media, and news articles are not sources for the records on this site.</p>
+        </section>
+        <section id="records">
+          <h2>What you will find</h2>
+          <p>Federal actions include bills, floor votes, executive orders, and Federal Register documents. A row shows the title, date, identifier, chamber when there is one, and the source name. The link opens the official page.</p>
+          <p>Congressional trades are periodic transaction reports filed under the STOCK Act. A House row shows the member, the transaction, the asset, the ticker when the filing gives one, the amount range, the owner when the filing names one, and the dates, with a link to the official document. When a House filing is a scanned document, the row links to that document.</p>
+          <p>A Senate row links to the Senate’s official financial disclosure search, where that senator’s periodic transaction reports are published. The search page states its own terms before it shows filings.</p>
+        </section>
+        <section id="schedule">
+          <h2>Update schedule</h2>
+          <p>Records on this site are updated daily. The date on each page is the date of the records shown there.</p>
+        </section>
+        <section id="reading">
+          <h2>How to read a disclosure</h2>
+          <p>A periodic transaction report is a disclosure. It is not evidence of improper conduct. Amounts are ranges as filed, not exact dollar figures. The owner may be the member, a spouse, a dependent, or a joint owner, when the filing says so.</p>
+          <p>A missing row does not mean a record does not exist. The official filing or government page is the record.</p>
+        </section>
+        <section id="disclaimer">
+          <h2>Disclaimer</h2>
+          <p><span data-site-name>TheGovWatcher</span> is not affiliated with the U.S. government. It is not legal, financial, or voting advice. Read the linked official document before you rely on a row.</p>
+        </section>
+      </article>
+    </div>
   </main>
-  <footer class="site-footer wrap">
-    <p>Official public records only. Not affiliated with the U.S. government.</p>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-brand" data-site-name>TheGovWatcher</p>
+        <p>Information comes from official public records: the Federal Register, Congress.gov, the House Clerk, Senate.gov, and congressional financial disclosure filings.</p>
+      </div>
+      <div>
+        <p id="site-updated" data-last-updated>Last updated …</p>
+        <p>Updated daily. Not affiliated with the U.S. government.</p>
+      </div>
+      <div>
+        <p>A disclosure is not an accusation. This site is not legal, financial, or voting advice.</p>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="federal.html">Federal actions</a>
+          <a href="trades.html">Congressional trades</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </div>
   </footer>
   <script src="js/config.js"></script>
   <script src="js/common.js"></script>

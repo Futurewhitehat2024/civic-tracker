@@ -3,33 +3,64 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Federal</title>
-  <link rel="stylesheet" href="css/site.css">
+  <title>Federal actions · TheGovWatcher</title>
+  <meta name="description" content="Browse federal bills, floor votes, executive orders, and Federal Register documents. Search, filter, and open the official record.">
+  <meta name="theme-color" content="#0e2240">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
 </head>
 <body data-page-title="Federal actions">
-  <header class="site-header wrap">
-    <a class="site-name" href="index.html" data-site-name></a>
-    <nav aria-label="Primary">
-      <a href="index.html">Home</a>
-      <a href="federal.html" aria-current="page">Federal</a>
-      <a href="trades.html">Trades</a>
-      <a href="status.html">Status</a>
-      <a href="about.html">About</a>
-    </nav>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <div class="utility">
+        <p>Official public records only</p>
+        <p>Updated daily</p>
+      </div>
+      <a class="brand" href="index.html">
+        <svg class="mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <rect width="32" height="32" fill="#0e2240"/>
+          <rect y="28" width="32" height="4" fill="#9d2936"/>
+          <rect x="4" y="7" width="24" height="2.2" fill="#f4efe4"/>
+          <rect x="5" y="22.2" width="22" height="2.2" fill="#f4efe4"/>
+          <rect x="7.2" y="9.2" width="2.3" height="13" fill="#f4efe4"/>
+          <rect x="14.85" y="9.2" width="2.3" height="13" fill="#f4efe4"/>
+          <rect x="22.5" y="9.2" width="2.3" height="13" fill="#f4efe4"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name" data-site-name>TheGovWatcher</span>
+          <span class="brand-tag" data-site-tagline>Federal actions and congressional trades, from the public record.</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="federal.html" aria-current="page">Federal actions</a>
+        <a href="trades.html">Congressional trades</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
   </header>
-  <main class="wrap">
-    <noscript><p class="empty">JavaScript is required to load this feed.</p></noscript>
-    <h1>Federal government actions</h1>
-    <p class="lead">Bills, votes, executive orders, and Federal Register items from official sources.</p>
-    <p id="updated" class="note">Loading…</p>
-    <form id="filters" class="filters cols-2">
-      <label>
-        Search
-        <input id="q" type="search" name="q" placeholder="Title, identifier, source" autocomplete="off">
+
+  <main id="main" class="wrap page">
+    <noscript><p class="empty">JavaScript is required to load these records.</p></noscript>
+    <header class="page-head">
+      <p class="kicker">Public records</p>
+      <h1>Federal actions</h1>
+      <p class="deck">Bills, floor votes, executive orders, and Federal Register documents. Search the title or number, narrow by type or source, and open the official page from any row.</p>
+      <p class="page-updated" id="updated" data-last-updated>Loading the latest date…</p>
+    </header>
+
+    <form id="filters" class="filter-panel" role="search" aria-label="Filter federal actions">
+      <label class="field field-wide">
+        <span>Search</span>
+        <input id="q" type="search" name="q" placeholder="Title, number, or source" autocomplete="off">
       </label>
-      <label>
-        Type
+      <label class="field">
+        <span>Type</span>
         <select id="kind" name="kind">
           <option value="">All types</option>
           <option value="bill">Bills</option>
@@ -38,11 +69,77 @@
           <option value="federal_register">Federal Register</option>
         </select>
       </label>
+      <label class="field">
+        <span>Source</span>
+        <select id="source" name="source">
+          <option value="">All sources</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>Chamber</span>
+        <select id="chamber" name="chamber">
+          <option value="">All chambers</option>
+          <option value="house">House</option>
+          <option value="senate">Senate</option>
+          <option value="none">Not a chamber vote</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>From</span>
+        <input id="from" type="date" name="from">
+      </label>
+      <label class="field">
+        <span>To</span>
+        <input id="to" type="date" name="to">
+      </label>
+      <div class="field field-actions">
+        <button id="clear" class="text-button" type="button">Clear filters</button>
+      </div>
     </form>
-    <div id="feed" aria-live="polite"></div>
+
+    <div class="results-bar">
+      <p id="count" role="status">Loading records…</p>
+      <label class="sort-label">
+        <span>Sort</span>
+        <select id="sort" name="sort">
+          <option value="date-desc">Newest date</option>
+          <option value="date-asc">Oldest date</option>
+          <option value="title-asc">Title A to Z</option>
+          <option value="title-desc">Title Z to A</option>
+          <option value="kind-asc">Type A to Z</option>
+          <option value="kind-desc">Type Z to A</option>
+          <option value="identifier-asc">Number A to Z</option>
+          <option value="identifier-desc">Number Z to A</option>
+          <option value="chamber-asc">Chamber A to Z</option>
+          <option value="chamber-desc">Chamber Z to A</option>
+          <option value="source-asc">Source A to Z</option>
+          <option value="source-desc">Source Z to A</option>
+        </select>
+      </label>
+    </div>
+    <p class="scroll-hint">On a small screen, swipe the table sideways. The date stays in view.</p>
+    <div id="feed"></div>
   </main>
-  <footer class="site-footer wrap">
-    <p>Official public records only. Not affiliated with the U.S. government.</p>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-brand" data-site-name>TheGovWatcher</p>
+        <p>Information comes from official public records: the Federal Register, Congress.gov, the House Clerk, Senate.gov, and congressional financial disclosure filings.</p>
+      </div>
+      <div>
+        <p id="site-updated" data-last-updated>Last updated …</p>
+        <p>Updated daily. Not affiliated with the U.S. government.</p>
+      </div>
+      <div>
+        <p>A disclosure is not an accusation. This site is not legal, financial, or voting advice.</p>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="federal.html">Federal actions</a>
+          <a href="trades.html">Congressional trades</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </div>
   </footer>
   <script src="js/config.js"></script>
   <script src="js/common.js"></script>

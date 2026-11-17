@@ -18,7 +18,7 @@
 - Added the scraper package skeleton: polite HTTP client, key redaction, JSON feed merge, per-source cursor files, and schema checks for `docs/data/SCHEMA.md`.
 - MILESTONE: federal actions scraper is written, live-tested, and writing `docs/data/federal.json` and `status.json`.
 
-- House PTR scraper parses electronic filings and lists scanned PDFs as links. Senate eFD rows are links only. `docs/SENATE-EFD.md` records that the search is not automated.
+- House PTR scraper parses electronic filings and lists scanned PDFs as links. Senate eFD rows are links only. `SENATE-EFD.md` records that the search is not automated.
 
 - Added `.github/workflows/scrape.yml` (daily cursor run plus manual date-range backfill) and `.github/workflows/ci.yml` (ruff and pytest).
 
@@ -28,7 +28,7 @@ Nothing further is required for the scraper milestone on this branch. GitHub Pag
 
 ## Next step
 
-A repo admin can merge the pull request, add the Actions secret `DATA_GOV_API_KEY`, and turn on Pages for `main` / `/docs` if the site should be public. The daily schedule runs only after the workflow file is on `main`. Senate eFD automation stays off until a legal review is written into `docs/SENATE-EFD.md`.
+A repo admin can merge the pull request, add the Actions secret `DATA_GOV_API_KEY`, and turn on Pages for `main` / `/docs` if the site should be public. The daily schedule runs only after the workflow file is on `main`. Senate eFD automation stays off until a legal review is written into `SENATE-EFD.md`.
 
 ## Decisions
 

@@ -1,6 +1,6 @@
-# Civic Tracker
+# TheGovWatcher
 
-Nonpartisan static site for federal government actions and congressional stock trades, drawn from official sources. The name above is the placeholder set in `docs/js/config.js` (`name`). Change that one value to rename the site in the header and page titles.
+Nonpartisan static site for federal government actions and congressional stock trades, drawn from official sources. The public name is set in `docs/js/config.js` (`name`). Change that one value to rename the site in the header and page titles.
 
 The site is plain HTML, CSS, and vanilla JavaScript. There is no framework and no build step. GitHub Pages should serve the **`/docs`** folder on the `main` branch. The repository root is not the site root.
 
@@ -8,13 +8,13 @@ The site is plain HTML, CSS, and vanilla JavaScript. There is no framework and n
 
 | File | Page |
 | --- | --- |
-| `docs/index.html` | Home: short intro and links to the feeds |
-| `docs/federal.html` | Federal actions (bills, votes, executive orders, Federal Register), with search and type filters |
-| `docs/trades.html` | STOCK Act periodic transaction reports, with member, chamber, party, and date filters |
-| `docs/status.html` | Per-scraper last run, records collected, and errors |
-| `docs/about.html` | Nonpartisan statement, official-sources note, methodology placeholder, AI and data disclaimer |
+| `docs/index.html` | Home: what the site tracks, counts, last updated, and latest records |
+| `docs/federal.html` | Federal actions, with search, filters, sorting, and a link to the official record |
+| `docs/trades.html` | Congressional trade disclosures, with search, filters, and sorting |
+| `docs/status.html` | Redirects to the home page. It is not linked from the public site. |
+| `docs/about.html` | Purpose, sources, what is shown, update schedule, and disclaimer |
 
-Shared files: `docs/css/site.css`, `docs/js/config.js` (display name), `docs/js/common.js` (branding, fetch, empty state). Each feed has its own script: `federal.js`, `trades.js`, `status.js`.
+Shared files: `docs/css/site.css`, `docs/js/config.js` (display name), `docs/js/common.js` (branding, fetch, dates). `federal.js`, `trades.js`, and `home.js` load the public records. `status.js` only sends `/status.html` back to the home page.
 
 ## Data
 
@@ -33,7 +33,7 @@ Those files are committed empty and valid:
 }
 ```
 
-When `items` is empty, the feed shows: "No data yet; scrapers not live". Field names are in [`docs/data/SCHEMA.md`](docs/data/SCHEMA.md). API keys are not stored in the repository.
+When `items` is empty, a page says that no records are posted yet. Field names are in [`docs/data/SCHEMA.md`](docs/data/SCHEMA.md). API keys are not stored in the repository.
 
 ## Scrapers
 
@@ -49,7 +49,7 @@ python3 -m venv .venv
 
 Congress.gov bills run only when `DATA_GOV_API_KEY` is set in the environment. The value is not printed and is not written into the JSON. If it is missing, `docs/data/status.json` says the source was skipped.
 
-House electronic transaction reports are parsed from the PDF text. Scanned PDFs stay link-only. Senate rows link to the eFD search and do not download filings. See [`docs/SENATE-EFD.md`](docs/SENATE-EFD.md).
+House electronic transaction reports are parsed from the PDF text. Scanned PDFs stay link-only. Senate rows link to the eFD search and do not download filings. See [`SENATE-EFD.md`](SENATE-EFD.md).
 
 Requests identify themselves as `CivicTracker-bot/1.0` and pause between calls to the same host. The client refuses `efdsearch.senate.gov`.
 

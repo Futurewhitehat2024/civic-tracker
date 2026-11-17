@@ -3,41 +3,72 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Trades</title>
-  <link rel="stylesheet" href="css/site.css">
+  <title>Congressional trades · TheGovWatcher</title>
+  <meta name="description" content="Browse congressional periodic transaction reports: member, asset, amount range, and a link to the official filing.">
+  <meta name="theme-color" content="#0e2240">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
 </head>
 <body data-page-title="Congressional trades">
-  <header class="site-header wrap">
-    <a class="site-name" href="index.html" data-site-name></a>
-    <nav aria-label="Primary">
-      <a href="index.html">Home</a>
-      <a href="federal.html">Federal</a>
-      <a href="trades.html" aria-current="page">Trades</a>
-      <a href="status.html">Status</a>
-      <a href="about.html">About</a>
-    </nav>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <div class="utility">
+        <p>Official public records only</p>
+        <p>Updated daily</p>
+      </div>
+      <a class="brand" href="index.html">
+        <svg class="mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <rect width="32" height="32" fill="#0e2240"/>
+          <rect y="28" width="32" height="4" fill="#9d2936"/>
+          <rect x="4" y="7" width="24" height="2.2" fill="#f4efe4"/>
+          <rect x="5" y="22.2" width="22" height="2.2" fill="#f4efe4"/>
+          <rect x="7.2" y="9.2" width="2.3" height="13" fill="#f4efe4"/>
+          <rect x="14.85" y="9.2" width="2.3" height="13" fill="#f4efe4"/>
+          <rect x="22.5" y="9.2" width="2.3" height="13" fill="#f4efe4"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name" data-site-name>TheGovWatcher</span>
+          <span class="brand-tag" data-site-tagline>Federal actions and congressional trades, from the public record.</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="federal.html">Federal actions</a>
+        <a href="trades.html" aria-current="page">Congressional trades</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
   </header>
-  <main class="wrap">
-    <noscript><p class="empty">JavaScript is required to load this feed.</p></noscript>
-    <h1>Congressional trades</h1>
-    <p class="lead">STOCK Act periodic transaction reports, written as short items with a link to the official filing.</p>
-    <p id="updated" class="note">Loading…</p>
-    <form id="filters" class="filters cols-2">
-      <label>
-        Member
-        <input id="member" type="search" name="member" placeholder="Name" autocomplete="off">
+
+  <main id="main" class="wrap page">
+    <noscript><p class="empty">JavaScript is required to load these records.</p></noscript>
+    <header class="page-head">
+      <p class="kicker">STOCK Act disclosures</p>
+      <h1>Congressional trades</h1>
+      <p class="deck">Periodic transaction reports filed by members of Congress. Amounts are the ranges printed on the filing, not an exact dollar figure. Each row links to the official disclosure.</p>
+      <p class="page-updated" id="updated" data-last-updated>Loading the latest date…</p>
+    </header>
+
+    <form id="filters" class="filter-panel" role="search" aria-label="Filter congressional trades">
+      <label class="field field-wide">
+        <span>Search</span>
+        <input id="q" type="search" name="q" placeholder="Member, asset, or ticker" autocomplete="off">
       </label>
-      <label>
-        Chamber
+      <label class="field">
+        <span>Chamber</span>
         <select id="chamber" name="chamber">
           <option value="">Both chambers</option>
           <option value="house">House</option>
           <option value="senate">Senate</option>
         </select>
       </label>
-      <label>
-        Party
+      <label class="field">
+        <span>Party</span>
         <select id="party" name="party">
           <option value="">Any party</option>
           <option value="Democratic">Democratic</option>
@@ -45,19 +76,77 @@
           <option value="Independent">Independent</option>
         </select>
       </label>
-      <label>
-        From
+      <label class="field">
+        <span>Transaction</span>
+        <select id="type" name="type">
+          <option value="">All transactions</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>Owner</span>
+        <select id="owner" name="owner">
+          <option value="">Anyone</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>From</span>
         <input id="from" type="date" name="from">
       </label>
-      <label>
-        To
+      <label class="field">
+        <span>To</span>
         <input id="to" type="date" name="to">
       </label>
+      <div class="field field-actions">
+        <button id="clear" class="text-button" type="button">Clear filters</button>
+      </div>
     </form>
-    <div id="feed" aria-live="polite"></div>
+    <p class="fine">Dates follow the transaction date when the filing gives one, and the filing date otherwise. Party is shown only when the public record includes it. Many House filings do not list a party.</p>
+
+    <div class="results-bar">
+      <p id="count" role="status">Loading records…</p>
+      <label class="sort-label">
+        <span>Sort</span>
+        <select id="sort" name="sort">
+          <option value="date-desc">Newest transaction</option>
+          <option value="date-asc">Oldest transaction</option>
+          <option value="filing-desc" selected>Newest filing</option>
+          <option value="filing-asc">Oldest filing</option>
+          <option value="member-asc">Member A to Z</option>
+          <option value="member-desc">Member Z to A</option>
+          <option value="asset-asc">Asset A to Z</option>
+          <option value="asset-desc">Asset Z to A</option>
+          <option value="type-asc">Transaction A to Z</option>
+          <option value="type-desc">Transaction Z to A</option>
+          <option value="amount-desc">Amount high to low</option>
+          <option value="amount-asc">Amount low to high</option>
+          <option value="chamber-asc">Chamber A to Z</option>
+          <option value="chamber-desc">Chamber Z to A</option>
+        </select>
+      </label>
+    </div>
+    <p class="scroll-hint">On a small screen, swipe the table sideways. The date stays in view.</p>
+    <div id="feed"></div>
   </main>
-  <footer class="site-footer wrap">
-    <p>Disclosures, not accusations. Official filings are the record.</p>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-brand" data-site-name>TheGovWatcher</p>
+        <p>Information comes from official public records: the Federal Register, Congress.gov, the House Clerk, Senate.gov, and congressional financial disclosure filings.</p>
+      </div>
+      <div>
+        <p id="site-updated" data-last-updated>Last updated …</p>
+        <p>Updated daily. Not affiliated with the U.S. government.</p>
+      </div>
+      <div>
+        <p>A disclosure is not an accusation. This site is not legal, financial, or voting advice.</p>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="federal.html">Federal actions</a>
+          <a href="trades.html">Congressional trades</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </div>
   </footer>
   <script src="js/config.js"></script>
   <script src="js/common.js"></script>

@@ -3,37 +3,143 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home</title>
-  <link rel="stylesheet" href="css/site.css">
+  <title>TheGovWatcher</title>
+  <meta name="description" content="TheGovWatcher is a nonpartisan reading room for federal government actions and congressional stock disclosures, with a link to every official public record.">
+  <meta name="theme-color" content="#0e2240">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
 </head>
 <body data-page-title="Home">
-  <header class="site-header wrap">
-    <a class="site-name" href="index.html" data-site-name></a>
-    <nav aria-label="Primary">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="federal.html">Federal</a>
-      <a href="trades.html">Trades</a>
-      <a href="status.html">Status</a>
-      <a href="about.html">About</a>
-    </nav>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <div class="utility">
+        <p>Official public records only</p>
+        <p>Updated daily</p>
+      </div>
+      <a class="brand" href="index.html">
+        <svg class="mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <rect width="32" height="32" fill="#0e2240"/>
+          <rect y="28" width="32" height="4" fill="#9d2936"/>
+          <rect x="4" y="7" width="24" height="2.2" fill="#f4efe4"/>
+          <rect x="5" y="22.2" width="22" height="2.2" fill="#f4efe4"/>
+          <rect x="7.2" y="9.2" width="2.3" height="13" fill="#f4efe4"/>
+          <rect x="14.85" y="9.2" width="2.3" height="13" fill="#f4efe4"/>
+          <rect x="22.5" y="9.2" width="2.3" height="13" fill="#f4efe4"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name" data-site-name>TheGovWatcher</span>
+          <span class="brand-tag" data-site-tagline>Federal actions and congressional trades, from the public record.</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="federal.html">Federal actions</a>
+        <a href="trades.html">Congressional trades</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
   </header>
-  <main class="wrap">
-    <noscript><p class="empty">JavaScript is required to fill in the site name.</p></noscript>
-    <h1>Federal actions and congressional trades</h1>
-    <p class="lead"><span data-site-name></span> is a nonpartisan reader for two kinds of public records: what the federal government does, and stock trades members of Congress report under the STOCK Act. It links to official sources. It does not rate, endorse, or oppose any party, member, or policy.</p>
-    <h2>Feeds</h2>
-    <ul class="link-list">
-      <li><a href="federal.html">Federal government actions</a> — bills, votes, executive orders, and Federal Register items.</li>
-      <li><a href="trades.html">Congressional trades</a> — periodic transaction reports, with links to the filings.</li>
-      <li><a href="status.html">Scraper status</a> — last run, records collected, and errors.</li>
-    </ul>
-    <p class="note">Records are loaded from official sources. See <a href="about.html">About</a> for what is collected and what is only linked.</p>
+
+  <main id="main">
+    <noscript><p class="wrap empty">JavaScript is required to load the public records on this page.</p></noscript>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Nonpartisan public record</p>
+          <h1>See what the federal government does, and what Congress discloses.</h1>
+          <p class="deck"><span data-site-name>TheGovWatcher</span> follows two kinds of official records: actions of the federal government, and stock trades members of Congress report under the STOCK Act. Every item links to the government page or filing it came from. Nothing here is a rating, an endorsement, or an accusation.</p>
+        </div>
+        <aside class="stat-panel" aria-label="Record totals">
+          <p class="kicker kicker-on-dark">On the record</p>
+          <p class="stat-updated" data-last-updated>Loading the latest date…</p>
+          <div class="stat-grid">
+            <a class="stat" href="federal.html">
+              <span class="stat-num" id="stat-federal">—</span>
+              <span class="stat-label">Federal actions</span>
+              <span class="stat-range" id="stat-federal-range"></span>
+            </a>
+            <a class="stat" href="trades.html">
+              <span class="stat-num" id="stat-trades">—</span>
+              <span class="stat-label">Trade records</span>
+              <span class="stat-range" id="stat-trades-range"></span>
+            </a>
+          </div>
+          <p class="stat-note" id="stat-note"></p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band" aria-label="What this site tracks">
+      <div class="wrap explain-grid">
+        <article>
+          <span class="explain-num" aria-hidden="true">01</span>
+          <h2>Federal actions</h2>
+          <p>Bills, floor votes, executive orders, and Federal Register documents. Open a row and you are on the official page.</p>
+        </article>
+        <article>
+          <span class="explain-num" aria-hidden="true">02</span>
+          <h2>Congressional trades</h2>
+          <p>Periodic transaction reports filed under the STOCK Act. You see the member, the asset, the amount range as filed, and a link to the disclosure.</p>
+        </article>
+        <article>
+          <span class="explain-num" aria-hidden="true">03</span>
+          <h2>Read it straight</h2>
+          <p>Party labels appear only when a public source includes them. A disclosure is not a charge. The official document is the record.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap latest-grid" aria-label="Latest records">
+      <div>
+        <div class="section-head">
+          <div>
+            <p class="kicker">Latest</p>
+            <h2>Federal actions</h2>
+          </div>
+          <a class="section-link" href="federal.html">Browse all</a>
+        </div>
+        <div id="latest-federal"></div>
+      </div>
+      <div>
+        <div class="section-head">
+          <div>
+            <p class="kicker">Latest</p>
+            <h2>Congressional trades</h2>
+          </div>
+          <a class="section-link" href="trades.html">Browse all</a>
+        </div>
+        <div id="latest-trades"></div>
+      </div>
+    </section>
   </main>
-  <footer class="site-footer wrap">
-    <p>Official public records only. Not affiliated with the U.S. government.</p>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-brand" data-site-name>TheGovWatcher</p>
+        <p>Information comes from official public records: the Federal Register, Congress.gov, the House Clerk, Senate.gov, and congressional financial disclosure filings.</p>
+      </div>
+      <div>
+        <p id="site-updated" data-last-updated>Last updated …</p>
+        <p>Updated daily. Not affiliated with the U.S. government.</p>
+      </div>
+      <div>
+        <p>A disclosure is not an accusation. This site is not legal, financial, or voting advice.</p>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="federal.html">Federal actions</a>
+          <a href="trades.html">Congressional trades</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </div>
   </footer>
   <script src="js/config.js"></script>
   <script src="js/common.js"></script>
+  <script src="js/home.js"></script>
 </body>
 </html>
