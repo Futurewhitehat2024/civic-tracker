@@ -193,9 +193,250 @@
       if (map[key]) params.set(key, map[key]);
     });
     var query = params.toString();
-    var next = window.location.pathname + (query ? "?" + query : "");
-    var current = window.location.pathname + window.location.search;
+    var hash = window.location.hash || "";
+    var next = window.location.pathname + (query ? "?" + query : "") + hash;
+    var current = window.location.pathname + window.location.search + hash;
     if (next !== current) window.history.replaceState(null, "", next);
+  }
+
+  function fileName() {
+    var file = "";
+    try {
+      file = decodeURIComponent(window.location.pathname.split("/").pop() || "");
+    } catch (err) {
+      file = window.location.pathname.split("/").pop() || "";
+    }
+    if (!file) return "index.html";
+    return file.toLowerCase();
+  }
+
+  function crumbLink(href, label) {
+    return { href: href, label: label };
+  }
+
+  function federalPlace(kind, chamber) {
+    var names = {
+      bill: ["bills", "Bills"],
+      executive_order: ["orders", "Executive orders"],
+      federal_register: ["register", "Federal Register"],
+    };
+    if (kind === "vote" && (chamber === "house" || chamber === "senate")) {
+      var which = chamber === "house" ? "House" : "Senate";
+      return {
+        key: "votes-" + chamber,
+        section: "votes",
+        doc: which + " votes",
+        kicker: "Votes",
+        title: which + " votes",
+        crumbs: [crumbLink("federal.html", "Federal actions"), crumbLink("federal.html?kind=vote", "Votes"), which],
+      };
+    }
+    if (kind === "vote") {
+      return {
+        key: "votes",
+        section: "votes",
+        doc: "Votes",
+        kicker: "Federal actions",
+        title: "Votes",
+        crumbs: [crumbLink("federal.html", "Federal actions"), "Votes"],
+      };
+    }
+    if (names[kind]) {
+      return {
+        key: names[kind][0],
+        section: "federal",
+        doc: names[kind][1],
+        kicker: "Federal actions",
+        title: names[kind][1],
+        crumbs: [crumbLink("federal.html", "Federal actions"), names[kind][1]],
+      };
+    }
+    return { key: "federal", section: "federal", doc: "Federal actions", crumbs: ["Federal actions"] };
+  }
+
+  function tradePlace(chamber, party, hash) {
+    var parties = {
+      Democratic: ["officials-d", "Democratic members"],
+      Republican: ["officials-r", "Republican members"],
+      Independent: ["officials-i", "Independent members"],
+    };
+    var chambers = { house: "House", senate: "Senate" };
+    var partyInfo = parties[party];
+    var chamberLabel = chambers[chamber];
+    var officials = !!partyInfo || hash === "#officials";
+    if (officials && partyInfo && chamberLabel) {
+      return {
+        key: partyInfo[0],
+        section: "officials",
+        doc: partyInfo[1],
+        kicker: "Officials",
+        title: partyInfo[1],
+        crumbs: [
+          crumbLink("trades.html#officials", "Officials"),
+          crumbLink("trades.html?chamber=" + chamber + "#officials", chamberLabel + " members"),
+          partyInfo[1],
+        ],
+        also: ["trades-" + chamber],
+      };
+    }
+    if (officials && partyInfo) {
+      return {
+        key: partyInfo[0],
+        section: "officials",
+        doc: partyInfo[1],
+        kicker: "Officials",
+        title: partyInfo[1],
+        crumbs: [crumbLink("trades.html#officials", "Officials"), partyInfo[1]],
+      };
+    }
+    if (officials && chamberLabel) {
+      return {
+        key: "officials-" + chamber,
+        section: "officials",
+        doc: chamberLabel + " members",
+        kicker: "Officials",
+        title: chamberLabel + " members",
+        crumbs: [crumbLink("trades.html#officials", "Officials"), chamberLabel + " members"],
+        also: ["trades-" + chamber],
+      };
+    }
+    if (officials) {
+      return {
+        key: "officials",
+        section: "officials",
+        doc: "Officials",
+        kicker: "Officials",
+        title: "Officials",
+        crumbs: ["Officials"],
+      };
+    }
+    if (chamberLabel) {
+      return {
+        key: "trades-" + chamber,
+        section: "trades",
+        doc: chamberLabel + " disclosures",
+        kicker: "Trades and disclosures",
+        title: chamberLabel + " disclosures",
+        crumbs: [crumbLink("trades.html", "Trades and disclosures"), chamberLabel],
+      };
+    }
+    return { key: "trades", section: "trades", doc: "Congressional trades", crumbs: ["Trades and disclosures"] };
+  }
+
+  function aboutPlace(hash) {
+    var sections = {
+      purpose: "Purpose",
+      sources: "Sources",
+      records: "What you will find",
+      schedule: "Update schedule",
+      reading: "How to read a disclosure",
+      disclaimer: "Disclaimer",
+    };
+    var id = (hash || "").replace(/^#/, "");
+    if (sections[id]) {
+      return {
+        key: "about-" + id,
+        section: "about",
+        doc: sections[id],
+        crumbs: [crumbLink("about.html", "About"), sections[id]],
+      };
+    }
+    return { key: "about", section: "about", doc: "About", crumbs: ["About"] };
+  }
+
+  function currentPlace() {
+    var file = fileName();
+    var params = new URLSearchParams(window.location.search);
+    var kind = params.get("kind") || "";
+    var chamber = params.get("chamber") || "";
+    if (chamber !== "house" && chamber !== "senate") chamber = "";
+    var party = params.get("party") || "";
+    if (!Object.prototype.hasOwnProperty.call({ Democratic: 1, Republican: 1, Independent: 1 }, party)) party = "";
+    var hash = window.location.hash || "";
+    if (file === "index.html") return { key: "home", section: "", doc: "Home" };
+    if (file === "about.html") return aboutPlace(hash);
+    if (file === "trades.html") return tradePlace(chamber, party, hash);
+    if (file === "federal.html") return federalPlace(kind, chamber);
+    return { key: "", section: "", doc: "" };
+  }
+
+  function fillCrumbs(crumbs) {
+    var nav = document.querySelector(".crumbs");
+    if (!nav || !crumbs) return;
+    var list = nav.querySelector("ol");
+    if (!list) return;
+    list.replaceChildren();
+    var homeItem = document.createElement("li");
+    var homeLink = document.createElement("a");
+    homeLink.href = "index.html";
+    homeLink.textContent = "Home";
+    homeItem.appendChild(homeLink);
+    list.appendChild(homeItem);
+    crumbs.forEach(function (crumb, index) {
+      var item = document.createElement("li");
+      var last = index === crumbs.length - 1;
+      var label = typeof crumb === "string" ? crumb : crumb.label;
+      if (!last && crumb && crumb.href) {
+        var link = document.createElement("a");
+        link.href = crumb.href;
+        link.textContent = label;
+        item.appendChild(link);
+      } else {
+        item.textContent = label;
+        if (last) item.setAttribute("aria-current", "page");
+      }
+      list.appendChild(item);
+    });
+  }
+
+  function paintPlace() {
+    var place = currentPlace();
+    var marked = document.querySelectorAll("#site-nav [aria-current], .section-nav [aria-current], .footer-map [aria-current]");
+    for (var i = 0; i < marked.length; i++) marked[i].removeAttribute("aria-current");
+    if (place.key) {
+      var hits = document.querySelectorAll('[data-nav="' + place.key + '"]');
+      for (var h = 0; h < hits.length; h++) hits[h].setAttribute("aria-current", "page");
+    }
+    if (place.section) {
+      var summaries = document.querySelectorAll('.nav-item[data-nav-section="' + place.section + '"] > .nav-parent');
+      for (var s = 0; s < summaries.length; s++) summaries[s].setAttribute("aria-current", "true");
+    }
+    if (place.also) {
+      place.also.forEach(function (navKey) {
+        var extras = document.querySelectorAll('.section-nav [data-nav="' + navKey + '"]');
+        for (var e = 0; e < extras.length; e++) extras[e].setAttribute("aria-current", "page");
+      });
+    }
+    var heading = document.querySelector(".page-head h1");
+    var kicker = document.querySelector(".page-head .kicker");
+    if (heading) heading.textContent = place.title || heading.getAttribute("data-base-title") || heading.textContent;
+    if (kicker) kicker.textContent = place.kicker || kicker.getAttribute("data-base-kicker") || kicker.textContent;
+    if (place.crumbs) fillCrumbs(place.crumbs);
+    if (place.doc && document.body) {
+      document.body.setAttribute("data-page-title", place.doc);
+      applyBrand();
+    }
+  }
+
+  function closeMenus(except) {
+    var items = document.querySelectorAll("#site-nav .nav-item");
+    for (var i = 0; i < items.length; i++) {
+      if (items[i] !== except) items[i].open = false;
+    }
+  }
+
+  function topLevel(nav) {
+    var nodes = [];
+    var children = nav.children;
+    for (var i = 0; i < children.length; i++) {
+      var child = children[i];
+      if (child.matches("a.nav-link")) nodes.push(child);
+      else if (child.classList.contains("nav-item")) {
+        var summary = child.querySelector(".nav-parent");
+        if (summary) nodes.push(summary);
+      }
+    }
+    return nodes;
   }
 
   function setOpen(button, nav, open) {
@@ -209,15 +450,122 @@
     document.documentElement.classList.add("js");
     var button = document.querySelector(".nav-toggle");
     var nav = document.getElementById("site-nav");
-    if (!button || !nav) return;
-    button.addEventListener("click", function () {
-      setOpen(button, nav, button.getAttribute("aria-expanded") !== "true");
-    });
+    if (!nav) return;
+
+    if (button) {
+      button.addEventListener("click", function () {
+        var open = button.getAttribute("aria-expanded") === "true";
+        if (open) closeMenus(null);
+        setOpen(button, nav, !open);
+      });
+    }
+
+    nav.addEventListener("toggle", function (event) {
+      var item = event.target;
+      if (!item.classList || !item.classList.contains("nav-item") || !item.open) return;
+      closeMenus(item);
+    }, true);
+
     nav.addEventListener("click", function (event) {
-      if (event.target.closest("a")) setOpen(button, nav, false);
+      if (!event.target.closest("a") || !button) return;
+      closeMenus(null);
+      setOpen(button, nav, false);
     });
+
+    nav.addEventListener("keydown", function (event) {
+      var key = event.key;
+      var tops = topLevel(nav);
+      var summary = event.target.closest(".nav-parent");
+      var menuLink = event.target.closest(".nav-menu a");
+      var homeLink = event.target.closest("a.nav-link");
+
+      if (summary && tops.indexOf(summary) !== -1) {
+        var index = tops.indexOf(summary);
+        var item = summary.parentNode;
+        if (key === "ArrowDown" || key === "ArrowUp") {
+          event.preventDefault();
+          item.open = true;
+          var links = item.querySelectorAll(".nav-menu a");
+          if (!links.length) return;
+          (key === "ArrowDown" ? links[0] : links[links.length - 1]).focus();
+        } else if (key === "ArrowRight" || key === "ArrowLeft") {
+          event.preventDefault();
+          closeMenus(null);
+          var next = key === "ArrowRight" ? (index + 1) % tops.length : (index - 1 + tops.length) % tops.length;
+          tops[next].focus();
+        } else if (key === "Home" || key === "End") {
+          event.preventDefault();
+          tops[key === "Home" ? 0 : tops.length - 1].focus();
+        } else if (key === "Escape" && item.open) {
+          event.preventDefault();
+          event.stopPropagation();
+          item.open = false;
+        }
+        return;
+      }
+
+      if (menuLink) {
+        var menuLinks = Array.prototype.slice.call(menuLink.closest(".nav-menu").querySelectorAll("a"));
+        var linkIndex = menuLinks.indexOf(menuLink);
+        var parentItem = menuLink.closest(".nav-item");
+        var parentSummary = parentItem.querySelector(".nav-parent");
+        if (key === "ArrowDown" || key === "ArrowUp") {
+          event.preventDefault();
+          if (key === "ArrowUp" && linkIndex <= 0) parentSummary.focus();
+          else menuLinks[(linkIndex + (key === "ArrowDown" ? 1 : -1) + menuLinks.length) % menuLinks.length].focus();
+        } else if (key === "Home" || key === "End") {
+          event.preventDefault();
+          menuLinks[key === "Home" ? 0 : menuLinks.length - 1].focus();
+        } else if (key === "Escape") {
+          event.preventDefault();
+          event.stopPropagation();
+          parentItem.open = false;
+          parentSummary.focus();
+        }
+        return;
+      }
+
+      if (homeLink && tops.indexOf(homeLink) !== -1) {
+        var homeIndex = tops.indexOf(homeLink);
+        if (key === "ArrowRight" || key === "ArrowLeft") {
+          event.preventDefault();
+          closeMenus(null);
+          var step = key === "ArrowRight" ? (homeIndex + 1) % tops.length : (homeIndex - 1 + tops.length) % tops.length;
+          tops[step].focus();
+        } else if (key === "Home" || key === "End") {
+          event.preventDefault();
+          tops[key === "Home" ? 0 : tops.length - 1].focus();
+        }
+      }
+    });
+
+    var items = nav.querySelectorAll(".nav-item");
+    for (var i = 0; i < items.length; i++) {
+      items[i].addEventListener("focusout", function (event) {
+        var item = event.currentTarget;
+        var next = event.relatedTarget;
+        if (!next || item.contains(next)) return;
+        item.open = false;
+      });
+    }
+
+    document.addEventListener("click", function (event) {
+      var header = document.querySelector(".masthead");
+      if (!header || header.contains(event.target)) return;
+      closeMenus(null);
+      if (button && button.getAttribute("aria-expanded") === "true") setOpen(button, nav, false);
+    });
+
     document.addEventListener("keydown", function (event) {
-      if (event.key === "Escape" && button.getAttribute("aria-expanded") === "true") {
+      if (event.key !== "Escape") return;
+      var openItem = nav.querySelector(".nav-item[open]");
+      if (openItem) {
+        var summary = openItem.querySelector(".nav-parent");
+        openItem.open = false;
+        if (summary) summary.focus();
+        return;
+      }
+      if (button && button.getAttribute("aria-expanded") === "true") {
         setOpen(button, nav, false);
         button.focus();
       }
@@ -293,8 +641,27 @@
     writeParams: writeParams,
   };
 
+  function syncAfterFilters() {
+    if (window.location.hash === "#officials") {
+      var params = new URLSearchParams(window.location.search);
+      var leftover = params.get("chamber") || params.get("party") || params.get("q") || params.get("type") || params.get("owner") || params.get("from") || params.get("to") || params.get("source") || params.get("kind");
+      if (!leftover) window.history.replaceState(null, "", window.location.pathname + window.location.search);
+    }
+    paintPlace();
+  }
+
+  var filters = document.getElementById("filters");
+  if (filters) filters.addEventListener("change", paintPlace);
+  document.addEventListener("click", function (event) {
+    if (!event.target.closest || !event.target.closest("#clear")) return;
+    window.setTimeout(syncAfterFilters, 0);
+  });
+  window.addEventListener("hashchange", paintPlace);
+  window.addEventListener("popstate", paintPlace);
+
   applyBrand();
   wireNav();
   wireToc();
   loadSharedUpdated();
+  paintPlace();
 })();

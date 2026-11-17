@@ -38,22 +38,92 @@
         <span class="nav-toggle-label">Menu</span>
       </button>
       <nav id="site-nav" class="site-nav" aria-label="Primary">
-        <a href="index.html">Home</a>
-        <a href="federal.html">Federal actions</a>
-        <a href="trades.html" aria-current="page">Congressional trades</a>
-        <a href="about.html">About</a>
+        <a class="nav-link" href="index.html" data-nav="home">Home</a>
+        <details class="nav-item" data-nav-section="federal">
+          <summary class="nav-parent">Federal actions <span class="caret" aria-hidden="true"></span></summary>
+          <div class="nav-menu" id="menu-federal">
+            <a href="federal.html" data-nav="federal">All federal actions</a>
+            <a href="federal.html?kind=bill" data-nav="bills">Bills</a>
+            <a href="federal.html?kind=executive_order" data-nav="orders">Executive orders</a>
+            <a href="federal.html?kind=federal_register" data-nav="register">Federal Register</a>
+          </div>
+        </details>
+        <details class="nav-item" data-nav-section="votes">
+          <summary class="nav-parent">Votes <span class="caret" aria-hidden="true"></span></summary>
+          <div class="nav-menu" id="menu-votes">
+            <a href="federal.html?kind=vote" data-nav="votes">All floor votes</a>
+            <a href="federal.html?kind=vote&amp;chamber=house" data-nav="votes-house">House votes</a>
+            <a href="federal.html?kind=vote&amp;chamber=senate" data-nav="votes-senate">Senate votes</a>
+          </div>
+        </details>
+        <details class="nav-item" data-nav-section="trades">
+          <summary class="nav-parent">Trades and disclosures <span class="caret" aria-hidden="true"></span></summary>
+          <div class="nav-menu" id="menu-trades">
+            <a href="trades.html" data-nav="trades">All trade records</a>
+            <a href="trades.html?chamber=house" data-nav="trades-house">House disclosures</a>
+            <a href="trades.html?chamber=senate" data-nav="trades-senate">Senate disclosures</a>
+            <a href="about.html#reading">How to read a disclosure</a>
+          </div>
+        </details>
+        <details class="nav-item" data-nav-section="officials">
+          <summary class="nav-parent">Officials <span class="caret" aria-hidden="true"></span></summary>
+          <div class="nav-menu" id="menu-officials">
+            <a href="trades.html#officials" data-nav="officials">All members on file</a>
+            <a href="trades.html?chamber=house#officials" data-nav="officials-house">House members</a>
+            <a href="trades.html?chamber=senate#officials" data-nav="officials-senate">Senate members</a>
+            <a href="trades.html?party=Democratic#officials" data-nav="officials-d">Democratic members</a>
+            <a href="trades.html?party=Republican#officials" data-nav="officials-r">Republican members</a>
+            <a href="trades.html?party=Independent#officials" data-nav="officials-i">Independent members</a>
+          </div>
+        </details>
+        <details class="nav-item" data-nav-section="about">
+          <summary class="nav-parent">About <span class="caret" aria-hidden="true"></span></summary>
+          <div class="nav-menu" id="menu-about">
+            <a href="about.html" data-nav="about">About this site</a>
+            <a href="about.html#purpose" data-nav="about-purpose">Purpose</a>
+            <a href="about.html#sources" data-nav="about-sources">Sources</a>
+            <a href="about.html#records" data-nav="about-records">What you will find</a>
+            <a href="about.html#schedule" data-nav="about-schedule">Update schedule</a>
+            <a href="about.html#reading" data-nav="about-reading">How to read a disclosure</a>
+            <a href="about.html#disclaimer" data-nav="about-disclaimer">Disclaimer</a>
+          </div>
+        </details>
       </nav>
     </div>
   </header>
 
   <main id="main" class="wrap page">
     <noscript><p class="empty">JavaScript is required to load these records.</p></noscript>
-    <header class="page-head">
-      <p class="kicker">STOCK Act disclosures</p>
-      <h1>Congressional trades</h1>
+    <header class="page-head" id="officials">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li aria-current="page">Trades and disclosures</li>
+        </ol>
+      </nav>
+      <p class="kicker" data-base-kicker="STOCK Act disclosures">STOCK Act disclosures</p>
+      <h1 data-base-title="Congressional trades">Congressional trades</h1>
       <p class="deck">Periodic transaction reports filed by members of Congress. Amounts are the ranges printed on the filing, not an exact dollar figure. Each row links to the official disclosure.</p>
       <p class="page-updated" id="updated" data-last-updated>Loading the latest date…</p>
     </header>
+    <nav class="section-nav" aria-label="Trades, disclosures, and officials">
+      <div class="section-nav-group">
+        <span class="section-nav-label">Disclosures</span>
+        <a href="trades.html" data-nav="trades">All records</a>
+        <a href="trades.html?chamber=house" data-nav="trades-house">House</a>
+        <a href="trades.html?chamber=senate" data-nav="trades-senate">Senate</a>
+        <a href="about.html#reading">How to read one</a>
+      </div>
+      <div class="section-nav-group">
+        <span class="section-nav-label">Officials</span>
+        <a href="trades.html#officials" data-nav="officials">All members</a>
+        <a href="trades.html?chamber=house#officials" data-nav="officials-house">House</a>
+        <a href="trades.html?chamber=senate#officials" data-nav="officials-senate">Senate</a>
+        <a href="trades.html?party=Democratic#officials" data-nav="officials-d">Democratic</a>
+        <a href="trades.html?party=Republican#officials" data-nav="officials-r">Republican</a>
+        <a href="trades.html?party=Independent#officials" data-nav="officials-i">Independent</a>
+      </div>
+    </nav>
 
     <form id="filters" class="filter-panel" role="search" aria-label="Filter congressional trades">
       <label class="field field-wide">
@@ -130,23 +200,62 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <p class="footer-brand" data-site-name>TheGovWatcher</p>
-        <p>Information comes from official public records: the Federal Register, Congress.gov, the House Clerk, Senate.gov, and congressional financial disclosure filings.</p>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand" data-site-name>TheGovWatcher</p>
+          <p>Information comes from official public records: the Federal Register, Congress.gov, the House Clerk, Senate.gov, and congressional financial disclosure filings.</p>
+          <p><a href="index.html" data-nav="home">Home</a></p>
+        </div>
+        <div>
+          <p id="site-updated" data-last-updated>Last updated …</p>
+          <p>Updated daily. Not affiliated with the U.S. government.</p>
+        </div>
+        <div>
+          <p>A disclosure is not an accusation. This site is not legal, financial, or voting advice.</p>
+        </div>
       </div>
-      <div>
-        <p id="site-updated" data-last-updated>Last updated …</p>
-        <p>Updated daily. Not affiliated with the U.S. government.</p>
-      </div>
-      <div>
-        <p>A disclosure is not an accusation. This site is not legal, financial, or voting advice.</p>
-        <nav class="footer-nav" aria-label="Footer">
-          <a href="federal.html">Federal actions</a>
-          <a href="trades.html">Congressional trades</a>
-          <a href="about.html">About</a>
-        </nav>
-      </div>
+      <nav class="footer-map" aria-label="Site map">
+        <div>
+          <p>Federal actions</p>
+          <a href="federal.html" data-nav="federal">All federal actions</a>
+          <a href="federal.html?kind=bill" data-nav="bills">Bills</a>
+          <a href="federal.html?kind=executive_order" data-nav="orders">Executive orders</a>
+          <a href="federal.html?kind=federal_register" data-nav="register">Federal Register</a>
+        </div>
+        <div>
+          <p>Votes</p>
+          <a href="federal.html?kind=vote" data-nav="votes">All floor votes</a>
+          <a href="federal.html?kind=vote&amp;chamber=house" data-nav="votes-house">House votes</a>
+          <a href="federal.html?kind=vote&amp;chamber=senate" data-nav="votes-senate">Senate votes</a>
+        </div>
+        <div>
+          <p>Trades and disclosures</p>
+          <a href="trades.html" data-nav="trades">All trade records</a>
+          <a href="trades.html?chamber=house" data-nav="trades-house">House disclosures</a>
+          <a href="trades.html?chamber=senate" data-nav="trades-senate">Senate disclosures</a>
+          <a href="about.html#reading">How to read a disclosure</a>
+        </div>
+        <div>
+          <p>Officials</p>
+          <a href="trades.html#officials" data-nav="officials">All members on file</a>
+          <a href="trades.html?chamber=house#officials" data-nav="officials-house">House members</a>
+          <a href="trades.html?chamber=senate#officials" data-nav="officials-senate">Senate members</a>
+          <a href="trades.html?party=Democratic#officials" data-nav="officials-d">Democratic members</a>
+          <a href="trades.html?party=Republican#officials" data-nav="officials-r">Republican members</a>
+          <a href="trades.html?party=Independent#officials" data-nav="officials-i">Independent members</a>
+        </div>
+        <div>
+          <p>About</p>
+          <a href="about.html" data-nav="about">About this site</a>
+          <a href="about.html#purpose" data-nav="about-purpose">Purpose</a>
+          <a href="about.html#sources" data-nav="about-sources">Sources</a>
+          <a href="about.html#records" data-nav="about-records">What you will find</a>
+          <a href="about.html#schedule" data-nav="about-schedule">Update schedule</a>
+          <a href="about.html#reading" data-nav="about-reading">How to read a disclosure</a>
+          <a href="about.html#disclaimer" data-nav="about-disclaimer">Disclaimer</a>
+        </div>
+      </nav>
     </div>
   </footer>
   <script src="js/config.js"></script>
