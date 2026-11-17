@@ -1,8 +1,15 @@
 {
   "window": [
-    "2026-10-15",
+    "2026-11-16",
     "2026-11-16"
   ],
   "completed_through": "2026-11-16",
-  "tasks": []
+  "tasks": [
+    {
+      "kind": "executive_orders",
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "page": 1
+    }
+  ]
 }
