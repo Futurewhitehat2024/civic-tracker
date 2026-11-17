@@ -76,11 +76,24 @@
     return node;
   }
 
+  // Vote rows keep the clerk and Senate XML addresses in the data file.
+  // Readers follow the styled roll-call page instead.
+  function readableRecordUrl(url) {
+    var house = /^https?:\/\/(?:www\.)?clerk\.house\.gov\/evs\/(\d{4})\/roll(\d+)\.xml$/i.exec(url);
+    if (house) return "https://clerk.house.gov/Votes/" + house[1] + house[2];
+    if (/^https?:\/\/(?:www\.)?senate\.gov\/legislative\/LIS\/roll_call_votes\/vote\d+\/vote_\d+_\d+_\d+\.xml$/i.test(url)) {
+      return url.replace(/\.xml$/i, ".htm");
+    }
+    return url;
+  }
+
   function safeUrl(url) {
     if (!url) return null;
     try {
       var parsed = new URL(url, window.location.href);
-      if (parsed.protocol === "http:" || parsed.protocol === "https:") return parsed.href;
+      if (parsed.protocol !== "http:" && parsed.protocol !== "https:") return null;
+      var shown = new URL(readableRecordUrl(parsed.href));
+      if (shown.protocol === "http:" || shown.protocol === "https:") return shown.href;
     } catch (err) {
       return null;
     }
