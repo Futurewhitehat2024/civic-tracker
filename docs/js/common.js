@@ -58,6 +58,21 @@
     return null;
   }
 
+  function setCount(shown, total, noun) {
+    var el = document.querySelector("#result-count");
+    if (!el) {
+      return;
+    }
+    if (shown === null || total === null) {
+      el.textContent = "";
+      return;
+    }
+    var word = total === 1 ? noun : noun + "s";
+    el.textContent = shown === total
+      ? total + " " + word
+      : shown + " of " + total + " " + word;
+  }
+
   window.Civic = {
     name: name,
     EMPTY: "No data yet; scrapers not live",
@@ -66,6 +81,7 @@
     loadFeed: loadFeed,
     formatWhen: formatWhen,
     safeUrl: safeUrl,
+    setCount: setCount,
   };
 
   applyBrand();

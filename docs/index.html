@@ -3,37 +3,76 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#070b14">
   <title>Home</title>
   <link rel="stylesheet" href="css/site.css">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
 <body data-page-title="Home">
-  <header class="site-header wrap">
-    <a class="site-name" href="index.html" data-site-name></a>
-    <nav aria-label="Primary">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="federal.html">Federal</a>
-      <a href="trades.html">Trades</a>
-      <a href="status.html">Status</a>
-      <a href="about.html">About</a>
-    </nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell bar">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="favicon.svg" alt="" width="28" height="28">
+        <span class="site-name" data-site-name>TheGovWatcher</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="label-closed">Menu</span>
+        <span class="label-open">Close</span>
+      </button>
+      <nav id="site-nav" aria-label="Primary">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="federal.html">Federal</a>
+        <a href="trades.html">Trades</a>
+        <a href="status.html">Status</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
   </header>
-  <main class="wrap">
+  <main id="main" class="shell" tabindex="-1">
     <noscript><p class="empty">JavaScript is required to fill in the site name.</p></noscript>
-    <h1>Federal actions and congressional trades</h1>
-    <p class="lead"><span data-site-name></span> is a nonpartisan reader for two kinds of public records: what the federal government does, and stock trades members of Congress report under the STOCK Act. It links to official sources. It does not rate, endorse, or oppose any party, member, or policy.</p>
-    <h2>Feeds</h2>
-    <ul class="link-list">
-      <li><a href="federal.html">Federal government actions</a> — bills, votes, executive orders, and Federal Register items.</li>
-      <li><a href="trades.html">Congressional trades</a> — periodic transaction reports, with links to the filings.</li>
-      <li><a href="status.html">Scraper status</a> — last run, records collected, and errors.</li>
-    </ul>
+    <section class="hero">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Public records · Nonpartisan</p>
+      <h1>Federal actions and congressional trades</h1>
+      <p class="lead"><span data-site-name>TheGovWatcher</span> is a nonpartisan reader for two kinds of public records: what the federal government does, and stock trades members of Congress report under the STOCK Act. It links to official sources. It does not rate, endorse, or oppose any party, member, or policy.</p>
+    </section>
+    <section class="feeds" aria-labelledby="feeds-heading">
+      <h2 id="feeds-heading">Feeds</h2>
+      <ul class="feed-grid">
+        <li>
+          <a class="feed-card" href="federal.html">
+            <span class="feed-index">01</span>
+            <span class="feed-title">Federal government actions</span>
+            <span class="feed-copy">bills, votes, executive orders, and Federal Register items.</span>
+          </a>
+        </li>
+        <li>
+          <a class="feed-card" href="trades.html">
+            <span class="feed-index">02</span>
+            <span class="feed-title">Congressional trades</span>
+            <span class="feed-copy">periodic transaction reports, with links to the filings.</span>
+          </a>
+        </li>
+        <li>
+          <a class="feed-card" href="status.html">
+            <span class="feed-index">03</span>
+            <span class="feed-title">Scraper status</span>
+            <span class="feed-copy">last run, records collected, and errors.</span>
+          </a>
+        </li>
+      </ul>
+    </section>
     <p class="note">Records are loaded from official sources. See <a href="about.html">About</a> for what is collected and what is only linked.</p>
   </main>
-  <footer class="site-footer wrap">
-    <p>Official public records only. Not affiliated with the U.S. government.</p>
+  <footer class="site-footer">
+    <div class="shell">
+      <p>Official public records only. Not affiliated with the U.S. government.</p>
+    </div>
   </footer>
   <script src="js/config.js"></script>
   <script src="js/common.js"></script>
+  <script src="js/nav.js"></script>
 </body>
 </html>

@@ -72,10 +72,12 @@
   function render() {
     var items = Array.isArray(data.items) ? data.items : [];
     if (items.length === 0) {
+      Civic.setCount(0, 0, "filing");
       Civic.showMessage(list, Civic.EMPTY);
       return;
     }
     var shown = items.filter(matches);
+    Civic.setCount(shown.length, items.length, "filing");
     if (shown.length === 0) {
       Civic.showMessage(list, "No filings match these filters.");
       return;
@@ -84,6 +86,9 @@
     shown.forEach(function (item) {
       var article = document.createElement("article");
       article.className = "card";
+      if (item.chamber) {
+        article.setAttribute("data-chamber", String(item.chamber));
+      }
       var heading = document.createElement("h2");
       heading.textContent = headline(item);
       article.appendChild(heading);
@@ -136,6 +141,7 @@
     })
     .catch(function () {
       meta.textContent = "";
+      Civic.setCount(null, null, "filing");
       Civic.showMessage(list, "Could not load trades data.");
     });
 })();

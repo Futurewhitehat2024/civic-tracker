@@ -29,10 +29,12 @@
   function render() {
     var items = Array.isArray(data.items) ? data.items : [];
     if (items.length === 0) {
+      Civic.setCount(0, 0, "record");
       Civic.showMessage(list, Civic.EMPTY);
       return;
     }
     var shown = items.filter(matches);
+    Civic.setCount(shown.length, items.length, "record");
     if (shown.length === 0) {
       Civic.showMessage(list, "No items match these filters.");
       return;
@@ -41,6 +43,9 @@
     shown.forEach(function (item) {
       var article = document.createElement("article");
       article.className = "card";
+      if (item.kind) {
+        article.setAttribute("data-kind", String(item.kind));
+      }
       var heading = document.createElement("h2");
       var href = Civic.safeUrl(item.url);
       var title = item.title || "Untitled";
@@ -94,6 +99,7 @@
     })
     .catch(function () {
       meta.textContent = "";
+      Civic.setCount(null, null, "record");
       Civic.showMessage(list, "Could not load federal data.");
     });
 })();

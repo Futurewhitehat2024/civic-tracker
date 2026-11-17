@@ -7,6 +7,7 @@
     meta.textContent = data && data.updated
       ? "Updated " + Civic.formatWhen(data.updated)
       : "Not yet updated.";
+    Civic.setCount(items.length, items.length, "scraper");
     if (items.length === 0) {
       Civic.showMessage(list, Civic.EMPTY);
       return;
@@ -36,6 +37,9 @@
       var errors = document.createElement("td");
       var messages = Array.isArray(item.errors) ? item.errors.filter(Boolean) : [];
       errors.textContent = messages.length ? messages.join("; ") : "None";
+      if (messages.length) {
+        errors.className = "has-error";
+      }
       row.append(name, lastRun, records, errors);
       body.appendChild(row);
     });
@@ -50,6 +54,7 @@
     .then(render)
     .catch(function () {
       meta.textContent = "";
+      Civic.setCount(null, null, "scraper");
       Civic.showMessage(list, "Could not load status data.");
     });
 })();
