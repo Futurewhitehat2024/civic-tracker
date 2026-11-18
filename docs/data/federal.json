@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T10:39:14-05:00",
+  "updated": "2026-11-18T17:55:24-05:00",
   "items": [
     {
       "id": "fr-2026-23415",
@@ -2254,6 +2254,17 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Energy and Commerce.",
       "identifier": "H.R. 11011",
+      "chamber": "house"
+    },
+    {
+      "id": "hr-11012-119",
+      "kind": "bill",
+      "title": "ON–DEMAND Act",
+      "date": "2026-11-12",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11012",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 11012",
       "chamber": "house"
     },
     {
@@ -8494,6 +8505,17 @@
       "chamber": "house"
     },
     {
+      "id": "hr-10846-119",
+      "kind": "bill",
+      "title": "Pay Your TAB Act of 2026",
+      "date": "2026-10-19",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10846",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 10846",
+      "chamber": "house"
+    },
+    {
       "id": "hr-10848-119",
       "kind": "bill",
       "title": "Shipyard Modernization Sustainment Act of 2026",
@@ -9099,6 +9121,17 @@
       "chamber": "senate"
     },
     {
+      "id": "sjres-221-119",
+      "kind": "bill",
+      "title": "A joint resolution providing for congressional disapproval of the agreement for civilian nuclear cooperation between the United States and the Kingdom of Saudi Arabia pursuant to section 123 of the Atomic Energy Act of 1954.",
+      "date": "2026-10-15",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/221",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Foreign Relations under authority of the order of the Senate of 09/30/2026.",
+      "identifier": "S.J.Res. 221",
+      "chamber": "senate"
+    },
+    {
       "id": "hr-10654-119",
       "kind": "bill",
       "title": "PFB Act",
@@ -9558,6 +9591,17 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Education and Workforce.",
       "identifier": "H.Res. 1600",
+      "chamber": "house"
+    },
+    {
+      "id": "hr-10543-119",
+      "kind": "bill",
+      "title": "PREP Act",
+      "date": "2026-09-30",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10543",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Economic Opportunity.",
+      "identifier": "H.R. 10543",
       "chamber": "house"
     },
     {
@@ -10384,6 +10428,17 @@
       "summary": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
       "identifier": "H.R. 9086",
       "chamber": "house"
+    },
+    {
+      "id": "s-1321-119",
+      "kind": "bill",
+      "title": "Moab UMTRA Project Transition Act of 2025",
+      "date": "2026-09-17",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1321",
+      "source": "Congress.gov",
+      "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 633.",
+      "identifier": "S. 1321",
+      "chamber": "senate"
     },
     {
       "id": "s-3723-119",
@@ -11464,6 +11519,17 @@
       "chamber": "senate"
     },
     {
+      "id": "s-5286-119",
+      "kind": "bill",
+      "title": "Supporting Disabled Entrepreneurs Act",
+      "date": "2026-08-06",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5286",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 5286",
+      "chamber": "senate"
+    },
+    {
       "id": "s-5289-119",
       "kind": "bill",
       "title": "Right to Worship Act",
@@ -11549,6 +11615,17 @@
       "source": "Congress.gov",
       "summary": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
       "identifier": "S. 1748",
+      "chamber": "senate"
+    },
+    {
+      "id": "s-5256-119",
+      "kind": "bill",
+      "title": "Abuse of the Pardon Prevention Act of 2026",
+      "date": "2026-08-05",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5256",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 5256",
       "chamber": "senate"
     },
     {
@@ -12715,6 +12792,17 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Ways and Means, and in addition to the Committees on Education and Workforce, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 9519",
+      "chamber": "house"
+    },
+    {
+      "id": "hr-2385-119",
+      "kind": "bill",
+      "title": "CREATE AI Act of 2025",
+      "date": "2026-06-25",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2385",
+      "source": "Congress.gov",
+      "summary": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 29 - 0.",
+      "identifier": "H.R. 2385",
       "chamber": "house"
     },
     {
@@ -13939,6 +14027,17 @@
       "chamber": "house"
     },
     {
+      "id": "hr-8901-119",
+      "kind": "bill",
+      "title": "Securing Innovation and Research from Adversaries Act",
+      "date": "2026-05-19",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8901",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Science, Space, and Technology.",
+      "identifier": "H.R. 8901",
+      "chamber": "house"
+    },
+    {
       "id": "hr-8906-119",
       "kind": "bill",
       "title": "Ban Chinese Communist and Islamist Home Ownership Act",
@@ -14091,6 +14190,28 @@
       "summary": "Referred to the House Committee on Ways and Means.",
       "identifier": "H.Res. 1286",
       "chamber": "house"
+    },
+    {
+      "id": "s-4525-119",
+      "kind": "bill",
+      "title": "Securing Innovation and Research from Adversaries Act",
+      "date": "2026-05-14",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4525",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "identifier": "S. 4525",
+      "chamber": "senate"
+    },
+    {
+      "id": "s-4532-119",
+      "kind": "bill",
+      "title": "Small Business Wildfire Smoke Recovery Act",
+      "date": "2026-05-14",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4532",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 4532",
+      "chamber": "senate"
     },
     {
       "id": "s-4535-119",
@@ -14852,6 +14973,17 @@
       "chamber": "house"
     },
     {
+      "id": "hr-8274-119",
+      "kind": "bill",
+      "title": "Improving Retirement Security for Family Caregivers Act of 2026",
+      "date": "2026-04-14",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8274",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 8274",
+      "chamber": "house"
+    },
+    {
       "id": "s-4289-119",
       "kind": "bill",
       "title": "Preparing Superfund for Climate Change Act of 2026",
@@ -14871,6 +15003,17 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Finance. (Sponsor introductory remarks on measure: CR S1741-1742)",
       "identifier": "S. 4291",
+      "chamber": "senate"
+    },
+    {
+      "id": "s-4292-119",
+      "kind": "bill",
+      "title": "Improving Retirement Security for Family Caregivers Act of 2026",
+      "date": "2026-04-14",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4292",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Finance.",
+      "identifier": "S. 4292",
       "chamber": "senate"
     },
     {
@@ -15226,6 +15369,17 @@
       "chamber": "senate"
     },
     {
+      "id": "s-4133-119",
+      "kind": "bill",
+      "title": "21st Century Entrepreneurship Act",
+      "date": "2026-03-18",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4133",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 4133",
+      "chamber": "senate"
+    },
+    {
       "id": "s-4134-119",
       "kind": "bill",
       "title": "Stop Insider Trading Act",
@@ -15278,6 +15432,17 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Ways and Means.",
       "identifier": "H.R. 7944",
+      "chamber": "house"
+    },
+    {
+      "id": "hr-7896-119",
+      "kind": "bill",
+      "title": "NOAA Global Ocean Monitoring and Observing Research Act",
+      "date": "2026-03-12",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7896",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Science, Space, and Technology.",
+      "identifier": "H.R. 7896",
       "chamber": "house"
     },
     {
@@ -15743,6 +15908,17 @@
       "chamber": "senate"
     },
     {
+      "id": "s-3888-119",
+      "kind": "bill",
+      "title": "Small Business Artificial Intelligence Training Act of 2026",
+      "date": "2026-02-12",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3888",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "S. 3888",
+      "chamber": "senate"
+    },
+    {
       "id": "s-3890-119",
       "kind": "bill",
       "title": "National Council on African American History and Culture Act of 2026",
@@ -16183,6 +16359,17 @@
       "chamber": "house"
     },
     {
+      "id": "s-3638-119",
+      "kind": "bill",
+      "title": "Antitrust Freedom Act of 2026",
+      "date": "2026-01-14",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3638",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 3638",
+      "chamber": "senate"
+    },
+    {
       "id": "hr-2262-119",
       "kind": "bill",
       "title": "Flexibility for Workers Education Act",
@@ -16324,6 +16511,17 @@
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 7014",
       "chamber": "house"
+    },
+    {
+      "id": "s-3615-119",
+      "kind": "bill",
+      "title": "Multiemployer Plan Relief Act",
+      "date": "2026-01-12",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3615",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Finance.",
+      "identifier": "S. 3615",
+      "chamber": "senate"
     },
     {
       "id": "hr-6976-119",
@@ -17239,6 +17437,17 @@
       "chamber": "house"
     },
     {
+      "id": "s-3136-119",
+      "kind": "bill",
+      "title": "Heroes Business Opportunity Act of 2025",
+      "date": "2025-11-06",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3136",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 3136",
+      "chamber": "senate"
+    },
+    {
       "id": "hr-5276-119",
       "kind": "bill",
       "title": "Community Bank LIFT Act",
@@ -17809,6 +18018,17 @@
       "summary": "Received in the Senate.",
       "identifier": "H.R. 4922",
       "chamber": "house"
+    },
+    {
+      "id": "s-2662-119",
+      "kind": "bill",
+      "title": "504 Modernization and Small Manufacturer Enhancement Act of 2025",
+      "date": "2025-09-17",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2662",
+      "source": "Congress.gov",
+      "summary": "Committee on Small Business and Entrepreneurship. Hearings held.",
+      "identifier": "S. 2662",
+      "chamber": "senate"
     },
     {
       "id": "s-2834-119",
@@ -18746,6 +18966,17 @@
       "chamber": "senate"
     },
     {
+      "id": "s-2639-119",
+      "kind": "bill",
+      "title": "Military Spouse Entrepreneurship Act of 2025",
+      "date": "2025-07-31",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2639",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 2639",
+      "chamber": "senate"
+    },
+    {
       "id": "hr-4813-119",
       "kind": "bill",
       "title": "Noncontiguous Disaster Shipping Act",
@@ -18878,6 +19109,17 @@
       "chamber": "house"
     },
     {
+      "id": "s-2510-119",
+      "kind": "bill",
+      "title": "Service-Disabled Veteran Opportunities in Small Business Act",
+      "date": "2025-07-29",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2510",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 2510",
+      "chamber": "senate"
+    },
+    {
       "id": "s-2523-119",
       "kind": "bill",
       "title": "John R. Lewis Voting Rights Advancement Act of 2025",
@@ -18886,6 +19128,17 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on the Judiciary. (text: CR S4821)",
       "identifier": "S. 2523",
+      "chamber": "senate"
+    },
+    {
+      "id": "s-2486-119",
+      "kind": "bill",
+      "title": "Protecting Access to Credit for Small Businesses Act",
+      "date": "2025-07-28",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2486",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 2486",
       "chamber": "senate"
     },
     {
@@ -19371,6 +19624,17 @@
       "summary": "Referred to the House Committee on Agriculture.",
       "identifier": "H.R. 4400",
       "chamber": "house"
+    },
+    {
+      "id": "s-433-119",
+      "kind": "bill",
+      "title": "National Manufacturing Advisory Council Act",
+      "date": "2025-07-15",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/433",
+      "source": "Congress.gov",
+      "summary": "Held at the desk.",
+      "identifier": "S. 433",
+      "chamber": "senate"
     },
     {
       "id": "hr-4365-119",
@@ -20176,6 +20440,17 @@
       "chamber": "house"
     },
     {
+      "id": "s-1714-119",
+      "kind": "bill",
+      "title": "Disabled Veterans Housing Support Act",
+      "date": "2025-05-12",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1714",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "identifier": "S. 1714",
+      "chamber": "senate"
+    },
+    {
       "id": "s-632-119",
       "kind": "bill",
       "title": "IHS Workforce Parity Act of 2025",
@@ -20847,6 +21122,28 @@
       "chamber": "house"
     },
     {
+      "id": "hr-2771-119",
+      "kind": "bill",
+      "title": "Forest Legacy Management Flexibility Act",
+      "date": "2025-04-09",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2771",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Agriculture.",
+      "identifier": "H.R. 2771",
+      "chamber": "house"
+    },
+    {
+      "id": "hr-2773-119",
+      "kind": "bill",
+      "title": "Landowner Easement Rights Act",
+      "date": "2025-04-09",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2773",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Natural Resources.",
+      "identifier": "H.R. 2773",
+      "chamber": "house"
+    },
+    {
       "id": "hr-2780-119",
       "kind": "bill",
       "title": "Setting the Table for Transition Act",
@@ -20866,6 +21163,17 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 2790",
+      "chamber": "house"
+    },
+    {
+      "id": "hr-2797-119",
+      "kind": "bill",
+      "title": "House Expansion Commission Act",
+      "date": "2025-04-09",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2797",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 2797",
       "chamber": "house"
     },
     {
@@ -20946,6 +21254,17 @@
       "chamber": "house"
     },
     {
+      "id": "hr-2747-119",
+      "kind": "bill",
+      "title": "Healthy Affordable Housing Act",
+      "date": "2025-04-08",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2747",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Financial Services.",
+      "identifier": "H.R. 2747",
+      "chamber": "house"
+    },
+    {
       "id": "s-1326-119",
       "kind": "bill",
       "title": "Food Security and Farm Protection Act",
@@ -20976,6 +21295,17 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
       "identifier": "S. 1338",
+      "chamber": "senate"
+    },
+    {
+      "id": "s-1343-119",
+      "kind": "bill",
+      "title": "Advancing Quantum Manufacturing Act of 2025",
+      "date": "2025-04-08",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1343",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "S. 1343",
       "chamber": "senate"
     },
     {
@@ -21496,6 +21826,17 @@
       "chamber": "house"
     },
     {
+      "id": "hr-2362-119",
+      "kind": "bill",
+      "title": "VA Home Loan Awareness Act of 2025",
+      "date": "2025-03-26",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2362",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Financial Services.",
+      "identifier": "H.R. 2362",
+      "chamber": "house"
+    },
+    {
       "id": "hr-2366-119",
       "kind": "bill",
       "title": "American Families United Act",
@@ -21859,6 +22200,17 @@
       "chamber": "senate"
     },
     {
+      "id": "hconres-19-119",
+      "kind": "bill",
+      "title": "Recognizing the essential work of the League of Oregon Cities.",
+      "date": "2025-03-11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/19",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Oversight and Government Reform.",
+      "identifier": "H.Con.Res. 19",
+      "chamber": "house"
+    },
+    {
       "id": "hr-2029-119",
       "kind": "bill",
       "title": "Stop Comstock Act",
@@ -21903,6 +22255,17 @@
       "chamber": "house"
     },
     {
+      "id": "hr-2047-119",
+      "kind": "bill",
+      "title": "Pink Tariffs Study Act",
+      "date": "2025-03-11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2047",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 2047",
+      "chamber": "house"
+    },
+    {
       "id": "hr-2048-119",
       "kind": "bill",
       "title": "Metastatic Breast Cancer Access to Care Act",
@@ -21936,6 +22299,39 @@
       "chamber": "house"
     },
     {
+      "id": "hr-2082-119",
+      "kind": "bill",
+      "title": "WISH Act",
+      "date": "2025-03-11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2082",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 2082",
+      "chamber": "house"
+    },
+    {
+      "id": "hr-2086-119",
+      "kind": "bill",
+      "title": "Rights for the TSA Workforce Act",
+      "date": "2025-03-11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2086",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Transportation and Maritime Security.",
+      "identifier": "H.R. 2086",
+      "chamber": "house"
+    },
+    {
+      "id": "hr-2087-119",
+      "kind": "bill",
+      "title": "SAFE Bet Act of 2025",
+      "date": "2025-03-11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2087",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 2087",
+      "chamber": "house"
+    },
+    {
       "id": "hr-2089-119",
       "kind": "bill",
       "title": "Generating Retirement Ownership through Long-Term Holding",
@@ -21966,6 +22362,28 @@
       "source": "Congress.gov",
       "summary": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 119-35.",
       "identifier": "S. 611",
+      "chamber": "senate"
+    },
+    {
+      "id": "s-927-119",
+      "kind": "bill",
+      "title": "Protecting Pharmacies in Medicaid Act",
+      "date": "2025-03-11",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/927",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Finance.",
+      "identifier": "S. 927",
+      "chamber": "senate"
+    },
+    {
+      "id": "s-931-119",
+      "kind": "bill",
+      "title": "COMPLETE Care Act",
+      "date": "2025-03-11",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/931",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Finance.",
+      "identifier": "S. 931",
       "chamber": "senate"
     },
     {
@@ -22065,6 +22483,17 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on the Judiciary.",
       "identifier": "S. 916",
+      "chamber": "senate"
+    },
+    {
+      "id": "s-918-119",
+      "kind": "bill",
+      "title": "Protect Our Probationary Employees Act",
+      "date": "2025-03-10",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/918",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "identifier": "S. 918",
       "chamber": "senate"
     },
     {
@@ -22253,6 +22682,28 @@
       "summary": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 1835",
       "chamber": "house"
+    },
+    {
+      "id": "s-298-119",
+      "kind": "bill",
+      "title": "Returning SBA to Main Street Act",
+      "date": "2025-03-04",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/298",
+      "source": "Congress.gov",
+      "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 21.",
+      "identifier": "S. 298",
+      "chamber": "senate"
+    },
+    {
+      "id": "s-371-119",
+      "kind": "bill",
+      "title": "SBA Disaster Transparency Act",
+      "date": "2025-03-04",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/371",
+      "source": "Congress.gov",
+      "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 23.",
+      "identifier": "S. 371",
+      "chamber": "senate"
     },
     {
       "id": "hr-1796-119",
@@ -23223,6 +23674,17 @@
       "chamber": "senate"
     },
     {
+      "id": "s-592-119",
+      "kind": "bill",
+      "title": "Simplifying Subcontracting Act",
+      "date": "2025-02-13",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/592",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 592",
+      "chamber": "senate"
+    },
+    {
       "id": "sres-77-119",
       "kind": "bill",
       "title": "An original resolution authorizing expenditures by the Committee on Homeland Security and Governmental Affairs.",
@@ -23551,6 +24013,17 @@
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 1173",
       "chamber": "house"
+    },
+    {
+      "id": "s-68-119",
+      "kind": "bill",
+      "title": "Complete COVID Collections Act",
+      "date": "2025-02-10",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/68",
+      "source": "Congress.gov",
+      "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 8.",
+      "identifier": "S. 68",
+      "chamber": "senate"
     },
     {
       "id": "hr-1115-119",
@@ -24321,6 +24794,17 @@
       "summary": "Referred to the House Committee on Oversight and Government Reform.",
       "identifier": "H.Res. 61",
       "chamber": "house"
+    },
+    {
+      "id": "s-232-119",
+      "kind": "bill",
+      "title": "Preventing Algorithmic Collusion Act of 2025",
+      "date": "2025-01-23",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/232",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 232",
+      "chamber": "senate"
     },
     {
       "id": "sres-33-119",
@@ -25489,6 +25973,17 @@
       "chamber": "senate"
     },
     {
+      "id": "s-5501-118",
+      "kind": "bill",
+      "title": "Returning SBA to Main Street Act",
+      "date": "2024-12-12",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5501",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 5501",
+      "chamber": "senate"
+    },
+    {
       "id": "s-5508-118",
       "kind": "bill",
       "title": "Plug Offshore Wells Act",
@@ -25731,6 +26226,17 @@
       "chamber": "house"
     },
     {
+      "id": "s-1153-118",
+      "kind": "bill",
+      "title": "National Manufacturing Advisory Council for the 21st Century Act",
+      "date": "2024-11-22",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1153",
+      "source": "Congress.gov",
+      "summary": "Held at the desk.",
+      "identifier": "S. 1153",
+      "chamber": "senate"
+    },
+    {
       "id": "hr-10209-118",
       "kind": "bill",
       "title": "To amend the Cybersecurity Enhancement Act of 2014 to make improvements to the Federal Cyber Scholarship for Service Program, and for other purposes.",
@@ -25761,6 +26267,17 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 10223",
+      "chamber": "house"
+    },
+    {
+      "id": "hr-10246-118",
+      "kind": "bill",
+      "title": "504 Modernization and Small Manufacturer Enhancement Act of 2024",
+      "date": "2024-11-21",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/10246",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Small Business.",
+      "identifier": "H.R. 10246",
       "chamber": "house"
     },
     {
@@ -25872,6 +26389,17 @@
       "summary": "Subcommittee Hearings Held",
       "identifier": "H.R. 9969",
       "chamber": "house"
+    },
+    {
+      "id": "s-5357-118",
+      "kind": "bill",
+      "title": "SBA Disaster Transparency Act",
+      "date": "2024-11-20",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5357",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 5357",
+      "chamber": "senate"
     },
     {
       "id": "hjres-223-118",
@@ -26787,6 +27315,17 @@
       "chamber": "house"
     },
     {
+      "id": "s-4487-118",
+      "kind": "bill",
+      "title": "Small Business Artificial Intelligence Training Act of 2024",
+      "date": "2024-08-01",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4487",
+      "source": "Congress.gov",
+      "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 487.",
+      "identifier": "S. 4487",
+      "chamber": "senate"
+    },
+    {
       "id": "s-4942-118",
       "kind": "bill",
       "title": "Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2025",
@@ -26883,6 +27422,17 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.J.Res. 193",
+      "chamber": "house"
+    },
+    {
+      "id": "hr-5617-118",
+      "kind": "bill",
+      "title": "Space Transformation And Reliability Act",
+      "date": "2024-07-24",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/5617",
+      "source": "Congress.gov",
+      "summary": "ASSUMING FIRST SPONSORSHIP - Mr. Fong asked unanimous consent that he may hereafter be considered as the first sponsor of H.R. 5617, a bill originally introduced by Representative McCarthy, for the purpose of adding cosponsors and requesting reprintings pursuant to clause 7 of rule XII. Agreed to without objection.",
+      "identifier": "H.R. 5617",
       "chamber": "house"
     },
     {
@@ -27403,6 +27953,28 @@
       "chamber": "house"
     },
     {
+      "id": "s-3772-118",
+      "kind": "bill",
+      "title": "Simplifying Subcontracting Act",
+      "date": "2024-05-23",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3772",
+      "source": "Congress.gov",
+      "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 406.",
+      "identifier": "S. 3772",
+      "chamber": "senate"
+    },
+    {
+      "id": "s-4417-118",
+      "kind": "bill",
+      "title": "Service-Disabled Veteran Opportunities in Small Business Act",
+      "date": "2024-05-23",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4417",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 4417",
+      "chamber": "senate"
+    },
+    {
       "id": "hr-7530-118",
       "kind": "bill",
       "title": "DC CRIMES Act of 2024",
@@ -27488,6 +28060,17 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Environment and Public Works.",
       "identifier": "S. 4288",
+      "chamber": "senate"
+    },
+    {
+      "id": "s-4290-118",
+      "kind": "bill",
+      "title": "Antitrust Freedom Act of 2024",
+      "date": "2024-05-08",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4290",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 4290",
       "chamber": "senate"
     },
     {
@@ -27931,6 +28514,17 @@
       "chamber": "house"
     },
     {
+      "id": "s-3992-118",
+      "kind": "bill",
+      "title": "Protecting Access to Credit for Small Businesses Act",
+      "date": "2024-03-20",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3992",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 3992",
+      "chamber": "senate"
+    },
+    {
       "id": "s-3993-118",
       "kind": "bill",
       "title": "BOP Release Card ID Act of 2024",
@@ -28028,6 +28622,17 @@
       "summary": "Read twice and referred to the Committee on Finance.",
       "identifier": "S. 3869",
       "chamber": "senate"
+    },
+    {
+      "id": "hr-3511-118",
+      "kind": "bill",
+      "title": "Service-Disabled Veteran Opportunities in Small Business Act",
+      "date": "2024-02-29",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3511",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "H.R. 3511",
+      "chamber": "house"
     },
     {
       "id": "hr-7501-118",
@@ -28237,6 +28842,17 @@
       "summary": "Referred to the House Committee on Oversight and Accountability.",
       "identifier": "H.Res. 989",
       "chamber": "house"
+    },
+    {
+      "id": "s-3686-118",
+      "kind": "bill",
+      "title": "Preventing Algorithmic Collusion Act of 2024",
+      "date": "2024-01-30",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3686",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 3686",
+      "chamber": "senate"
     },
     {
       "id": "s-3690-118",
@@ -28481,6 +29097,17 @@
       "chamber": "house"
     },
     {
+      "id": "s-3528-118",
+      "kind": "bill",
+      "title": "Supporting Disabled Entrepreneurs Act",
+      "date": "2023-12-14",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3528",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 3528",
+      "chamber": "senate"
+    },
+    {
       "id": "hr-6771-118",
       "kind": "bill",
       "title": "NASA Talent Exchange Program Act",
@@ -28665,6 +29292,17 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Finance.",
       "identifier": "S. 3317",
+      "chamber": "senate"
+    },
+    {
+      "id": "s-3302-118",
+      "kind": "bill",
+      "title": "Heroes Business Opportunity Act of 2023",
+      "date": "2023-11-14",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3302",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 3302",
       "chamber": "senate"
     },
     {
@@ -29405,6 +30043,17 @@
       "chamber": "senate"
     },
     {
+      "id": "s-2664-118",
+      "kind": "bill",
+      "title": "Strengthening Taxpayer Recoveries Act",
+      "date": "2023-07-27",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2664",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 2664",
+      "chamber": "senate"
+    },
+    {
       "id": "sres-325-118",
       "kind": "bill",
       "title": "A resolution recognizing the importance of trademarks in the economy and the role of trademarks in protecting consumer safety, by designating the month of August as \"National Anti-Counterfeiting and Consumer Education and Awareness Month\".",
@@ -29469,6 +30118,17 @@
       "summary": "Referred to the House Committee on Science, Space, and Technology.",
       "identifier": "H.R. 4893",
       "chamber": "house"
+    },
+    {
+      "id": "s-1352-118",
+      "kind": "bill",
+      "title": "504 Modernization and Small Manufacturer Enhancement Act of 2023",
+      "date": "2023-07-25",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1352",
+      "source": "Congress.gov",
+      "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 168.",
+      "identifier": "S. 1352",
+      "chamber": "senate"
     },
     {
       "id": "s-1466-118",
@@ -29933,6 +30593,17 @@
       "chamber": "senate"
     },
     {
+      "id": "s-2000-118",
+      "kind": "bill",
+      "title": "Military Spouse Entrepreneurship Act of 2023",
+      "date": "2023-06-14",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2000",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 2000",
+      "chamber": "senate"
+    },
+    {
       "id": "s-376-118",
       "kind": "bill",
       "title": "A bill to designate the area between the intersections of 16th Street, Northwest and Fuller Street, Northwest and 16th Street, Northwest and Euclid Street, Northwest in Washington, District of Columbia, as \"Oswaldo Paya Way\".",
@@ -29974,6 +30645,17 @@
       "source": "Congress.gov",
       "summary": "Referred to the Subcommittee on Environment, Manufacturing, and Critical Materials.",
       "identifier": "H.R. 3862",
+      "chamber": "house"
+    },
+    {
+      "id": "hr-3917-118",
+      "kind": "bill",
+      "title": "National Manufacturing Advisory Council for the 21st Century Act",
+      "date": "2023-06-09",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3917",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Innovation, Data, and Commerce.",
+      "identifier": "H.R. 3917",
       "chamber": "house"
     },
     {
@@ -30052,6 +30734,17 @@
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 3775",
       "chamber": "house"
+    },
+    {
+      "id": "s-1763-118",
+      "kind": "bill",
+      "title": "Small Business Wildfire Smoke Recovery Act",
+      "date": "2023-05-31",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1763",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 1763",
+      "chamber": "senate"
     },
     {
       "id": "hr-3568-118",
@@ -30481,6 +31174,17 @@
       "summary": "Referred to the House Committee on Education and the Workforce.",
       "identifier": "H.Res. 316",
       "chamber": "house"
+    },
+    {
+      "id": "s-1222-118",
+      "kind": "bill",
+      "title": "21st Century Entrepreneurship Act",
+      "date": "2023-04-20",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1222",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 1222",
+      "chamber": "senate"
     },
     {
       "id": "s-1224-118",
@@ -32562,6 +33266,17 @@
       "chamber": "house"
     },
     {
+      "id": "s-4966-117",
+      "kind": "bill",
+      "title": "Antitrust Freedom Act of 2022",
+      "date": "2022-09-27",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/4966",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 4966",
+      "chamber": "senate"
+    },
+    {
       "id": "hconres-108-117",
       "kind": "bill",
       "title": "Recognizing the significance of equal pay and the disparity in wages paid to men and to Black women.",
@@ -32848,6 +33563,17 @@
       "chamber": "house"
     },
     {
+      "id": "s-4627-117",
+      "kind": "bill",
+      "title": "Small Business Wildfire Smoke Recovery Act",
+      "date": "2022-07-27",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/4627",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 4627",
+      "chamber": "senate"
+    },
+    {
       "id": "s-4591-117",
       "kind": "bill",
       "title": "Cannabis Administration and Opportunity Act",
@@ -33022,6 +33748,17 @@
       "summary": "Became Public Law No: 117-118.",
       "identifier": "S. 3522",
       "chamber": "senate"
+    },
+    {
+      "id": "hr-7687-117",
+      "kind": "bill",
+      "title": "21st Century Entrepreneurship Act",
+      "date": "2022-05-06",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/7687",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Small Business, and in addition to the Committee on Education and Labor, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 7687",
+      "chamber": "house"
     },
     {
       "id": "hr-1508-117",
@@ -33330,6 +34067,17 @@
       "summary": "Referred to the Subcommittee on Water, Oceans, and Wildlife.",
       "identifier": "H.R. 6229",
       "chamber": "house"
+    },
+    {
+      "id": "s-3382-117",
+      "kind": "bill",
+      "title": "Protecting Access to Credit for Small Businesses Act",
+      "date": "2021-12-14",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/3382",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 3382",
+      "chamber": "senate"
     },
     {
       "id": "hr-6253-117",
@@ -34518,6 +35266,17 @@
       "summary": "Referred to the Subcommittee on National Parks, Forests, and Public Lands.",
       "identifier": "H.R. 671",
       "chamber": "house"
+    },
+    {
+      "id": "s-384-117",
+      "kind": "bill",
+      "title": "21st Century Entrepreneurship Act",
+      "date": "2021-02-23",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/384",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "identifier": "S. 384",
+      "chamber": "senate"
     },
     {
       "id": "sres-64-117",
