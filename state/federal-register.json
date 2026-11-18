@@ -4,12 +4,5 @@
     "2026-11-16"
   ],
   "completed_through": "2026-11-16",
-  "tasks": [
-    {
-      "kind": "executive_orders",
-      "start": "2026-11-16",
-      "end": "2026-11-16",
-      "page": 1
-    }
-  ]
+  "tasks": []
 }
