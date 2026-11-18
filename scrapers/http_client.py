@@ -95,7 +95,7 @@ class PoliteClient:
                 self._backoff(attempt, response)
                 continue
             if response.status_code >= 400:
-                raise HttpError(self._status_error(url, response.status_code))
+                raise HttpError(self._status_error(url, response))
             return response
         raise HttpError(
             f"{self._host(url)} failed after {self.max_attempts} attempts: {last_error}"
@@ -160,12 +160,33 @@ class PoliteClient:
         delay += self.random_fn() * 0.25
         self.sleep(delay)
 
-    def _status_error(self, url: str, status: int) -> str:
-        return redact(f"{self._host(url)} returned HTTP {status}", self.secrets)
+    def _status_error(self, url: str, response: httpx.Response) -> str:
+        text = f"{self._host(url)} returned HTTP {response.status_code}"
+        detail = _error_message(response)
+        if detail:
+            text = f"{text}: {detail}"
+        return redact(text, self.secrets)
 
     @staticmethod
     def _host(url: str) -> str:
         return urlsplit(url).netloc.lower()
+
+
+def _error_message(response: httpx.Response) -> str | None:
+    """Short message from a JSON error body, such as the Federal Register 400s."""
+    try:
+        payload = response.json()
+    except ValueError:
+        return None
+    if not isinstance(payload, dict):
+        return None
+    message = payload.get("message")
+    if not isinstance(message, str):
+        return None
+    message = message.strip()
+    if not message:
+        return None
+    return message[:300]
 
 
 def _retry_after_seconds(response: httpx.Response | None) -> float | None:

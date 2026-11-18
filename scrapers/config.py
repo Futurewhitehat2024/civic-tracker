@@ -30,8 +30,9 @@ DEFAULT_INTERVAL_SECONDS = 1.0
 REQUEST_TIMEOUT_SECONDS = 30.0
 MAX_ATTEMPTS = 3
 
-# Federal Register asks clients not to page past the first 2,000 hits.
-FEDERAL_REGISTER_MAX_HITS = 2000
+# The documents API rejects a request that would read past the first 10,000 hits
+# ("Pagination limit exceeded"). Wider windows are split by date before that page.
+FEDERAL_REGISTER_MAX_HITS = 10000
 FEDERAL_REGISTER_PAGE_SIZE = 1000
 
 # First run, when a source has no cursor and the workflow did not pass dates.
