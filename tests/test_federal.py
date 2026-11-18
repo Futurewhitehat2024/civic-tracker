@@ -11,7 +11,7 @@ from scrapers.sources.congress_bills import map_bill, run_congress_bills
 from scrapers.sources.federal_register import run_federal_register
 from scrapers.sources.house_votes import parse_house_vote, run_house_votes
 from scrapers.sources.senate_votes import parse_senate_vote, run_senate_votes
-from scrapers.store import load_feed, load_state
+from scrapers.store import load_feed, load_state, save_state
 from tests.support import make_context
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -170,6 +170,53 @@ def _param(params, key: str) -> str:
 
 def _is_executive_order(params) -> bool:
     return any(name.startswith("conditions[presidential_document_type]") for name, _value in params)
+
+
+def test_leftover_task_catches_up_through_today(tmp_path) -> None:
+    """A stuck older task must finish, then the same run reads through today."""
+
+    class Client:
+        def get_json(self, url, *, params=None, headers=None):
+            if _is_executive_order(params):
+                return {"description": "no executive orders", "count": 0}
+            start = _param(params, "conditions[publication_date][gte]")
+            end = _param(params, "conditions[publication_date][lte]")
+            assert (start, end) == ("2026-11-16", "2026-11-18")
+            document = _document("2026-17111")
+            document["publication_date"] = "2026-11-17"
+            return _page([document])
+
+    ctx = make_context(
+        tmp_path,
+        Client(),
+        cli_start=None,
+        cli_end=None,
+        today=date(2026, 11, 18),
+    )
+    save_state(
+        ctx.state_dir / "federal-register.json",
+        {
+            "window": ["2026-11-16", "2026-11-16"],
+            "completed_through": "2026-11-16",
+            "tasks": [
+                {
+                    "kind": "executive_orders",
+                    "start": "2026-11-16",
+                    "end": "2026-11-16",
+                    "page": 1,
+                }
+            ],
+        },
+    )
+    outcome = run_federal_register(ctx)
+    feed = load_feed(ctx.federal_path)
+    state = load_state(ctx.state_dir / "federal-register.json")
+    assert outcome.errors == []
+    assert outcome.checked is True
+    assert [item["id"] for item in feed["items"]] == ["fr-2026-17111"]
+    assert state["tasks"] == []
+    assert state["completed_through"] == "2026-11-18"
+    assert state["window"] == ["2026-11-16", "2026-11-18"]
 
 
 def test_empty_day_without_results_is_not_an_error(tmp_path) -> None:

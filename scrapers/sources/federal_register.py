@@ -42,9 +42,40 @@ class WindowTooWide(Exception):
 def run_federal_register(ctx: RunContext) -> Outcome:
     state_path = ctx.state_dir / f"{SOURCE_ID}.json"
     state = load_state(state_path)
-    state = _ensure_tasks(state, ctx)
-    save_state(state_path, state)
     outcome = Outcome(checked=False)
+    finished: list[str] | None = None
+    while True:
+        state = _ensure_tasks(state, ctx)
+        save_state(state_path, state)
+        window = state.get("window")
+        if window == finished or not state.get("tasks"):
+            break
+        finished = window
+        if not _drain_tasks(ctx, state, state_path, outcome):
+            return outcome
+        state["completed_through"] = state["window"][1]
+        state["tasks"] = []
+        save_state(state_path, state)
+        if not _continue_after_window(state, ctx):
+            break
+    if outcome.records == 0:
+        mark_checked(ctx, ctx.federal_path, "date")
+    outcome.checked = True
+    return outcome
+
+
+def _continue_after_window(state: dict, ctx: RunContext) -> bool:
+    """A resumed older window should be followed by the range through today."""
+    if ctx.cli_start is not None or ctx.cli_end is not None:
+        return False
+    window = state.get("window")
+    if not isinstance(window, list) or len(window) != 2 or not isinstance(window[1], str):
+        return False
+    return window[1] < ctx.today.isoformat()
+
+
+def _drain_tasks(ctx: RunContext, state: dict, state_path, outcome: Outcome) -> bool:
+    """Run the queued tasks. False means an HTTP error stopped the source."""
     while state["tasks"]:
         task = state["tasks"][0]
         start = date.fromisoformat(task["start"])
@@ -82,7 +113,7 @@ def run_federal_register(ctx: RunContext) -> Outcome:
         except HttpError as exc:
             outcome.errors.append(str(exc))
             save_state(state_path, state)
-            return outcome
+            return False
         for record_id, raw, reason in rejected:
             quarantine(ctx.state_dir, SOURCE_ID, record_id, raw, reason)
         if rejected:
@@ -97,13 +128,7 @@ def run_federal_register(ctx: RunContext) -> Outcome:
         else:
             task["page"] = page + 1
         save_state(state_path, state)
-    state["completed_through"] = state["window"][1]
-    state["tasks"] = []
-    save_state(state_path, state)
-    if outcome.records == 0:
-        mark_checked(ctx, ctx.federal_path, "date")
-    outcome.checked = True
-    return outcome
+    return True
 
 
 def _ensure_tasks(state: dict, ctx: RunContext) -> dict:
