@@ -1,13 +1,15 @@
 # Live capture is the scheduled run. A manual run can pass a date range to backfill.
-# Runs about every 2.5 hours, 8 times a day. In EST: 6:00 AM, 8:30 AM, 11:00 AM, 1:30 PM,
-# 4:00 PM, 6:30 PM, 9:00 PM and 11:30 PM (one hour later during EDT). GitHub cron does not
-# follow daylight saving time, and scheduled runs can start a few minutes late.
+# Eight runs a day, same hours as before, about 2.5 hours apart. Minutes are 7 and 37
+# UTC instead of :00 and :30: GitHub delays schedules at the start of the hour and can
+# drop the queued run when load is high. In EST: 6:07 AM, 8:37 AM, 11:07 AM, 1:37 PM,
+# 4:07 PM, 6:37 PM, 9:07 PM, and 11:37 PM (one hour later during EDT). GitHub cron does
+# not follow daylight saving time, and a run can still start late.
 name: Scrape
 
 on:
   schedule:
-    - cron: "0 2,11,16,21 * * *"
-    - cron: "30 4,13,18,23 * * *"
+    - cron: "7 2,11,16,21 * * *"
+    - cron: "37 4,13,18,23 * * *"
   workflow_dispatch:
     inputs:
       sources:

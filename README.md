@@ -55,7 +55,7 @@ Requests identify themselves as `CivicTracker-bot/1.0` and pause between calls t
 
 ## Scheduled run
 
-`.github/workflows/scrape.yml` runs every day at 11:00 UTC (06:00 EST, 07:00 EDT). That run uses each source's saved cursor. GitHub only runs the schedule from the default branch, so it starts after this workflow is on `main`.
+`.github/workflows/scrape.yml` runs eight times a day, about every 2.5 hours, at minute 7 and 37 UTC (`7 2,11,16,21 * * *` and `37 4,13,18,23 * * *`). In EST that is 6:07 AM, 8:37 AM, 11:07 AM, 1:37 PM, 4:07 PM, 6:37 PM, 9:07 PM, and 11:37 PM, one hour later during EDT. GitHub cron does not follow daylight saving time. Each run uses each source's saved cursor. GitHub only runs the schedule from the default branch, so it starts after this workflow is on `main`.
 
 Actions → Scrape → Run workflow accepts:
 
