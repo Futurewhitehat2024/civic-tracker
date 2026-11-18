@@ -48,6 +48,35 @@ def test_retries_timeout_then_succeeds() -> None:
     assert calls["n"] == 2
 
 
+def test_http_error_includes_federal_register_message() -> None:
+    def handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(
+            400,
+            json={
+                "status": 400,
+                "message": (
+                    "Pagination limit exceeded.  "
+                    "No more than 10000 items can be requested at a time"
+                ),
+            },
+        )
+
+    client = PoliteClient(transport=httpx.MockTransport(handler), sleep=lambda _s: None)
+    try:
+        try:
+            client.get_json("https://www.federalregister.gov/api/v1/documents.json")
+        except HttpError as exc:
+            message = str(exc)
+        else:
+            raise AssertionError("expected HttpError")
+    finally:
+        client.close()
+    assert message == (
+        "www.federalregister.gov returned HTTP 400: "
+        "Pagination limit exceeded.  No more than 10000 items can be requested at a time"
+    )
+
+
 def test_does_not_retry_404() -> None:
     calls = {"n": 0}
 

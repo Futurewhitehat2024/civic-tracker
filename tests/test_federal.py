@@ -115,8 +115,8 @@ def test_federal_register_maps_rules_and_orders_and_rerun_is_stable(tmp_path) ->
     assert load_state(ctx.state_dir / "federal-register.json")["completed_through"] == "2026-11-12"
 
 
-def test_federal_register_splits_windows_over_2000(tmp_path) -> None:
-    wide = _page([_document("2026-WIDE")], count=2500)
+def test_federal_register_splits_windows_over_the_page_cap(tmp_path) -> None:
+    wide = _page([_document("2026-WIDE")], count=10001)
     left = _page([_document("2026-LEFT")])
     right = _page([_document("2026-RIGHT")])
     payloads = [wide, left, right, _page([])]
@@ -145,10 +145,10 @@ def test_federal_register_splits_windows_over_2000(tmp_path) -> None:
 
 class ScriptedSingle:
     def get_json(self, url, *, params=None, headers=None):
-        return _page([_document("2026-DAY")], count=2500)
+        return _page([_document("2026-DAY")], count=10001)
 
 
-def test_single_day_over_2000_is_not_published(tmp_path) -> None:
+def test_single_day_over_the_page_cap_is_not_published(tmp_path) -> None:
     ctx = make_context(
         tmp_path,
         ScriptedSingle(),
@@ -159,6 +159,125 @@ def test_single_day_over_2000_is_not_published(tmp_path) -> None:
     assert load_feed(ctx.federal_path)["items"] == []
     assert any("was not published" in error for error in outcome.errors)
     assert outcome.checked is True
+
+
+def _param(params, key: str) -> str:
+    for name, value in params:
+        if name == key:
+            return value
+    raise AssertionError(f"missing {key}")
+
+
+def _is_executive_order(params) -> bool:
+    return any(name.startswith("conditions[presidential_document_type]") for name, _value in params)
+
+
+def test_empty_day_without_results_is_not_an_error(tmp_path) -> None:
+    """A zero-hit day omits `results`. That is an empty day, not a failed fetch."""
+    client = RouteClient(
+        {
+            "federalregister.gov": {
+                "description": "Documents published on 11/15/2026",
+                "count": 0,
+            }
+        }
+    )
+    ctx = make_context(tmp_path, client)
+    outcome = run_federal_register(ctx)
+    assert outcome.records == 0
+    assert outcome.errors == []
+    assert outcome.checked is True
+    assert load_feed(ctx.federal_path)["items"] == []
+    state = load_state(ctx.state_dir / "federal-register.json")
+    assert state["tasks"] == []
+    assert state["completed_through"] == "2026-11-12"
+
+
+def test_rules_publish_when_executive_orders_are_an_empty_day(tmp_path) -> None:
+    class ByKind:
+        def __init__(self) -> None:
+            self.calls: list[object] = []
+
+        def get_json(self, url, *, params=None, headers=None):
+            self.calls.append(params)
+            if _is_executive_order(params):
+                return {"description": "no executive orders", "count": 0}
+            return _page([_document("2026-10001")])
+
+    client = ByKind()
+    ctx = make_context(tmp_path, client)
+    outcome = run_federal_register(ctx)
+    feed = load_feed(ctx.federal_path)
+    assert outcome.errors == []
+    assert outcome.checked is True
+    assert [item["id"] for item in feed["items"]] == ["fr-2026-10001"]
+    assert load_state(ctx.state_dir / "federal-register.json")["tasks"] == []
+
+
+def test_positive_count_without_results_is_an_error(tmp_path) -> None:
+    client = RouteClient(
+        {"federalregister.gov": {"description": "Documents", "count": 4}}
+    )
+    ctx = make_context(tmp_path, client)
+    outcome = run_federal_register(ctx)
+    assert outcome.checked is False
+    assert load_feed(ctx.federal_path)["items"] == []
+    assert any("did not include results" in error for error in outcome.errors)
+    assert any("4" in error for error in outcome.errors)
+
+
+def test_api_error_document_is_reported(tmp_path) -> None:
+    client = RouteClient(
+        {
+            "federalregister.gov": {
+                "status": 400,
+                "message": (
+                    "Pagination limit exceeded.  "
+                    "No more than 10000 items can be requested at a time"
+                ),
+            }
+        }
+    )
+    ctx = make_context(tmp_path, client)
+    outcome = run_federal_register(ctx)
+    assert outcome.checked is False
+    assert outcome.records == 0
+    assert any("Pagination limit exceeded" in error for error in outcome.errors)
+    assert load_feed(ctx.federal_path)["items"] == []
+
+
+def test_federal_register_fetches_every_page(tmp_path, monkeypatch) -> None:
+    monkeypatch.setattr("scrapers.sources.federal_register.FEDERAL_REGISTER_PAGE_SIZE", 2)
+    docs = [_document(f"2026-1100{index}") for index in range(5)]
+
+    class Pager:
+        def __init__(self) -> None:
+            self.pages: list[tuple[str, str]] = []
+
+        def get_json(self, url, *, params=None, headers=None):
+            page = _param(params, "page")
+            if _is_executive_order(params):
+                self.pages.append(("executive_orders", page))
+                return {"description": "no executive orders", "count": 0}
+            self.pages.append(("rules", page))
+            page_no = int(page)
+            chunk = docs[(page_no - 1) * 2 : page_no * 2]
+            return {"count": len(docs), "total_pages": 3, "results": chunk}
+
+    client = Pager()
+    ctx = make_context(tmp_path, client)
+    outcome = run_federal_register(ctx)
+    ids = [item["id"] for item in load_feed(ctx.federal_path)["items"]]
+    assert outcome.errors == []
+    assert outcome.checked is True
+    assert outcome.records == 5
+    assert ids == [f"fr-2026-1100{index}" for index in range(5)]
+    assert client.pages == [
+        ("rules", "1"),
+        ("rules", "2"),
+        ("rules", "3"),
+        ("executive_orders", "1"),
+    ]
 
 
 def test_house_vote_xml_and_date_filter(tmp_path) -> None:

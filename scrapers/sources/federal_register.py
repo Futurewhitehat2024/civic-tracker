@@ -1,7 +1,7 @@
 """Federal Register documents: rules, proposed rules, and executive orders.
 
-The API needs no key. A result window larger than 2,000 hits is split by
-date instead of requesting a third page.
+The API needs no key. A window larger than the API's 10,000-hit page cap is
+split by date. Smaller windows are read to the last page.
 """
 
 import logging
@@ -153,14 +153,21 @@ def _read_page(
     end: date,
     page: int,
 ) -> tuple[list[dict], list[tuple[str, dict, str]], bool]:
+    _raise_if_api_error(payload)
     count = payload.get("count")
     if not isinstance(count, int):
         raise HttpError("Federal Register response did not include a document count")
     if page == 1 and count > FEDERAL_REGISTER_MAX_HITS:
         raise WindowTooWide(count)
     results = payload.get("results")
+    # A zero-hit query is `{"count": 0, "description": ...}` with no results key.
+    if count == 0 and not isinstance(results, list):
+        results = []
     if not isinstance(results, list):
-        raise HttpError("Federal Register response did not include results")
+        raise HttpError(
+            "Federal Register response did not include results "
+            f"for {count} matching documents"
+        )
     log.info(
         "federal-register %s %s..%s page %s: %s of %s",
         kind,
@@ -182,9 +189,20 @@ def _read_page(
             record_id = str(raw.get("document_number") or "document")
             rejected.append((record_id, raw, str(exc)))
     fetched = page * FEDERAL_REGISTER_PAGE_SIZE
-    # Page 2 is the last page this client will request.
-    done = page >= 2 or len(results) < FEDERAL_REGISTER_PAGE_SIZE or fetched >= count
+    done = len(results) < FEDERAL_REGISTER_PAGE_SIZE or fetched >= count
     return items, rejected, done
+
+
+def _raise_if_api_error(payload: dict) -> None:
+    """Surface an error document instead of treating it as a normal page."""
+    status = payload.get("status")
+    message = payload.get("message")
+    detail = message.strip() if isinstance(message, str) and message.strip() else ""
+    if isinstance(status, int) and status >= 400:
+        text = detail or "request failed"
+        raise HttpError(f"Federal Register API error HTTP {status}: {text}")
+    if detail and "count" not in payload and "results" not in payload:
+        raise HttpError(f"Federal Register API error: {detail}")
 
 
 def _map_document(raw: dict, kind: str) -> dict:
