@@ -5,6 +5,7 @@ with a link and no transactions. There is no OCR.
 """
 
 import io
+import json
 import logging
 import re
 import zipfile
@@ -17,8 +18,9 @@ from pypdf.errors import PdfReadError
 from scrapers.context import Outcome, RunContext
 from scrapers.http_client import HttpError
 from scrapers.publish import publish_trades
+from scrapers.sources.house_roster import ROSTER_URL, HouseRoster, parse_roster
 from scrapers.sources.ptr_text import parse_ptr_text
-from scrapers.store import load_state, save_state
+from scrapers.store import load_feed, load_state, save_state, upsert_items
 from scrapers.windows import resolve_window, window_key
 
 log = logging.getLogger(__name__)
@@ -38,6 +40,7 @@ def run_house_ptr(ctx: RunContext) -> Outcome:
         state["window"] = key
     done = state.setdefault("done", {})
     attempts = state.setdefault("attempts", {})
+    roster = _load_roster(ctx)
     outcome = Outcome()
     try:
         filings = _filings_in_window(ctx, start, end)
@@ -56,7 +59,7 @@ def run_house_ptr(ctx: RunContext) -> Outcome:
             continue
         try:
             pdf, status = _download_pdf(ctx, year, doc_id)
-            items = _items_for_filing(filing, pdf, status)
+            items = _items_for_filing(filing, pdf, status, roster)
         except HttpError as exc:
             attempts[doc_id] = int(attempts.get(doc_id) or 0) + 1
             outcome.errors.append(f"House PTR {doc_id} failed: {exc}")
@@ -92,6 +95,7 @@ def run_house_ptr(ctx: RunContext) -> Outcome:
         state["completed_through"] = key[1]
         outcome.checked = True
     save_state(state_path, state)
+    _backfill_parties(ctx, roster)
     return outcome
 
 
@@ -113,6 +117,7 @@ def parse_fd_xml(xml: bytes) -> list[dict]:
                 "filing_date": _us_date(filed).isoformat(),
                 "member": _member_name(member),
                 "state": _state(member.findtext("StateDst") or ""),
+                "district": _district(member.findtext("StateDst") or ""),
             }
         )
     return filings
@@ -151,12 +156,20 @@ def _download_pdf(ctx: RunContext, year: int, doc_id: str) -> tuple[bytes | None
     return payload, 200
 
 
-def _items_for_filing(filing: dict, pdf: bytes | None, status: int) -> list[dict]:
+def _items_for_filing(
+    filing: dict,
+    pdf: bytes | None,
+    status: int,
+    roster: HouseRoster | None,
+) -> list[dict]:
     url = _pdf_url(filing["year"], filing["doc_id"])
+    party = None
+    if roster is not None:
+        party = roster.party_for(filing["member"], filing["state"], filing.get("district"))
     base = {
         "member": filing["member"],
         "chamber": "house",
-        "party": None,
+        "party": party,
         "state": filing["state"],
         "filingDate": filing["filing_date"],
         "url": url,
@@ -223,6 +236,53 @@ def _member_name(member: etree._Element) -> str:
     last = (member.findtext("Last") or "").strip()
     suffix = (member.findtext("Suffix") or "").strip()
     return " ".join(part for part in (first, last, suffix) if part)
+
+
+def _load_roster(ctx: RunContext) -> HouseRoster | None:
+    getter = getattr(ctx.client, "get_text", None)
+    if getter is None:
+        log.info("house-ptr party roster unavailable")
+        return None
+    try:
+        payload = getter(ROSTER_URL)
+    except (HttpError, ValueError) as exc:
+        log.info("house-ptr party roster unavailable: %s", exc)
+        return None
+    try:
+        return parse_roster(payload)
+    except (json.JSONDecodeError, ValueError) as exc:
+        log.info("house-ptr party roster unavailable: %s", exc)
+        return None
+
+
+def _backfill_parties(ctx: RunContext, roster: HouseRoster | None) -> None:
+    if roster is None:
+        return
+    feed = load_feed(ctx.trades_path)
+    changed: list[dict] = []
+    considered = 0
+    matched = 0
+    for item in feed["items"]:
+        if not isinstance(item, dict) or item.get("chamber") != "house" or item.get("party"):
+            continue
+        considered += 1
+        party = roster.party_for(str(item.get("member") or ""), item.get("state"), None)
+        if not party:
+            continue
+        matched += 1
+        updated = dict(item)
+        updated["party"] = party
+        changed.append(updated)
+    if changed:
+        upsert_items(ctx.trades_path, changed, updated=ctx.now, date_key="filingDate")
+    log.info("house-ptr party matched %s of %s open house rows", matched, considered)
+
+
+def _district(value: str) -> int | None:
+    code = value.strip().upper()
+    if len(code) > 2 and code[2:].isdigit():
+        return int(code[2:])
+    return None
 
 
 def _state(value: str) -> str | None:
