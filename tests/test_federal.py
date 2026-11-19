@@ -108,9 +108,11 @@ def test_federal_register_maps_rules_and_orders_and_rerun_is_stable(tmp_path) ->
     rule = next(item for item in feed["items"] if item["id"] == "fr-2026-10001")
     order = next(item for item in feed["items"] if item["id"] == "fr-2026-10002")
     assert rule["kind"] == "federal_register"
+    assert rule["documentType"] == "Proposed Rule"
     assert rule["summary"] == "Comment by Friday."
     assert rule["chamber"] is None
     assert order["kind"] == "executive_order"
+    assert order["documentType"] == "Executive Order"
     assert order["identifier"] == "EO 14438"
     assert load_state(ctx.state_dir / "federal-register.json")["completed_through"] == "2026-11-12"
 
@@ -119,7 +121,7 @@ def test_federal_register_splits_windows_over_the_page_cap(tmp_path) -> None:
     wide = _page([_document("2026-WIDE")], count=10001)
     left = _page([_document("2026-LEFT")])
     right = _page([_document("2026-RIGHT")])
-    payloads = [wide, left, right, _page([])]
+    payloads = [wide, left, right, _page([]), _page([])]
 
     class Scripted:
         def __init__(self) -> None:
@@ -172,13 +174,21 @@ def _is_executive_order(params) -> bool:
     return any(name.startswith("conditions[presidential_document_type]") for name, _value in params)
 
 
+def _types(params) -> set[str]:
+    return {value for name, value in params if name == "conditions[type][]"}
+
+
+def _empty_page() -> dict:
+    return {"description": "none", "count": 0}
+
+
 def test_leftover_task_catches_up_through_today(tmp_path) -> None:
     """A stuck older task must finish, then the same run reads through today."""
 
     class Client:
         def get_json(self, url, *, params=None, headers=None):
-            if _is_executive_order(params):
-                return {"description": "no executive orders", "count": 0}
+            if _is_executive_order(params) or _types(params) != {"RULE", "PRORULE"}:
+                return _empty_page()
             start = _param(params, "conditions[publication_date][gte]")
             end = _param(params, "conditions[publication_date][lte]")
             assert (start, end) == ("2026-11-16", "2026-11-18")
@@ -247,8 +257,8 @@ def test_rules_publish_when_executive_orders_are_an_empty_day(tmp_path) -> None:
 
         def get_json(self, url, *, params=None, headers=None):
             self.calls.append(params)
-            if _is_executive_order(params):
-                return {"description": "no executive orders", "count": 0}
+            if _is_executive_order(params) or _types(params) != {"RULE", "PRORULE"}:
+                return _empty_page()
             return _page([_document("2026-10001")])
 
     client = ByKind()
@@ -303,9 +313,12 @@ def test_federal_register_fetches_every_page(tmp_path, monkeypatch) -> None:
 
         def get_json(self, url, *, params=None, headers=None):
             page = _param(params, "page")
-            if _is_executive_order(params):
-                self.pages.append(("executive_orders", page))
-                return {"description": "no executive orders", "count": 0}
+            if _types(params) == {"NOTICE"}:
+                self.pages.append(("notices", page))
+                return _empty_page()
+            if _types(params) == {"PRESDOCU"} or _is_executive_order(params):
+                self.pages.append(("presidential", page))
+                return _empty_page()
             self.pages.append(("rules", page))
             page_no = int(page)
             chunk = docs[(page_no - 1) * 2 : page_no * 2]
@@ -323,8 +336,54 @@ def test_federal_register_fetches_every_page(tmp_path, monkeypatch) -> None:
         ("rules", "1"),
         ("rules", "2"),
         ("rules", "3"),
-        ("executive_orders", "1"),
+        ("notices", "1"),
+        ("presidential", "1"),
     ]
+
+
+def test_notices_are_separate_and_presidential_types_stay_on_the_main_feed(tmp_path) -> None:
+    notice = _document("2026-20001")
+    notice["type"] = "Notice"
+    notice["title"] = "Agency Information Collection Activities"
+    proclamation = _document("2026-20002", kind="eo")
+    proclamation["subtype"] = "Proclamation"
+    proclamation["title"] = "A proclamation"
+    proclamation["executive_order_number"] = None
+    presidential_notice = _document("2026-20005", kind="eo")
+    presidential_notice["subtype"] = "Notice"
+    presidential_notice["title"] = "Continuation of a national emergency"
+    presidential_notice["executive_order_number"] = None
+    order = _document("2026-20003", kind="eo")
+
+    class Client:
+        def get_json(self, url, *, params=None, headers=None):
+            kinds = _types(params)
+            if kinds == {"NOTICE"}:
+                return _page([notice])
+            if kinds == {"PRESDOCU"}:
+                return _page([proclamation, presidential_notice, order])
+            if kinds == {"RULE", "PRORULE"}:
+                return _page([_document("2026-20004")])
+            return _empty_page()
+
+    ctx = make_context(tmp_path, Client())
+    outcome = run_federal_register(ctx)
+    main = {item["id"]: item for item in load_feed(ctx.federal_path)["items"]}
+    notices = load_feed(ctx.federal_path.with_name("federal-notices.json"))["items"]
+    assert outcome.errors == []
+    assert outcome.records == 5
+    assert set(main) == {"fr-2026-20004", "fr-2026-20002", "fr-2026-20005", "fr-2026-20003"}
+    assert main["fr-2026-20004"]["documentType"] == "Proposed Rule"
+    assert main["fr-2026-20004"]["kind"] == "federal_register"
+    assert main["fr-2026-20002"]["kind"] == "federal_register"
+    assert main["fr-2026-20002"]["documentType"] == "Proclamation"
+    assert main["fr-2026-20005"]["documentType"] == "Presidential Notice"
+    assert main["fr-2026-20005"]["kind"] == "federal_register"
+    assert main["fr-2026-20003"]["kind"] == "executive_order"
+    assert main["fr-2026-20003"]["documentType"] == "Executive Order"
+    assert [item["id"] for item in notices] == ["fr-2026-20001"]
+    assert notices[0]["documentType"] == "Notice"
+    assert notices[0]["kind"] == "federal_register"
 
 
 def test_house_vote_xml_and_date_filter(tmp_path) -> None:
