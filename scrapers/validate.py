@@ -27,6 +27,7 @@ def validate_federal(item: dict) -> dict:
         "summary": _optional_text(item.get("summary")),
         "identifier": _optional_text(item.get("identifier")),
         "chamber": chamber if chamber in CHAMBERS else None,
+        "documentType": _optional_text(item.get("documentType")),
     }
 
 

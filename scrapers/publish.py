@@ -5,8 +5,21 @@ from scrapers.store import quarantine, touch_feed, upsert_items, upsert_status
 from scrapers.validate import validate_federal, validate_status, validate_trade
 
 
-def publish_federal(ctx: RunContext, source_id: str, items: list[dict]) -> tuple[int, list[str]]:
-    return _publish(ctx, source_id, items, validate_federal, ctx.federal_path, "date")
+def publish_federal(
+    ctx: RunContext,
+    source_id: str,
+    items: list[dict],
+    *,
+    path=None,
+) -> tuple[int, list[str]]:
+    return _publish(
+        ctx,
+        source_id,
+        items,
+        validate_federal,
+        path or ctx.federal_path,
+        "date",
+    )
 
 
 def publish_trades(

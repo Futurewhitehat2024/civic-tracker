@@ -13,6 +13,7 @@ from pathlib import Path
 FEED_PATHS = frozenset(
     {
         "docs/data/federal.json",
+        "docs/data/federal-notices.json",
         "docs/data/trades.json",
     }
 )

@@ -4,6 +4,7 @@
   var kind = document.querySelector("#kind");
   var meta = document.querySelector("#updated");
   var data = { updated: null, items: [] };
+  var notices = null;
 
   var kindLabels = {
     bill: "Bill",
@@ -13,21 +14,34 @@
   };
 
   function matches(item) {
-    if (kind.value && item.kind !== kind.value) {
+    if (kind.value && kind.value !== "notice" && item.kind !== kind.value) {
       return false;
     }
     var query = search.value.trim().toLowerCase();
     if (!query) {
       return true;
     }
-    var haystack = [item.title, item.summary, item.identifier, item.source, item.id]
+    var haystack = [item.title, item.summary, item.identifier, item.source, item.documentType, item.id]
       .join(" ")
       .toLowerCase();
     return haystack.indexOf(query) !== -1;
   }
 
+  function currentFeed() {
+    if (kind.value === "notice") {
+      return notices || { updated: null, items: [] };
+    }
+    return data;
+  }
+
   function render() {
-    var items = Array.isArray(data.items) ? data.items : [];
+    var source = currentFeed();
+    var items = Array.isArray(source.items) ? source.items : [];
+    if (kind.value === "notice") {
+      items = items.filter(function (item) {
+        return item.documentType === "Notice";
+      });
+    }
     if (items.length === 0) {
       Civic.showMessage(list, Civic.EMPTY);
       return;
@@ -60,6 +74,7 @@
       details.className = "meta";
       details.textContent = [
         kindLabels[item.kind] || item.kind,
+        item.documentType,
         item.identifier,
         item.date,
         item.chamber,
@@ -82,7 +97,21 @@
     event.preventDefault();
   });
   search.addEventListener("input", render);
-  kind.addEventListener("change", render);
+  kind.addEventListener("change", function () {
+    if (kind.value === "notice" && !notices) {
+      Civic.loadFeed("data/federal-notices.json")
+        .then(function (json) {
+          notices = json && typeof json === "object" ? json : { items: [] };
+          render();
+        })
+        .catch(function () {
+          notices = { updated: null, items: [] };
+          Civic.showMessage(list, "Notices could not be loaded.");
+        });
+      return;
+    }
+    render();
+  });
 
   Civic.loadFeed("data/federal.json")
     .then(function (json) {

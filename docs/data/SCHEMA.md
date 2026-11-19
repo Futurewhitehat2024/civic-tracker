@@ -37,6 +37,7 @@ Item fields:
 | `summary` | no | string or `null` | Plain-text summary. Omit or `null` when the source has none. |
 | `identifier` | no | string or `null` | Bill number, vote number, executive-order number, or Federal Register document number. |
 | `chamber` | no | string or `null` | `house`, `senate`, or `null` for executive and register items. |
+| `documentType` | no | string or `null` | Federal Register label such as `Rule`, `Proposed Rule`, `Notice`, `Executive Order`, or `Proclamation`. `null` for bills and votes. Notices live in `federal-notices.json`, which uses this same item shape. |
 
 Example item (not committed as data):
 

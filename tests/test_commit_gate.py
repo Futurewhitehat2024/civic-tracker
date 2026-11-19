@@ -13,6 +13,7 @@ def test_feed_timestamp_alone_is_not_a_commit() -> None:
     before = {"updated": "2026-11-17T21:46:38-05:00", "items": [{"id": "fr-1"}]}
     after = {"updated": "2026-11-17T23:40:03-05:00", "items": [{"id": "fr-1"}]}
     assert should_commit([("docs/data/federal.json", before, after)]) is False
+    assert should_commit([("docs/data/federal-notices.json", before, after)]) is False
     assert should_commit([("docs/data/trades.json", before, after)]) is False
 
 

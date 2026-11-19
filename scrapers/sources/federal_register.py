@@ -120,7 +120,12 @@ def _drain_tasks(ctx: RunContext, state: dict, state_path, outcome: Outcome) -> 
             outcome.errors.append(
                 f"{len(rejected)} federal-register records failed validation and were quarantined."
             )
-        accepted, problems = publish_federal(ctx, SOURCE_ID, items)
+        accepted, problems = publish_federal(
+            ctx,
+            SOURCE_ID,
+            items,
+            path=_destination(ctx, task["kind"]),
+        )
         outcome.records += accepted
         outcome.errors.extend(problems)
         if done:
@@ -143,7 +148,8 @@ def _ensure_tasks(state: dict, ctx: RunContext) -> dict:
         "completed_through": state.get("completed_through"),
         "tasks": [
             {"kind": "rules", "start": key[0], "end": key[1], "page": 1},
-            {"kind": "executive_orders", "start": key[0], "end": key[1], "page": 1},
+            {"kind": "notices", "start": key[0], "end": key[1], "page": 1},
+            {"kind": "presidential", "start": key[0], "end": key[1], "page": 1},
         ],
     }
 
@@ -164,11 +170,23 @@ def _params(kind: str, start: date, end: date, page: int) -> list[tuple[str, str
     if kind == "rules":
         params.append(("conditions[type][]", "RULE"))
         params.append(("conditions[type][]", "PRORULE"))
+    elif kind == "notices":
+        params.append(("conditions[type][]", "NOTICE"))
+    elif kind == "presidential":
+        params.append(("conditions[type][]", "PRESDOCU"))
     elif kind == "executive_orders":
+        # Older cursors still have this task. It is only executive orders.
         params.append(("conditions[presidential_document_type][]", "executive_order"))
     else:
         raise ValueError(f"unknown Federal Register task {kind}")
     return params
+
+
+def _destination(ctx: RunContext, kind: str):
+    """Notices are the bulk of a day, so they stay out of the main feed."""
+    if kind == "notices":
+        return ctx.federal_path.with_name("federal-notices.json")
+    return ctx.federal_path
 
 
 def _read_page(
@@ -239,18 +257,14 @@ def _map_document(raw: dict, kind: str) -> dict:
         raise ValueError(f"Federal Register document {document_number} is missing a title")
     subtype = (raw.get("subtype") or "").strip() if isinstance(raw.get("subtype"), str) else ""
     doc_type = (raw.get("type") or "").strip() if isinstance(raw.get("type"), str) else ""
-    if kind == "executive_orders":
-        if subtype != "Executive Order":
-            label = subtype or doc_type or "untyped"
-            raise ValueError(
-                f"Federal Register document {document_number} was {label}, not an executive order"
-            )
-        feed_kind = "executive_order"
-        number = raw.get("executive_order_number")
-        if isinstance(number, str) and number.strip():
-            identifier = f"EO {number.strip()}"
-        else:
-            identifier = document_number
+    if kind in {"presidential", "executive_orders"}:
+        feed_kind, identifier, document_type = _presidential_fields(
+            document_number,
+            raw,
+            subtype,
+            doc_type,
+            executive_orders_only=kind == "executive_orders",
+        )
     elif kind == "rules":
         if doc_type not in {"Rule", "Proposed Rule"}:
             raise ValueError(
@@ -258,6 +272,15 @@ def _map_document(raw: dict, kind: str) -> dict:
             )
         feed_kind = "federal_register"
         identifier = document_number
+        document_type = doc_type
+    elif kind == "notices":
+        if doc_type != "Notice":
+            raise ValueError(
+                f"Federal Register document {document_number} has type {doc_type or 'missing'}"
+            )
+        feed_kind = "federal_register"
+        identifier = document_number
+        document_type = "Notice"
     else:
         raise ValueError(f"unknown Federal Register task {kind}")
     return {
@@ -270,7 +293,39 @@ def _map_document(raw: dict, kind: str) -> dict:
         "summary": _plain(raw.get("abstract")),
         "identifier": identifier,
         "chamber": None,
+        "documentType": document_type,
     }
+
+
+def _presidential_fields(
+    document_number: str,
+    raw: dict,
+    subtype: str,
+    doc_type: str,
+    *,
+    executive_orders_only: bool,
+) -> tuple[str, str, str]:
+    if executive_orders_only and subtype != "Executive Order":
+        label = subtype or doc_type or "untyped"
+        raise ValueError(
+            f"Federal Register document {document_number} was {label}, not an executive order"
+        )
+    if not executive_orders_only and doc_type != "Presidential Document":
+        raise ValueError(
+            f"Federal Register document {document_number} has type {doc_type or 'missing'}"
+        )
+    if subtype == "Executive Order":
+        number = raw.get("executive_order_number")
+        if isinstance(number, str) and number.strip():
+            identifier = f"EO {number.strip()}"
+        else:
+            identifier = document_number
+        return "executive_order", identifier, "Executive Order"
+    if subtype == "Notice":
+        document_type = "Presidential Notice"
+    else:
+        document_type = subtype or "Presidential Document"
+    return "federal_register", document_number, document_type
 
 
 def _plain(value: object) -> str | None:
