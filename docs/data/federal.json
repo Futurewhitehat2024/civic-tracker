@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T14:27:35-05:00",
+  "updated": "2026-11-19T19:52:26-05:00",
   "items": [
     {
       "id": "fr-2026-23429",
@@ -4412,7 +4412,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Agriculture.",
       "identifier": "H.R. 10994",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-10995-119",
@@ -4599,7 +4600,8 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Armed Services.",
       "identifier": "S. 5716",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "sres-956-119",
@@ -4621,7 +4623,8 @@
       "source": "Congress.gov",
       "summary": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5572-5573; text: CR S5575-5576)",
       "identifier": "S.Res. 957",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "sres-958-119",
@@ -4996,7 +4999,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Science, Space, and Technology.",
       "identifier": "H.R. 10979",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-10980-119",
@@ -5465,7 +5469,8 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Environment and Public Works.",
       "identifier": "S. 5711",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-5712-119",
@@ -14346,6 +14351,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-4957-119",
+      "kind": "bill",
+      "title": "A bill to improve the administration of the Hollings Manufacturing Extension Partnership, and for other purposes.",
+      "date": "2026-07-13",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4957",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "S. 4957",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-9638-119",
       "kind": "bill",
       "title": "Sunshine for Our Kids Act of 2026",
@@ -16180,6 +16197,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-8697-119",
+      "kind": "bill",
+      "title": "Guard the Skies Act",
+      "date": "2026-05-07",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8697",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Armed Services, and in addition to the Committees on Transportation and Infrastructure, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 8697",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-8706-119",
       "kind": "bill",
       "title": "Better Energy Storage and Safety Act",
@@ -16745,6 +16774,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-8317-119",
+      "kind": "bill",
+      "title": "Tech to Save Moms Act",
+      "date": "2026-04-15",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8317",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 8317",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hres-1177-119",
       "kind": "bill",
       "title": "Impeaching Peter B. Hegseth, Secretary of Defense of the United States, for high crimes and misdemeanors.",
@@ -17023,6 +17064,18 @@
       "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "identifier": "H.R. 3410",
       "chamber": "house"
+    },
+    {
+      "id": "hr-8080-119",
+      "kind": "bill",
+      "title": "Data to Save Moms Act",
+      "date": "2026-03-25",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8080",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 8080",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-8081-119",
@@ -20253,6 +20306,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-5409-119",
+      "kind": "bill",
+      "title": "Territory Health Revitalization Act",
+      "date": "2025-09-16",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5409",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 5409",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "s-2808-119",
       "kind": "bill",
       "title": "Fertilizer Research Act of 2025",
@@ -20262,6 +20327,18 @@
       "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
       "identifier": "S. 2808",
       "chamber": "senate"
+    },
+    {
+      "id": "sres-392-119",
+      "kind": "bill",
+      "title": "A resolution expressing support for the designation of November 16, 2025, as \"National Warrior Call Day\" and recognizing the importance of connecting members of the Armed Forces and veterans in the United States to support structures necessary to transition from the battlefield, especially peer-to-peer connection.",
+      "date": "2025-09-16",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/392",
+      "source": "Congress.gov",
+      "summary": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S6637; text: CR S6652)",
+      "identifier": "S.Res. 392",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-1809-119",
@@ -21978,6 +22055,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-4173-119",
+      "kind": "bill",
+      "title": "Preventing Pretrial Gun Purchases Act",
+      "date": "2025-06-26",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4173",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 4173",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hres-547-119",
       "kind": "bill",
       "title": "Recognizing the significance of \"National Caribbean American Heritage Month\".",
@@ -22691,6 +22780,18 @@
       "documentType": null
     },
     {
+      "id": "s-1729-119",
+      "kind": "bill",
+      "title": "Streamlining Conservation Practice Standards Act of 2025",
+      "date": "2025-05-13",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1729",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 1729",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-1987-119",
       "kind": "bill",
       "title": "Saving Our Veterans Lives Act of 2025",
@@ -23356,6 +23457,18 @@
       "summary": "Sponsor introductory remarks on measure. (CR H1568)",
       "identifier": "H.R. 2669",
       "chamber": "house"
+    },
+    {
+      "id": "hr-2858-119",
+      "kind": "bill",
+      "title": "Winter Canola Study Act of 2025",
+      "date": "2025-04-10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2858",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Agriculture.",
+      "identifier": "H.R. 2858",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hres-328-119",
@@ -27220,6 +27333,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-767-119",
+      "kind": "bill",
+      "title": "FLASH Act of 2025",
+      "date": "2025-01-28",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/767",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 767",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-792-119",
       "kind": "bill",
       "title": "To direct the Secretary of the Interior to arrange for the carving of the figure of President Donald J. Trump on Mount Rushmore National Memorial.",
@@ -27284,6 +27409,18 @@
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 722",
       "chamber": "house"
+    },
+    {
+      "id": "hr-727-119",
+      "kind": "bill",
+      "title": "Prohibiting Abortion Industry’s Lucrative Loopholes Act",
+      "date": "2025-01-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/727",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 727",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hres-69-119",
