@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T14:04:00-05:00",
+  "updated": "2026-11-20T16:29:03-05:00",
   "items": [
     {
       "id": "fr-2026-23667",
@@ -288,6 +288,18 @@
       "identifier": "2026-23732",
       "chamber": null,
       "documentType": "Rule"
+    },
+    {
+      "id": "hr-10167-119",
+      "kind": "bill",
+      "title": "Common Cents Act",
+      "date": "2026-11-20",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10167",
+      "source": "Congress.gov",
+      "summary": "Signed by President.",
+      "identifier": "H.R. 10167",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "s-5809-119",
@@ -4374,7 +4386,8 @@
       "source": "Congress.gov",
       "summary": "Placed on the House Calendar, Calendar No. 93.",
       "identifier": "H.Res. 1665",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hres-1666-119",
@@ -5578,17 +5591,6 @@
       "chamber": "house"
     },
     {
-      "id": "hr-10167-119",
-      "kind": "bill",
-      "title": "Common Cents Act",
-      "date": "2026-11-12",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10167",
-      "source": "Congress.gov",
-      "summary": "Presented to President.",
-      "identifier": "H.R. 10167",
-      "chamber": "house"
-    },
-    {
       "id": "hr-10238-119",
       "kind": "bill",
       "title": "Cybersecurity for Small Businesses Act of 2026",
@@ -5724,7 +5726,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Energy and Commerce.",
       "identifier": "H.R. 11013",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-11014-119",
@@ -5747,7 +5750,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Education and Workforce.",
       "identifier": "H.R. 11015",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-11016-119",
@@ -6104,7 +6108,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Energy and Commerce.",
       "identifier": "H.Res. 1661",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hres-1662-119",
@@ -7396,7 +7401,8 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
       "identifier": "S. 5698",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-5699-119",
@@ -14391,7 +14397,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Ways and Means, and in addition to the Committees on Energy and Commerce, the Judiciary, Agriculture, Education and Workforce, and Transportation and Infrastructure, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 10508",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-9086-119",
@@ -16084,6 +16091,18 @@
       "summary": "Read twice and referred to the Committee on Foreign Relations.",
       "identifier": "S. 5175",
       "chamber": "senate"
+    },
+    {
+      "id": "s-5187-119",
+      "kind": "bill",
+      "title": "PHD Talent Act of 2026",
+      "date": "2026-07-30",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5187",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Energy and Natural Resources.",
+      "identifier": "S. 5187",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-5189-119",
@@ -18137,6 +18156,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-4725-119",
+      "kind": "bill",
+      "title": "Natural Climate Solutions Research and Extension Act of 2026",
+      "date": "2026-06-09",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4725",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 4725",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-4727-119",
       "kind": "bill",
       "title": "Artificial Intelligence Environmental Impacts Act of 2026",
@@ -18392,6 +18423,18 @@
       "summary": "Referred to the House Committee on House Administration.",
       "identifier": "H.R. 9110",
       "chamber": "house"
+    },
+    {
+      "id": "s-4655-119",
+      "kind": "bill",
+      "title": "Farm Credit Adjustment Act",
+      "date": "2026-06-02",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4655",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 4655",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-4661-119",
@@ -19263,7 +19306,8 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
       "identifier": "S. 4518",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-8758-119",
@@ -19308,7 +19352,8 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
       "identifier": "S. 4483",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-8690-119",
@@ -19745,6 +19790,18 @@
       "summary": "Read twice and referred to the Committee on the Judiciary.",
       "identifier": "S. 4389",
       "chamber": "senate"
+    },
+    {
+      "id": "s-4391-119",
+      "kind": "bill",
+      "title": "Farmland for Farmers Act of 2026",
+      "date": "2026-04-27",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4391",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 4391",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "sres-688-119",
@@ -20311,6 +20368,18 @@
       "documentType": null
     },
     {
+      "id": "s-4215-119",
+      "kind": "bill",
+      "title": "AFFIRM Act of 2026",
+      "date": "2026-03-26",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4215",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 4215",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-4234-119",
       "kind": "bill",
       "title": "Healthy Watersheds, Healthy Communities Act of 2026",
@@ -20391,6 +20460,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-4191-119",
+      "kind": "bill",
+      "title": "Extending WIC for New Moms Act",
+      "date": "2026-03-25",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4191",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 4191",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-4204-119",
       "kind": "bill",
       "title": "Rural Health Innovation Act of 2026",
@@ -20422,6 +20503,30 @@
       "summary": "Referred to the House Committee on Agriculture.",
       "identifier": "H.R. 8046",
       "chamber": "house"
+    },
+    {
+      "id": "hres-1133-119",
+      "kind": "bill",
+      "title": "Designating November 7 of each year as ''Shwachman Diamond Syndrome Awareness Day''.",
+      "date": "2026-03-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1133",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.Res. 1133",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "s-1092-119",
+      "kind": "bill",
+      "title": "WIPPES Act",
+      "date": "2026-03-24",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1092",
+      "source": "Congress.gov",
+      "summary": "Held at the desk.",
+      "identifier": "S. 1092",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-4167-119",
@@ -20776,6 +20881,18 @@
       "documentType": null
     },
     {
+      "id": "s-4091-119",
+      "kind": "bill",
+      "title": "Habitat Connectivity on Working Lands Act of 2026",
+      "date": "2026-03-12",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4091",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 4091",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-2357-119",
       "kind": "bill",
       "title": "Young Fishermen’s Development Program Reauthorization Act",
@@ -20785,6 +20902,18 @@
       "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 351.",
       "identifier": "S. 2357",
       "chamber": "senate"
+    },
+    {
+      "id": "s-4067-119",
+      "kind": "bill",
+      "title": "Land Grant Research Prioritization Act of 2026",
+      "date": "2026-03-11",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4067",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 4067",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-4036-119",
@@ -20806,6 +20935,18 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "identifier": "S. 4044",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-4045-119",
+      "kind": "bill",
+      "title": "Food and Nutrition Delivery Safety Act of 2026",
+      "date": "2026-03-10",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4045",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 4045",
       "chamber": "senate",
       "documentType": null
     },
@@ -20884,7 +21025,8 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on the Judiciary.",
       "identifier": "S. 4013",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-3903-119",
@@ -21053,6 +21195,18 @@
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 7678",
       "chamber": "house"
+    },
+    {
+      "id": "s-3915-119",
+      "kind": "bill",
+      "title": "Specialty CROP Act of 2026",
+      "date": "2026-02-25",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3915",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3915",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-1965-119",
@@ -21279,6 +21433,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-3861-119",
+      "kind": "bill",
+      "title": "Rural Innovation Stronger Economy (RISE) Reauthorization Act of 2026",
+      "date": "2026-02-12",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3861",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3861",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-3863-119",
       "kind": "bill",
       "title": "Pay Less at the Pump Act of 2026",
@@ -21365,6 +21531,30 @@
       "summary": "Read twice and referred to the Committee on Energy and Natural Resources.",
       "identifier": "S. 3828",
       "chamber": "senate"
+    },
+    {
+      "id": "s-3842-119",
+      "kind": "bill",
+      "title": "21st Century WIC Act of 2026",
+      "date": "2026-02-11",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3842",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3842",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-3843-119",
+      "kind": "bill",
+      "title": "TEMP Act",
+      "date": "2026-02-11",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3843",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3843",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-3846-119",
@@ -21490,6 +21680,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-3810-119",
+      "kind": "bill",
+      "title": "SWAT Act of 2026",
+      "date": "2026-02-09",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3810",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3810",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-7411-119",
       "kind": "bill",
       "title": "Mammography Access for Veterans Act of 2025",
@@ -21521,6 +21723,18 @@
       "summary": "Placed on the Union Calendar, Calendar No. 410.",
       "identifier": "H.R. 1355",
       "chamber": "house"
+    },
+    {
+      "id": "hr-1849-119",
+      "kind": "bill",
+      "title": "Disaster Mitigation and Tax Parity Act of 2025",
+      "date": "2026-02-04",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1849",
+      "source": "Congress.gov",
+      "summary": "ASSUMING FIRST SPONSORSHIP - Mr. Murphy asked unanimous consent that he may hereafter be considered as the first sponsor of H.R. 1849, a bill originally introduced by Representative LaMalfa, for the purpose of adding cosponsors and requesting reprintings pursuant to clause 7 of rule XII. Agreed to without objection.",
+      "identifier": "H.R. 1849",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-5658-119",
@@ -21681,6 +21895,30 @@
       "chamber": "senate"
     },
     {
+      "id": "s-3717-119",
+      "kind": "bill",
+      "title": "Opportunities in Organic Act",
+      "date": "2026-01-28",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3717",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3717",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-3718-119",
+      "kind": "bill",
+      "title": "Delivering for Rural Seniors Act of 2026",
+      "date": "2026-01-28",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3718",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3718",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-3694-119",
       "kind": "bill",
       "title": "Maximizing Transportation Efficiency Act",
@@ -21748,6 +21986,18 @@
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 7166",
       "chamber": "house"
+    },
+    {
+      "id": "hres-1010-119",
+      "kind": "bill",
+      "title": "Recognizing 2026 as \"The Year of The Power of Nurses\" in Celebration of the 130th Anniversary of the American Nurses Association.",
+      "date": "2026-01-20",
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1010",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.Res. 1010",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-1519-119",
@@ -21826,6 +22076,18 @@
       "summary": "Subcommittee Hearings Held",
       "identifier": "H.R. 926",
       "chamber": "house"
+    },
+    {
+      "id": "s-3637-119",
+      "kind": "bill",
+      "title": "ACE Agriculture Act of 2026",
+      "date": "2026-01-14",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3637",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3637",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-3638-119",
@@ -22109,6 +22371,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-3603-119",
+      "kind": "bill",
+      "title": "COLAs Don’t Count Act of 2026",
+      "date": "2026-01-08",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3603",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3603",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-3322-119",
       "kind": "bill",
       "title": "Upholding Protections for Unaccompanied Children Act of 2025",
@@ -22209,6 +22483,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the Subcommittee on Counterterrorism and Intelligence.",
       "identifier": "H.R. 6809",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hres-960-119",
+      "kind": "bill",
+      "title": "Expressing support for the designation of November 2025 as \"National Lung Cancer Awareness Month\" and expressing support for early detection and treatment of lung cancer.",
+      "date": "2025-12-18",
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/960",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.Res. 960",
       "chamber": "house",
       "documentType": null
     },
@@ -23263,6 +23549,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-3127-119",
+      "kind": "bill",
+      "title": "Farm to School Act of 2025",
+      "date": "2025-11-06",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3127",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3127",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-3136-119",
       "kind": "bill",
       "title": "Heroes Business Opportunity Act of 2025",
@@ -23318,6 +23616,18 @@
       "summary": "Referred to the House Committee on Education and Workforce.",
       "identifier": "H.Res. 857",
       "chamber": "house"
+    },
+    {
+      "id": "s-3099-119",
+      "kind": "bill",
+      "title": "DIRECT Act of 2025",
+      "date": "2025-11-04",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3099",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3099",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "sres-482-119",
@@ -23661,6 +23971,18 @@
       "summary": "Referred to the House Committee on Oversight and Government Reform.",
       "identifier": "H.Res. 774",
       "chamber": "house"
+    },
+    {
+      "id": "s-2944-119",
+      "kind": "bill",
+      "title": "No Shame at School Act of 2025",
+      "date": "2025-09-30",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2944",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2944",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-2958-119",
@@ -24083,7 +24405,8 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
       "identifier": "S. 2808",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "sres-392-119",
@@ -24129,6 +24452,18 @@
       "summary": "Referred to the House Committee on Oversight and Government Reform.",
       "identifier": "H.Res. 715",
       "chamber": "house"
+    },
+    {
+      "id": "s-2797-119",
+      "kind": "bill",
+      "title": "Capital for Beginning Farmers and Ranchers Act of 2025",
+      "date": "2025-09-15",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2797",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2797",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "sres-387-119",
@@ -24455,6 +24790,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-2717-119",
+      "kind": "bill",
+      "title": "Student Loan Deduction Act of 2025",
+      "date": "2025-09-04",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2717",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2717",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-2725-119",
       "kind": "bill",
       "title": "STOP Act 2.0",
@@ -24509,6 +24856,18 @@
       "summary": "Referred to the House Committee on Energy and Commerce.",
       "identifier": "H.R. 5123",
       "chamber": "house"
+    },
+    {
+      "id": "s-2695-119",
+      "kind": "bill",
+      "title": "Synthetic Biology Advancement Act of 2025",
+      "date": "2025-09-03",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2695",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2695",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-5092-119",
@@ -24952,6 +25311,18 @@
       "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "identifier": "S. 2615",
       "chamber": "senate"
+    },
+    {
+      "id": "s-2618-119",
+      "kind": "bill",
+      "title": "MORE USDA Grants Act",
+      "date": "2025-07-31",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2618",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2618",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-2639-119",
@@ -28444,6 +28815,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-1287-119",
+      "kind": "bill",
+      "title": "DELETE Act",
+      "date": "2025-04-03",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1287",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "S. 1287",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-2596-119",
       "kind": "bill",
       "title": "Renewable Natural Gas Incentive Act of 2025",
@@ -29283,6 +29666,18 @@
       "documentType": null
     },
     {
+      "id": "s-984-119",
+      "kind": "bill",
+      "title": "Fair Access to Agriculture Disaster Programs Act",
+      "date": "2025-03-12",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/984",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (Sponsor introductory remarks on measure: CR S1706)",
+      "identifier": "S. 984",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-991-119",
       "kind": "bill",
       "title": "A bill to amend the Small Business Act to eliminate certain requirements relating to the award of construction subcontracts within the county or State of performance.",
@@ -29493,6 +29888,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-946-119",
+      "kind": "bill",
+      "title": "MATE Improvement Act",
+      "date": "2025-03-11",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/946",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "identifier": "S. 946",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hconres-18-119",
       "kind": "bill",
       "title": "Expressing support for the recognition of March 10, 2025, as \"Abortion Provider Appreciation Day\".",
@@ -29579,6 +29986,30 @@
       "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.Res. 210",
       "chamber": "house"
+    },
+    {
+      "id": "s-910-119",
+      "kind": "bill",
+      "title": "Farm Ownership Improvement Act",
+      "date": "2025-03-10",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/910",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 910",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-912-119",
+      "kind": "bill",
+      "title": "Securing American Agriculture Act",
+      "date": "2025-03-10",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/912",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 912",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-916-119",
@@ -29724,6 +30155,30 @@
       "chamber": "house"
     },
     {
+      "id": "s-886-119",
+      "kind": "bill",
+      "title": "FARMLAND Act of 2025",
+      "date": "2025-03-06",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/886",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 886",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-899-119",
+      "kind": "bill",
+      "title": "Producer and Agricultural Credit Enhancement Act of 2025",
+      "date": "2025-03-06",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/899",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 899",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-906-119",
       "kind": "bill",
       "title": "Peer to Peer Mental Health Support Act",
@@ -29824,6 +30279,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-835-119",
+      "kind": "bill",
+      "title": "Reduce Food Loss and Waste Act of 2025",
+      "date": "2025-03-04",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/835",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (text: CR S1498-1499)",
+      "identifier": "S. 835",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-844-119",
       "kind": "bill",
       "title": "Faster Labor Contracts Act",
@@ -29832,6 +30299,18 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
       "identifier": "S. 844",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-845-119",
+      "kind": "bill",
+      "title": "Farmland Security Act of 2025",
+      "date": "2025-03-04",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/845",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 845",
       "chamber": "senate",
       "documentType": null
     },
@@ -30160,6 +30639,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-741-119",
+      "kind": "bill",
+      "title": "Protecting Mushroom Farmers Act",
+      "date": "2025-02-26",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/741",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 741",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-747-119",
       "kind": "bill",
       "title": "Improper Payments Transparency Act",
@@ -30225,6 +30716,18 @@
       "summary": "Referred to the House Committee on Ways and Means.",
       "identifier": "H.R. 1582",
       "chamber": "house"
+    },
+    {
+      "id": "hr-1585-119",
+      "kind": "bill",
+      "title": "Conrad State 30 and Physician Access Reauthorization Act",
+      "date": "2025-02-25",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1585",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 1585",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-1586-119",
@@ -30308,6 +30811,18 @@
       "summary": "Referred to the House Committee on Oversight and Government Reform.",
       "identifier": "H.Res. 165",
       "chamber": "house"
+    },
+    {
+      "id": "s-709-119",
+      "kind": "bill",
+      "title": "Conrad State 30 and Physician Access Reauthorization Act",
+      "date": "2025-02-25",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/709",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 709",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-728-119",
@@ -30699,6 +31214,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-618-119",
+      "kind": "bill",
+      "title": "Protecting America’s Agricultural Land from Foreign Harm Act of 2025",
+      "date": "2025-02-18",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/618",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 618",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-1379-119",
       "kind": "bill",
       "title": "Trafficking Survivors Relief Act of 2025",
@@ -30963,6 +31490,30 @@
       "summary": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
       "identifier": "H.R. 77",
       "chamber": "house"
+    },
+    {
+      "id": "s-561-119",
+      "kind": "bill",
+      "title": "Healthy SNAP Act of 2025",
+      "date": "2025-02-13",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/561",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 561",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-574-119",
+      "kind": "bill",
+      "title": "Healthy Poultry Assistance and Indemnification Act of 2025",
+      "date": "2025-02-13",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/574",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 574",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-581-119",
@@ -31642,6 +32193,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-1105-119",
+      "kind": "bill",
+      "title": "Disaster Resiliency and Coverage Act of 2025",
+      "date": "2025-02-06",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1105",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+      "identifier": "H.R. 1105",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-1106-119",
       "kind": "bill",
       "title": "Scientific Integrity Act",
@@ -31861,7 +32424,8 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (text: CR S668)",
       "identifier": "S. 421",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-663-119",
@@ -32072,6 +32636,42 @@
       "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 903",
       "chamber": "house"
+    },
+    {
+      "id": "s-336-119",
+      "kind": "bill",
+      "title": "Disaster Mitigation and Tax Parity Act of 2025",
+      "date": "2025-01-30",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/336",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Finance.",
+      "identifier": "S. 336",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-302-119",
+      "kind": "bill",
+      "title": "Snap Back Inaccurate SNAP Payments Act",
+      "date": "2025-01-29",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/302",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 302",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-319-119",
+      "kind": "bill",
+      "title": "Cattle Fever Tick Eradication Program Enhancement Act of 2025",
+      "date": "2025-01-29",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/319",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 319",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-767-119",
@@ -32670,6 +33270,30 @@
       "summary": "Read twice and referred to the Committee on the Judiciary.",
       "identifier": "S. 54",
       "chamber": "senate"
+    },
+    {
+      "id": "s-56-119",
+      "kind": "bill",
+      "title": "SAP Act",
+      "date": "2025-01-09",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/56",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 56",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-57-119",
+      "kind": "bill",
+      "title": "MAPLE Act",
+      "date": "2025-01-09",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/57",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 57",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-235-119",
@@ -34456,6 +35080,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-5200-118",
+      "kind": "bill",
+      "title": "No Shame at School Act of 2024",
+      "date": "2024-09-25",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5200",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 5200",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-5208-118",
       "kind": "bill",
       "title": "Warehouse Worker Protection Act",
@@ -34478,6 +35114,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-5231-118",
+      "kind": "bill",
+      "title": "Farm Ownership Improvement Act",
+      "date": "2024-09-25",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5231",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 5231",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-5246-118",
       "kind": "bill",
       "title": "CONSTRUCTS Act of 2024",
@@ -34498,6 +35146,18 @@
       "summary": "Read twice and referred to the Committee on the Judiciary.",
       "identifier": "S. 5270",
       "chamber": "senate"
+    },
+    {
+      "id": "s-5277-118",
+      "kind": "bill",
+      "title": "Securing American Agriculture Act",
+      "date": "2024-09-25",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5277",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 5277",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-5289-118",
@@ -34675,6 +35335,18 @@
       "summary": "Referred to the House Committee on Oversight and Accountability.",
       "identifier": "H.Res. 1472",
       "chamber": "house"
+    },
+    {
+      "id": "s-5104-118",
+      "kind": "bill",
+      "title": "AFFIRM Act of 2024",
+      "date": "2024-09-19",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5104",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 5104",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-5106-118",
@@ -34889,6 +35561,18 @@
       "chamber": "senate"
     },
     {
+      "id": "hr-9534-118",
+      "kind": "bill",
+      "title": "National Constitutional Carry Act",
+      "date": "2024-09-11",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/9534",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 9534",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hres-1439-118",
       "kind": "bill",
       "title": "Expressing support for the recognition of September 7, 2024, as \"Liturgical Dance Day\" and the International Dance Commission, and for other purposes.",
@@ -34989,6 +35673,18 @@
       "documentType": null
     },
     {
+      "id": "hr-8300-118",
+      "kind": "bill",
+      "title": "Food and Nutrition Delivery Safety Act of 2024",
+      "date": "2024-09-03",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/8300",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Nutrition, Foreign Agriculture, and Horticulture.",
+      "identifier": "H.R. 8300",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-8350-118",
       "kind": "bill",
       "title": "FARMER Act",
@@ -35032,6 +35728,54 @@
       "summary": "Referred to the Subcommittee on Nutrition, Foreign Agriculture, and Horticulture.",
       "identifier": "H.R. 8442",
       "chamber": "house"
+    },
+    {
+      "id": "hr-8453-118",
+      "kind": "bill",
+      "title": "Fertilizer Research Act of 2024",
+      "date": "2024-09-03",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/8453",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Nutrition, Foreign Agriculture, and Horticulture.",
+      "identifier": "H.R. 8453",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-8598-118",
+      "kind": "bill",
+      "title": "Capital for Beginning Farmers and Ranchers Act of 2024",
+      "date": "2024-09-03",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/8598",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit.",
+      "identifier": "H.R. 8598",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-7798-118",
+      "kind": "bill",
+      "title": "SWAT Act of 2024",
+      "date": "2024-08-30",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/7798",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
+      "identifier": "H.R. 7798",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-6891-118",
+      "kind": "bill",
+      "title": "MORE USDA Grants Act",
+      "date": "2024-08-29",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/6891",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "identifier": "H.R. 6891",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-7211-118",
@@ -35608,6 +36352,18 @@
       "chamber": "senate"
     },
     {
+      "id": "hr-2964-118",
+      "kind": "bill",
+      "title": "WIPPES Act",
+      "date": "2024-06-12",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/2964",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 2964",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-7984-118",
       "kind": "bill",
       "title": "Rural Small Business Resilience Act",
@@ -35665,6 +36421,18 @@
       "summary": "Referred to the House Committee on Energy and Commerce.",
       "identifier": "H.R. 8721",
       "chamber": "house"
+    },
+    {
+      "id": "s-4488-118",
+      "kind": "bill",
+      "title": "Delivering for Rural Seniors Act of 2024",
+      "date": "2024-06-11",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4488",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 4488",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-4514-118",
@@ -35789,6 +36557,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-4441-118",
+      "kind": "bill",
+      "title": "Capital for Beginning Farmers and Ranchers Act of 2024",
+      "date": "2024-06-03",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4441",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 4441",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-7987-118",
       "kind": "bill",
       "title": "Plain Language in Contracting Act",
@@ -35832,6 +36612,18 @@
       "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 406.",
       "identifier": "S. 3772",
       "chamber": "senate"
+    },
+    {
+      "id": "s-4413-118",
+      "kind": "bill",
+      "title": "Synthetic Biology Advancement Act of 2024",
+      "date": "2024-05-23",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4413",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 4413",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-4417-118",
@@ -35969,6 +36761,18 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
       "identifier": "S. 4341",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-4342-118",
+      "kind": "bill",
+      "title": "Rural Innovation Stronger Economy (RISE) Reauthorization Act of 2024",
+      "date": "2024-05-15",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4342",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 4342",
       "chamber": "senate",
       "documentType": null
     },
@@ -36249,6 +37053,18 @@
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 8061",
       "chamber": "house"
+    },
+    {
+      "id": "s-4193-118",
+      "kind": "bill",
+      "title": "Habitat Connectivity on Working Lands Act of 2024",
+      "date": "2024-04-18",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4193",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 4193",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hres-1155-118",
@@ -36574,6 +37390,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-3942-118",
+      "kind": "bill",
+      "title": "MAPLE Act",
+      "date": "2024-03-14",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3942",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3942",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-7634-118",
       "kind": "bill",
       "title": "Plastic Pellet Free Waters Act",
@@ -36649,6 +37477,18 @@
       "summary": "Read twice and referred to the Committee on Finance.",
       "identifier": "S. 3869",
       "chamber": "senate"
+    },
+    {
+      "id": "hr-6186-118",
+      "kind": "bill",
+      "title": "TEMP Act",
+      "date": "2024-03-01",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/6186",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit.",
+      "identifier": "H.R. 6186",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-3511-118",
@@ -36730,6 +37570,42 @@
       "summary": "Referred to the House Committee on Oversight and Accountability.",
       "identifier": "H.Res. 1033",
       "chamber": "house"
+    },
+    {
+      "id": "s-3824-118",
+      "kind": "bill",
+      "title": "Food and Nutrition Delivery Safety Act of 2024",
+      "date": "2024-02-28",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3824",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3824",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-3806-118",
+      "kind": "bill",
+      "title": "COLAs Don’t Count Act of 2024",
+      "date": "2024-02-27",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3806",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3806",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-3807-118",
+      "kind": "bill",
+      "title": "Student Loan Deduction Act of 2024",
+      "date": "2024-02-27",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3807",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3807",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-3817-118",
@@ -37034,6 +37910,30 @@
       "chamber": "house"
     },
     {
+      "id": "hr-6501-118",
+      "kind": "bill",
+      "title": "Snap Back Inaccurate SNAP Payments Act",
+      "date": "2024-01-24",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/6501",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Nutrition, Foreign Agriculture, and Horticulture.",
+      "identifier": "H.R. 6501",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-6564-118",
+      "kind": "bill",
+      "title": "Farm Credit Adjustment Act",
+      "date": "2024-01-24",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/6564",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit.",
+      "identifier": "H.R. 6564",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "s-3637-118",
       "kind": "bill",
       "title": "Farm to Fly Act of 2024",
@@ -37180,6 +38080,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-5631-118",
+      "kind": "bill",
+      "title": "Producer and Agricultural Credit Enhancement Act of 2023",
+      "date": "2024-01-11",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/5631",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit.",
+      "identifier": "H.R. 5631",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-5657-118",
       "kind": "bill",
       "title": "NO TIME TO Waste Act",
@@ -37313,6 +38225,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-3500-118",
+      "kind": "bill",
+      "title": "Natural Climate Solutions Research and Extension Act of 2023",
+      "date": "2023-12-13",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3500",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3500",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-6637-118",
       "kind": "bill",
       "title": "Love Them Both Act of 2023",
@@ -37333,6 +38257,18 @@
       "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 279.",
       "identifier": "S. 1657",
       "chamber": "senate"
+    },
+    {
+      "id": "s-3471-118",
+      "kind": "bill",
+      "title": "Fertilizer Research Act of 2023",
+      "date": "2023-12-12",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3471",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3471",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-6697-118",
@@ -37540,6 +38476,30 @@
       "chamber": "senate"
     },
     {
+      "id": "hr-6399-118",
+      "kind": "bill",
+      "title": "Specialty CROP Act of 2023",
+      "date": "2023-11-14",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/6399",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Agriculture.",
+      "identifier": "H.R. 6399",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "s-3300-118",
+      "kind": "bill",
+      "title": "Specialty CROP Act of 2023",
+      "date": "2023-11-14",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3300",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3300",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-3302-118",
       "kind": "bill",
       "title": "Heroes Business Opportunity Act of 2023",
@@ -37571,6 +38531,18 @@
       "summary": "Referred to the House Committee on Veterans' Affairs.",
       "identifier": "H.Res. 859",
       "chamber": "house"
+    },
+    {
+      "id": "hr-6308-118",
+      "kind": "bill",
+      "title": "Farm to School Act of 2023",
+      "date": "2023-11-08",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/6308",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Education and the Workforce.",
+      "identifier": "H.R. 6308",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hres-844-118",
@@ -37673,6 +38645,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-3146-118",
+      "kind": "bill",
+      "title": "Reduce Food Loss and Waste Act",
+      "date": "2023-10-26",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3146",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (text: CR S5214-5215)",
+      "identifier": "S. 3146",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "sres-435-118",
       "kind": "bill",
       "title": "A resolution recognizing the week of October 30 through November 4, 2023, as \"National Veterans Small Business Week\".",
@@ -37705,6 +38689,18 @@
       "summary": "Referred to the Committee on Small Business, and in addition to the Committee on Education and the Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 6002",
       "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "s-3129-118",
+      "kind": "bill",
+      "title": "Farm to School Act of 2023",
+      "date": "2023-10-25",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3129",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 3129",
+      "chamber": "senate",
       "documentType": null
     },
     {
@@ -37865,6 +38861,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-2923-118",
+      "kind": "bill",
+      "title": "Snap Back Inaccurate SNAP Payments Act",
+      "date": "2023-09-26",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2923",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2923",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-2926-118",
       "kind": "bill",
       "title": "Stop Arming Cartels Act of 2023",
@@ -37885,6 +38893,18 @@
       "summary": "Read twice and referred to the Committee on Environment and Public Works.",
       "identifier": "S. 2928",
       "chamber": "senate"
+    },
+    {
+      "id": "hr-4943-118",
+      "kind": "bill",
+      "title": "Enabling Farmers to Benefit from Processing Nutrition Programs Act of 2023",
+      "date": "2023-09-25",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/4943",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Nutrition, Foreign Agriculture, and Horticulture.",
+      "identifier": "H.R. 4943",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-5624-118",
@@ -37940,6 +38960,18 @@
       "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
       "identifier": "S. 2889",
       "chamber": "senate"
+    },
+    {
+      "id": "s-2890-118",
+      "kind": "bill",
+      "title": "Producer and Agricultural Credit Enhancement Act of 2023",
+      "date": "2023-09-21",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2890",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2890",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-2857-118",
@@ -38276,6 +39308,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-4162-118",
+      "kind": "bill",
+      "title": "Land Grant Research Prioritization Act of 2023",
+      "date": "2023-08-21",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/4162",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
+      "identifier": "H.R. 4162",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-5216-118",
       "kind": "bill",
       "title": "Connecticut River Watershed Partnership Act",
@@ -38320,6 +39364,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-4058-118",
+      "kind": "bill",
+      "title": "Healthy SNAP Act of 2023",
+      "date": "2023-07-28",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/4058",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Nutrition, Foreign Agriculture, and Horticulture.",
+      "identifier": "H.R. 4058",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-4290-118",
       "kind": "bill",
       "title": "Acequia Communities Empowered by Qualifying Upgrades for Infrastructure Act",
@@ -38328,6 +39384,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit.",
       "identifier": "H.R. 4290",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-5078-118",
+      "kind": "bill",
+      "title": "FARMLAND Act of 2023",
+      "date": "2023-07-28",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/5078",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Agriculture, and in addition to the Committees on Financial Services, Foreign Affairs, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 5078",
       "chamber": "house",
       "documentType": null
     },
@@ -38376,6 +39444,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-2583-118",
+      "kind": "bill",
+      "title": "Farmland for Farmers Act of 2023",
+      "date": "2023-07-27",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2583",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2583",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-2624-118",
       "kind": "bill",
       "title": "Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2024",
@@ -38418,6 +39498,18 @@
       "summary": "Read twice and referred to the Committee on Small Business and Entrepreneurship.",
       "identifier": "S. 2664",
       "chamber": "senate"
+    },
+    {
+      "id": "s-2704-118",
+      "kind": "bill",
+      "title": "Fair Access to Agriculture Disaster Programs Act of 2023",
+      "date": "2023-07-27",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2704",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (Sponsor introductory remarks on measure: CR S3766)",
+      "identifier": "S. 2704",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "sres-325-118",
@@ -38463,6 +39555,18 @@
       "summary": "Read twice and referred to the Committee on the Judiciary.",
       "identifier": "S. 2503",
       "chamber": "senate"
+    },
+    {
+      "id": "s-2504-118",
+      "kind": "bill",
+      "title": "Enabling Farmers to Benefit from Processing Nutrition Programs Act of 2023",
+      "date": "2023-07-26",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2504",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2504",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-2553-118",
@@ -38588,6 +39692,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-2382-118",
+      "kind": "bill",
+      "title": "Farmland Security Act of 2023",
+      "date": "2023-07-19",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2382",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2382",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-2383-118",
       "kind": "bill",
       "title": "Smoke and Heat Ready Communities Act of 2023",
@@ -38652,6 +39768,18 @@
       "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
       "identifier": "S. 2365",
       "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "hr-3357-118",
+      "kind": "bill",
+      "title": "Protecting America’s Agricultural Land from Foreign Harm Act of 2023",
+      "date": "2023-07-17",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3357",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on the National Intelligence Enterprise.",
+      "identifier": "H.R. 3357",
+      "chamber": "house",
       "documentType": null
     },
     {
@@ -38720,6 +39848,18 @@
       "summary": "Read twice and referred to the Committee on the Judiciary.",
       "identifier": "S. 2298",
       "chamber": "senate"
+    },
+    {
+      "id": "s-2316-118",
+      "kind": "bill",
+      "title": "Land Grant Research Prioritization Act of 2023",
+      "date": "2023-07-13",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2316",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2316",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "sres-296-118",
@@ -38808,6 +39948,18 @@
       "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 121.",
       "identifier": "S. 162",
       "chamber": "senate"
+    },
+    {
+      "id": "s-2235-118",
+      "kind": "bill",
+      "title": "Healthy Poultry Assistance and Indemnification Act of 2023",
+      "date": "2023-07-11",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2235",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2235",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-92-118",
@@ -38920,6 +40072,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-3595-118",
+      "kind": "bill",
+      "title": "MORE USDA Grants Act",
+      "date": "2023-06-23",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3595",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "identifier": "H.R. 3595",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-3709-118",
       "kind": "bill",
       "title": "Keeping Pets and Families Together Act",
@@ -38931,6 +40095,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-4311-118",
+      "kind": "bill",
+      "title": "DELETE Act",
+      "date": "2023-06-23",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/4311",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Innovation, Data, and Commerce.",
+      "identifier": "H.R. 4311",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-4289-118",
       "kind": "bill",
       "title": "Assault Weapon Financing Accountability Act",
@@ -38940,6 +40116,18 @@
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 4289",
       "chamber": "house"
+    },
+    {
+      "id": "s-2121-118",
+      "kind": "bill",
+      "title": "DELETE Act",
+      "date": "2023-06-22",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2121",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "S. 2121",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-277-118",
@@ -38974,6 +40162,18 @@
       "summary": "Committee on Energy and Natural Resources Senate Subcommittee on National Parks. Hearings held. With printed Hearing: S.Hrg. 118-284.",
       "identifier": "S. 527",
       "chamber": "senate"
+    },
+    {
+      "id": "s-2060-118",
+      "kind": "bill",
+      "title": "FARMLAND Act of 2023",
+      "date": "2023-06-20",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2060",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2060",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-4178-118",
@@ -39132,6 +40332,30 @@
       "chamber": "house"
     },
     {
+      "id": "s-1816-118",
+      "kind": "bill",
+      "title": "Protecting Mushroom Farmers Act",
+      "date": "2023-06-06",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1816",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 1816",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-1836-118",
+      "kind": "bill",
+      "title": "Cattle Fever Tick Eradication Program Enhancement Act of 2023",
+      "date": "2023-06-06",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1836",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 1836",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-1644-118",
       "kind": "bill",
       "title": "7(a) Loan Agent Oversight Act",
@@ -39164,6 +40388,18 @@
       "summary": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
       "identifier": "H.R. 3036",
       "chamber": "house"
+    },
+    {
+      "id": "hr-3204-118",
+      "kind": "bill",
+      "title": "Universal School Meals Program Act of 2023",
+      "date": "2023-06-01",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3204",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Nutrition, Foreign Agriculture, and Horticulture.",
+      "identifier": "H.R. 3204",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-3786-118",
@@ -39333,6 +40569,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-1675-118",
+      "kind": "bill",
+      "title": "SAP Act",
+      "date": "2023-05-18",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1675",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 1675",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-1708-118",
       "kind": "bill",
       "title": "Extinction Prevention Act of 2023",
@@ -39434,6 +40682,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-1593-118",
+      "kind": "bill",
+      "title": "Extending WIC for New Moms Act",
+      "date": "2023-05-15",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1593",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 1593",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-1596-118",
       "kind": "bill",
       "title": "REAL Political Advertisements Act",
@@ -39479,6 +40739,66 @@
       "chamber": "house"
     },
     {
+      "id": "hr-1697-118",
+      "kind": "bill",
+      "title": "Promoting Precision Agriculture Act of 2023",
+      "date": "2023-05-11",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/1697",
+      "source": "Congress.gov",
+      "summary": "Ordered to be Reported by Voice Vote.",
+      "identifier": "H.R. 1697",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "s-1568-118",
+      "kind": "bill",
+      "title": "Universal School Meals Program Act of 2023",
+      "date": "2023-05-11",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1568",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 1568",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-1580-118",
+      "kind": "bill",
+      "title": "MORE USDA Grants Act",
+      "date": "2023-05-11",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1580",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 1580",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-1582-118",
+      "kind": "bill",
+      "title": "Opportunities in Organic Act of 2023",
+      "date": "2023-05-11",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1582",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 1582",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-1512-118",
+      "kind": "bill",
+      "title": "DIRECT Act of 2023",
+      "date": "2023-05-10",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1512",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 1512",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-3138-118",
       "kind": "bill",
       "title": "To amend the Elementary and Secondary Education Act of 1965 to provide for additional activities, resources, and data collection with respect to English learners, and for other purposes.",
@@ -39510,6 +40830,18 @@
       "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 58.",
       "identifier": "S. 108",
       "chamber": "senate"
+    },
+    {
+      "id": "s-1485-118",
+      "kind": "bill",
+      "title": "Healthy SNAP Act of 2023",
+      "date": "2023-05-09",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1485",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 1485",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-1488-118",
@@ -40110,6 +41442,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-984-118",
+      "kind": "bill",
+      "title": "MODERN WIC Act of 2023",
+      "date": "2023-03-27",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/984",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 984",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-1354-118",
       "kind": "bill",
       "title": "Information and Communication Technology Strategy Act",
@@ -40233,6 +41577,18 @@
       "documentType": null
     },
     {
+      "id": "s-926-118",
+      "kind": "bill",
+      "title": "Protecting America’s Agricultural Land from Foreign Harm Act of 2023",
+      "date": "2023-03-22",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/926",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 926",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-951-118",
       "kind": "bill",
       "title": "Office of Gun Violence Prevention Act of 2023",
@@ -40275,6 +41631,18 @@
       "summary": "Referred to the House Committee on Oversight and Accountability.",
       "identifier": "H.R. 1625",
       "chamber": "house"
+    },
+    {
+      "id": "s-834-118",
+      "kind": "bill",
+      "title": "ACE Agriculture Act of 2023",
+      "date": "2023-03-16",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/834",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 834",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-846-118",
@@ -40756,6 +42124,18 @@
       "documentType": null
     },
     {
+      "id": "s-322-118",
+      "kind": "bill",
+      "title": "SWAT Act of 2023",
+      "date": "2023-02-09",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/322",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 322",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-343-118",
       "kind": "bill",
       "title": "Apprenticeships to College Act",
@@ -41218,6 +42598,18 @@
       "summary": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
       "identifier": "S. 51",
       "chamber": "senate"
+    },
+    {
+      "id": "s-52-118",
+      "kind": "bill",
+      "title": "American Beef Labeling Act of 2023",
+      "date": "2023-01-24",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/52",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (text: CR S76-77)",
+      "identifier": "S. 52",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-120-118",
@@ -42659,6 +44051,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-7498-117",
+      "kind": "bill",
+      "title": "TEMP Act",
+      "date": "2022-05-05",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/7498",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on General Farm Commodities and Risk Management.",
+      "identifier": "H.R. 7498",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-1508-117",
       "kind": "bill",
       "title": "Guidance Clarity Act of 2021",
@@ -42714,6 +44118,18 @@
       "summary": "Referred to the Committee on Ways and Means, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 7579",
       "chamber": "house"
+    },
+    {
+      "id": "hr-7291-117",
+      "kind": "bill",
+      "title": "American Beef Labeling Act of 2022",
+      "date": "2022-04-18",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/7291",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Livestock and Foreign Agriculture.",
+      "identifier": "H.R. 7291",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hres-1060-117",
@@ -43487,6 +44903,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-2716-117",
+      "kind": "bill",
+      "title": "American Beef Labeling Act of 2021",
+      "date": "2021-09-13",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/2716",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (text: CR S6458)",
+      "identifier": "S. 2716",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-3909-117",
       "kind": "bill",
       "title": "Veterans’ Compensation Cost-of-Living Adjustment Act of 2021",
@@ -43853,6 +45281,18 @@
       "summary": "Referred to the Subcommittee on Antitrust, Commercial, and Administrative Law.",
       "identifier": "H.R. 1776",
       "chamber": "house"
+    },
+    {
+      "id": "hr-1779-117",
+      "kind": "bill",
+      "title": "MORE USDA Grants Act",
+      "date": "2021-05-13",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/1779",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Commodity Exchanges, Energy, and Credit.",
+      "identifier": "H.R. 1779",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-3225-117",
@@ -44267,6 +45707,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-647-117",
+      "kind": "bill",
+      "title": "MORE USDA Grants Act",
+      "date": "2021-03-09",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/647",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 647",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-418-117",
       "kind": "bill",
       "title": "Article I Restoration Act of 2021",
@@ -44430,6 +45882,18 @@
       "summary": "Referred to the House Committee on Education and Labor.",
       "identifier": "H.R. 1275",
       "chamber": "house"
+    },
+    {
+      "id": "hr-547-117",
+      "kind": "bill",
+      "title": "DIRECT Act",
+      "date": "2021-02-24",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/547",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Livestock and Foreign Agriculture.",
+      "identifier": "H.R. 547",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-671-117",
