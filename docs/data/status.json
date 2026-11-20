@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-19T19:52:26-05:00",
+  "updated": "2026-11-20T08:30:33-05:00",
   "items": [
     {
       "id": "congress-bills",
       "name": "Congress.gov bills",
-      "lastRun": "2026-11-19T19:52:26-05:00",
-      "records": 341,
+      "lastRun": "2026-11-20T08:30:33-05:00",
+      "records": 591,
       "errors": []
     },
     {
       "id": "federal-register",
       "name": "Federal Register",
-      "lastRun": "2026-11-19T19:52:26-05:00",
-      "records": 98,
+      "lastRun": "2026-11-20T08:30:33-05:00",
+      "records": 209,
       "errors": []
     },
     {
       "id": "house-ptr",
       "name": "House periodic transaction reports",
-      "lastRun": "2026-11-19T19:52:26-05:00",
+      "lastRun": "2026-11-20T08:30:33-05:00",
       "records": 0,
       "errors": []
     },
     {
       "id": "house-votes",
       "name": "House roll-call votes",
-      "lastRun": "2026-11-19T19:52:26-05:00",
+      "lastRun": "2026-11-20T08:30:33-05:00",
       "records": 0,
       "errors": []
     },
     {
       "id": "senate-efd",
       "name": "Senate eFD links",
-      "lastRun": "2026-11-19T19:52:26-05:00",
+      "lastRun": "2026-11-20T08:30:33-05:00",
       "records": 100,
       "errors": []
     },
     {
       "id": "senate-votes",
       "name": "Senate roll-call votes",
-      "lastRun": "2026-11-19T19:52:26-05:00",
-      "records": 0,
+      "lastRun": "2026-11-20T08:30:33-05:00",
+      "records": 3,
       "errors": []
     }
   ]
