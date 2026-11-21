@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T12:56:18-05:00",
+  "updated": "2026-11-21T15:13:46-05:00",
   "items": [
     {
       "id": "fr-2026-23667",
@@ -20724,7 +20724,8 @@
       "source": "Congress.gov",
       "summary": "Sponsor introductory remarks on measure. (CR H3080)",
       "identifier": "H.R. 8092",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-8475-119",
@@ -28747,6 +28748,18 @@
       "documentType": null
     },
     {
+      "id": "hr-3332-119",
+      "kind": "bill",
+      "title": "Pacific Partnership Act",
+      "date": "2025-05-13",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3332",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Foreign Affairs.",
+      "identifier": "H.R. 3332",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-3361-119",
       "kind": "bill",
       "title": "Collaborative Forest Landscape Restoration Program Reauthorization Act of 2025",
@@ -36387,6 +36400,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-6008-118",
+      "kind": "bill",
+      "title": "R.I.C.E.’s Whale Act",
+      "date": "2024-10-25",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/6008",
+      "source": "Congress.gov",
+      "summary": "Placed on the Union Calendar, Calendar No. 605.",
+      "identifier": "H.R. 6008",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-10031-118",
       "kind": "bill",
       "title": "Performance Life Disclosure Act of 2024",
@@ -38607,6 +38632,18 @@
       "summary": "Referred to the House Committee on Oversight and Accountability.",
       "identifier": "H.Res. 1155",
       "chamber": "house"
+    },
+    {
+      "id": "s-4148-118",
+      "kind": "bill",
+      "title": "Pacific Partnership Act",
+      "date": "2024-04-17",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4148",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Foreign Relations.",
+      "identifier": "S. 4148",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-8027-118",
