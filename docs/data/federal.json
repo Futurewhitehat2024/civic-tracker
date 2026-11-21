@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T07:57:34-05:00",
+  "updated": "2026-11-21T12:56:18-05:00",
   "items": [
     {
       "id": "fr-2026-23667",
@@ -4017,7 +4017,7 @@
     {
       "id": "s-5750-119",
       "kind": "bill",
-      "title": "A bill to transfer Department of Education functions relating to Tribal education and job training.",
+      "title": "Less Bureaucracy, Better Tribal Education Act",
       "date": "2026-11-18",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5750",
       "source": "Congress.gov",
@@ -5085,13 +5085,14 @@
     {
       "id": "s-5735-119",
       "kind": "bill",
-      "title": "A bill to allow Americans to receive paid leave time to process and address their own health needs and the health needs of their partners during the period following a pregnancy loss, an intrauterine insemination or an assisted reproductive technology procedure that did not result in a live birth, a stillbirth, a failed adoption arrangement, a failed surrogacy arrangement, or a diagnosis or event that impacts pregnancy or fertility, to support related research and education, and for other purposes.",
+      "title": "Support Through Loss Act",
       "date": "2026-11-17",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5735",
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
       "identifier": "S. 5735",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-5736-119",
@@ -14662,6 +14663,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-5354-119",
+      "kind": "bill",
+      "title": "Native American Housing Assistance and Self-Determination Modernization Act of 2026",
+      "date": "2026-09-23",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5354",
+      "source": "Congress.gov",
+      "summary": "Committee on Indian Affairs. Ordered to be reported with an amendment favorably.",
+      "identifier": "S. 5354",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-5463-119",
       "kind": "bill",
       "title": "National American History and Founders Month Act",
@@ -15056,6 +15069,18 @@
       "summary": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 25 - 13.",
       "identifier": "H.R. 10356",
       "chamber": "house"
+    },
+    {
+      "id": "hr-10357-119",
+      "kind": "bill",
+      "title": "Digital Asset Tax Certainty Act",
+      "date": "2026-09-16",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10357",
+      "source": "Congress.gov",
+      "summary": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 38 - 5.",
+      "identifier": "H.R. 10357",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-10405-119",
@@ -17064,6 +17089,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-5131-119",
+      "kind": "bill",
+      "title": "CORE Pacific Act",
+      "date": "2026-07-23",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5131",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Foreign Relations.",
+      "identifier": "S. 5131",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-815-119",
       "kind": "bill",
       "title": "A bill to designate the outdoor amphitheater at the Blue Ridge Music Center in Galax, Virginia, as the \"Rick Boucher Amphitheater\".",
@@ -18022,6 +18059,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-9508-119",
+      "kind": "bill",
+      "title": "Pacific Islands Liaison Initiative Act",
+      "date": "2026-06-29",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9508",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 9508",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-9509-119",
       "kind": "bill",
       "title": "Kidney Disease Education Access Expansion Act of 2026",
@@ -18416,6 +18465,18 @@
       "summary": "Referred to the Committee on Ways and Means, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 9364",
       "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "s-4822-119",
+      "kind": "bill",
+      "title": "Saving the OOI Act of 2026",
+      "date": "2026-06-18",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4822",
+      "source": "Congress.gov",
+      "summary": "Held at the desk.",
+      "identifier": "S. 4822",
+      "chamber": "senate",
       "documentType": null
     },
     {
@@ -18886,6 +18947,78 @@
       "summary": "Read twice and referred to the Committee on Environment and Public Works.",
       "identifier": "S. 4727",
       "chamber": "senate"
+    },
+    {
+      "id": "hr-9172-119",
+      "kind": "bill",
+      "title": "Applying Existing Tax Anti-Abuse Rules to Digital Assets Act",
+      "date": "2026-06-08",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9172",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 9172",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-9173-119",
+      "kind": "bill",
+      "title": "Charitable Deductions for Digital Asset Donations Act",
+      "date": "2026-06-08",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9173",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 9173",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-9174-119",
+      "kind": "bill",
+      "title": "Digital Assets Voluntary Disclosure Program Act",
+      "date": "2026-06-08",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9174",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 9174",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-9175-119",
+      "kind": "bill",
+      "title": "Tax Clarity for Mining and Staking Act",
+      "date": "2026-06-08",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9175",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 9175",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-9176-119",
+      "kind": "bill",
+      "title": "PAR Act",
+      "date": "2026-06-08",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9176",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 9176",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-9178-119",
+      "kind": "bill",
+      "title": "Less Tax Paperwork for Digital Asset Owners Act",
+      "date": "2026-06-08",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9178",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 9178",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-9183-119",
@@ -23596,6 +23729,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-6619-119",
+      "kind": "bill",
+      "title": "PROSPER in the Pacific Act",
+      "date": "2025-12-11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6619",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 6619",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "s-3442-119",
       "kind": "bill",
       "title": "Metastatic Breast Cancer Access to Care Act",
@@ -26001,6 +26146,18 @@
       "summary": "Referred to the House Committee on Oversight and Government Reform.",
       "identifier": "H.Res. 658",
       "chamber": "house"
+    },
+    {
+      "id": "hr-4955-119",
+      "kind": "bill",
+      "title": "CLEAN Pacific Act of 2025",
+      "date": "2025-08-12",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4955",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Foreign Affairs.",
+      "identifier": "H.R. 4955",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-4964-119",
@@ -28626,6 +28783,18 @@
       "documentType": null
     },
     {
+      "id": "s-1740-119",
+      "kind": "bill",
+      "title": "Pacific Partnership Act",
+      "date": "2025-05-13",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1740",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Foreign Relations.",
+      "identifier": "S. 1740",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-1987-119",
       "kind": "bill",
       "title": "Saving Our Veterans Lives Act of 2025",
@@ -29462,6 +29631,18 @@
       "summary": "Referred to the House Committee on Transportation and Infrastructure.",
       "identifier": "H.Con.Res. 27",
       "chamber": "house"
+    },
+    {
+      "id": "hjres-25-119",
+      "kind": "bill",
+      "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales\".",
+      "date": "2025-04-10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/25",
+      "source": "Congress.gov",
+      "summary": "Became Public Law No: 119-5.",
+      "identifier": "H.J.Res. 25",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-2669-119",
@@ -35316,6 +35497,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-4538-118",
+      "kind": "bill",
+      "title": "BLUE Pacific Act",
+      "date": "2024-12-17",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/4538",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Trade.",
+      "identifier": "H.R. 4538",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-4792-118",
       "kind": "bill",
       "title": "Childhood Offenders Rehabilitation and Safety Act of 2023",
@@ -36930,6 +37123,18 @@
       "summary": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
       "identifier": "H.R. 4741",
       "chamber": "house"
+    },
+    {
+      "id": "hr-7159-118",
+      "kind": "bill",
+      "title": "Pacific Partnership Act",
+      "date": "2024-09-10",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/7159",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
+      "identifier": "H.R. 7159",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-7589-118",
@@ -39440,6 +39645,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-6949-118",
+      "kind": "bill",
+      "title": "Native American Housing Assistance and Self-Determination Reauthorization Act of 2024",
+      "date": "2024-01-10",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/6949",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Financial Services.",
+      "identifier": "H.R. 6949",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "s-3563-118",
       "kind": "bill",
       "title": "Pardon Transparency to Protect Investigations Act of 2024",
@@ -41018,6 +41235,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-2285-118",
+      "kind": "bill",
+      "title": "Native American Housing Assistance and Self-Determination Reauthorization Act of 2023",
+      "date": "2023-07-19",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2285",
+      "source": "Congress.gov",
+      "summary": "Committee on Indian Affairs. Ordered to be reported with an amendment favorably.",
+      "identifier": "S. 2285",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-2382-118",
       "kind": "bill",
       "title": "Farmland Security Act of 2023",
@@ -42520,6 +42749,18 @@
       "summary": "Referred to the House Committee on Small Business.",
       "identifier": "H.R. 2726",
       "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "s-1220-118",
+      "kind": "bill",
+      "title": "U.S. and Pacific Islands Forum Partnership Act",
+      "date": "2023-04-19",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1220",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Foreign Relations.",
+      "identifier": "S. 1220",
+      "chamber": "senate",
       "documentType": null
     },
     {
