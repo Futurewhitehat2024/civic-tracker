@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T10:14:54-05:00",
+  "updated": "2026-11-23T17:34:13-05:00",
   "items": [
     {
       "id": "fr-2026-23749",
@@ -8149,7 +8149,8 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Finance.",
       "identifier": "S. 5707",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-5708-119",
@@ -16604,6 +16605,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-5283-119",
+      "kind": "bill",
+      "title": "Momnibus Act",
+      "date": "2026-08-06",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5283",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "identifier": "S. 5283",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-5286-119",
       "kind": "bill",
       "title": "Supporting Disabled Entrepreneurs Act",
@@ -17055,6 +17068,18 @@
       "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 510.",
       "identifier": "S. 4570",
       "chamber": "senate"
+    },
+    {
+      "id": "s-4577-119",
+      "kind": "bill",
+      "title": "Reassessing the United States-Tanzania Bilateral Relationship Act",
+      "date": "2026-07-27",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4577",
+      "source": "Congress.gov",
+      "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 511.",
+      "identifier": "S. 4577",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-4709-119",
@@ -17559,7 +17584,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 9817",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-9818-119",
@@ -20156,6 +20182,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-8829-119",
+      "kind": "bill",
+      "title": "Reproductive Health Care Accessibility Act",
+      "date": "2026-05-14",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8829",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 8829",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-8831-119",
       "kind": "bill",
       "title": "Protecting Our Democracy Act",
@@ -20573,6 +20611,18 @@
       "documentType": null
     },
     {
+      "id": "hres-1241-119",
+      "kind": "bill",
+      "title": "Of inquiry requesting the President of the United States to furnish certain information to the House of Representatives relating to access to and usage of NUMIDENT, death information, and other personally identifiable information in the possession of the Social Security Administration by an individual acting for or on behalf of the Department of Government Efficiency.",
+      "date": "2026-04-30",
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1241",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.Res. 1241",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "s-4444-119",
       "kind": "bill",
       "title": "A bill to amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through May 21, 2026, and for other purposes.",
@@ -20944,6 +20994,18 @@
       "documentType": null
     },
     {
+      "id": "hr-1681-119",
+      "kind": "bill",
+      "title": "Expediting Federal Broadband Deployment Reviews Act",
+      "date": "2026-04-21",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1681",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 1681",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-8404-119",
       "kind": "bill",
       "title": "21st Century Entrepreneurship Act",
@@ -21000,6 +21062,18 @@
       "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
       "identifier": "S. 4365",
       "chamber": "senate"
+    },
+    {
+      "id": "hr-7973-119",
+      "kind": "bill",
+      "title": "Momnibus Act",
+      "date": "2026-04-20",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7973",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Health.",
+      "identifier": "H.R. 7973",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "s-4348-119",
@@ -21112,6 +21186,18 @@
       "summary": "Referred to the Committee on Natural Resources, and in addition to the Committees on Transportation and Infrastructure, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 8308",
       "chamber": "house"
+    },
+    {
+      "id": "hr-8314-119",
+      "kind": "bill",
+      "title": "OPTIONS Act",
+      "date": "2026-04-15",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8314",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 8314",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-8317-119",
@@ -21721,6 +21807,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-8024-119",
+      "kind": "bill",
+      "title": "Maternal Vaccination Act",
+      "date": "2026-03-19",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8024",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 8024",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hres-1127-119",
       "kind": "bill",
       "title": "Expressing support for the designation of the week of March 22, 2026, through March 28, 2026, as \"National Cleaning Week\".",
@@ -21889,6 +21987,18 @@
       "summary": "Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 357.",
       "identifier": "H.R. 1366",
       "chamber": "house"
+    },
+    {
+      "id": "hr-1665-119",
+      "kind": "bill",
+      "title": "DIGITAL Applications Act",
+      "date": "2026-03-17",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1665",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "identifier": "H.R. 1665",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-7877-119",
@@ -24084,6 +24194,30 @@
       "chamber": "house"
     },
     {
+      "id": "hr-6475-119",
+      "kind": "bill",
+      "title": "Preventing Child Trafficking Act of 2025",
+      "date": "2025-12-04",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6475",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 6475",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hres-928-119",
+      "kind": "bill",
+      "title": "Affirming support for most-favored-Nation drug pricing for United States patients.",
+      "date": "2025-12-04",
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/928",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.Res. 928",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-6383-119",
       "kind": "bill",
       "title": "Brandon Act Training and Protocol Act",
@@ -24989,6 +25123,18 @@
       "summary": "Referred to the House Committee on Oversight and Government Reform.",
       "identifier": "H.Res. 840",
       "chamber": "house"
+    },
+    {
+      "id": "hr-1612-119",
+      "kind": "bill",
+      "title": "Flatside Wilderness Additions Act",
+      "date": "2025-10-27",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1612",
+      "source": "Congress.gov",
+      "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 219.",
+      "identifier": "H.R. 1612",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-197-119",
@@ -25952,6 +26098,18 @@
       "summary": "Referred to the House Committee on Armed Services.",
       "identifier": "H.R. 5208",
       "chamber": "house"
+    },
+    {
+      "id": "hr-5211-119",
+      "kind": "bill",
+      "title": "Peace Officer Standards and Training Agency Information Access Clarification Act",
+      "date": "2025-09-08",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5211",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 5211",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-5212-119",
@@ -27447,6 +27605,18 @@
       "chamber": "senate"
     },
     {
+      "id": "hr-1717-119",
+      "kind": "bill",
+      "title": "Communications Security Act",
+      "date": "2025-07-16",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1717",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 1717",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-4393-119",
       "kind": "bill",
       "title": "DIGNIDAD (Dignity) Act of 2025",
@@ -27523,6 +27693,54 @@
       "source": "Congress.gov",
       "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "identifier": "H.R. 1455",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-1709-119",
+      "kind": "bill",
+      "title": "Understanding Cybersecurity of Mobile Networks Act",
+      "date": "2025-07-15",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1709",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 1709",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-1729-119",
+      "kind": "bill",
+      "title": "Bolts Ditch Act",
+      "date": "2025-07-15",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1729",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+      "identifier": "H.R. 1729",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-1765-119",
+      "kind": "bill",
+      "title": "Promoting United States Wireless Leadership Act of 2025",
+      "date": "2025-07-15",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1765",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 1765",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-1766-119",
+      "kind": "bill",
+      "title": "NTIA Policy and Cybersecurity Coordination Act",
+      "date": "2025-07-15",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1766",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 1766",
       "chamber": "house",
       "documentType": null
     },
@@ -27887,6 +28105,18 @@
       "source": "Congress.gov",
       "summary": "Received in the Senate.",
       "identifier": "H.R. 1664",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-1737-119",
+      "kind": "bill",
+      "title": "To direct the Secretary of Commerce to submit to Congress a report containing an assessment of the value, cost, and feasibility of a trans-Atlantic submarine fiber optic cable connecting the contiguous United States, the United States Virgin Islands, Ghana, and Nigeria.",
+      "date": "2025-06-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1737",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 1737",
       "chamber": "house",
       "documentType": null
     },
@@ -29412,6 +29642,18 @@
       "summary": "Read twice and referred to the Committee on Finance.",
       "identifier": "S. 1548",
       "chamber": "senate"
+    },
+    {
+      "id": "s-1562-119",
+      "kind": "bill",
+      "title": "PREEMIE Reauthorization Act of 2025",
+      "date": "2025-05-01",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1562",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "identifier": "S. 1562",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-1451-119",
@@ -31937,6 +32179,30 @@
       "documentType": null
     },
     {
+      "id": "hr-1777-119",
+      "kind": "bill",
+      "title": "SECURE Notarization Act of 2025",
+      "date": "2025-03-03",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1777",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 1777",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-1783-119",
+      "kind": "bill",
+      "title": "American Apprenticeship Act",
+      "date": "2025-03-03",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1783",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Education and Workforce.",
+      "identifier": "H.R. 1783",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-1796-119",
       "kind": "bill",
       "title": "Sickle Cell Disease and Other Heritable Blood Disorders Research, Surveillance, Prevention, and Treatment Act of 2025",
@@ -32056,6 +32322,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 1667",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-1674-119",
+      "kind": "bill",
+      "title": "Keep Americans Safe Act",
+      "date": "2025-02-27",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1674",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 1674",
       "chamber": "house",
       "documentType": null
     },
@@ -32262,6 +32540,18 @@
       "documentType": null
     },
     {
+      "id": "hr-1630-119",
+      "kind": "bill",
+      "title": "To allow States to elect to observe year-round daylight saving time, and for other purposes.",
+      "date": "2025-02-26",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1630",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 1630",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-788-119",
       "kind": "bill",
       "title": "DOE and SBA Research Act",
@@ -32331,6 +32621,18 @@
       "chamber": "senate"
     },
     {
+      "id": "hr-1556-119",
+      "kind": "bill",
+      "title": "Eric’s Law",
+      "date": "2025-02-25",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1556",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 1556",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-1564-119",
       "kind": "bill",
       "title": "Ethan's Law",
@@ -32352,6 +32654,18 @@
       "summary": "Referred to the House Committee on Natural Resources.",
       "identifier": "H.R. 1568",
       "chamber": "house"
+    },
+    {
+      "id": "hr-1574-119",
+      "kind": "bill",
+      "title": "RESTORE Patent Rights Act of 2025",
+      "date": "2025-02-25",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1574",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 1574",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-1575-119",
@@ -35595,6 +35909,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-4840-118",
+      "kind": "bill",
+      "title": "RESTORE Patent Rights Act of 2024",
+      "date": "2024-12-18",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4840",
+      "source": "Congress.gov",
+      "summary": "Committee on the Judiciary Subcommittee on Intellectual Property. Hearings held. With printed Hearing: S.Hrg. 118-705.",
+      "identifier": "S. 4840",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-5398-118",
       "kind": "bill",
       "title": "DETERRENCE Act",
@@ -35671,6 +35997,30 @@
       "summary": "Referred to the House Committee on Energy and Commerce.",
       "identifier": "H.R. 10454",
       "chamber": "house"
+    },
+    {
+      "id": "hr-1377-118",
+      "kind": "bill",
+      "title": "Promoting United States Wireless Leadership Act of 2023",
+      "date": "2024-12-17",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/1377",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 1377",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-3293-118",
+      "kind": "bill",
+      "title": "Expediting Federal Broadband Deployment Reviews Act",
+      "date": "2024-12-17",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3293",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 3293",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-3343-118",
@@ -35882,6 +36232,18 @@
       "summary": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 10398",
       "chamber": "house"
+    },
+    {
+      "id": "hr-3971-118",
+      "kind": "bill",
+      "title": "Flatside Wilderness Additions Act",
+      "date": "2024-12-12",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3971",
+      "source": "Congress.gov",
+      "summary": "Placed on the Union Calendar, Calendar No. 710.",
+      "identifier": "H.R. 3971",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "s-5060-118",
@@ -36252,6 +36614,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-2156-118",
+      "kind": "bill",
+      "title": "Bolts Ditch Act",
+      "date": "2024-11-21",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2156",
+      "source": "Congress.gov",
+      "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 585.",
+      "identifier": "S. 2156",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-254-118",
       "kind": "bill",
       "title": "Ski Hill Resources for Economic Development Act of 2023",
@@ -36572,6 +36946,18 @@
       "summary": "Referred to the House Committee on Oversight and Accountability.",
       "identifier": "H.Res. 1557",
       "chamber": "house"
+    },
+    {
+      "id": "hr-4297-118",
+      "kind": "bill",
+      "title": "Bolts Ditch Act",
+      "date": "2024-10-25",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/4297",
+      "source": "Congress.gov",
+      "summary": "Placed on the Union Calendar, Calendar No. 607.",
+      "identifier": "H.R. 4297",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-6008-118",
@@ -37618,6 +38004,18 @@
       "chamber": "senate"
     },
     {
+      "id": "hr-9221-118",
+      "kind": "bill",
+      "title": "RESTORE Patent Rights Act of 2024",
+      "date": "2024-07-30",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/9221",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 9221",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-9228-118",
       "kind": "bill",
       "title": "BE HEARD in the Workplace Act",
@@ -37858,6 +38256,18 @@
       "summary": "Referred to the House Committee on Education and the Workforce.",
       "identifier": "H.Con.Res. 118",
       "chamber": "house"
+    },
+    {
+      "id": "hr-3299-118",
+      "kind": "bill",
+      "title": "DIGITAL Applications Act",
+      "date": "2024-07-09",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3299",
+      "source": "Congress.gov",
+      "summary": "Subcommittee Hearings Held",
+      "identifier": "H.R. 3299",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-5441-118",
@@ -39133,6 +39543,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-4004-118",
+      "kind": "bill",
+      "title": "PAST Act of 2024",
+      "date": "2024-03-20",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4004",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "S. 4004",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-7721-118",
       "kind": "bill",
       "title": "National Worker Cooperative Development and Support Act",
@@ -39141,6 +39563,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Small Business, and in addition to the Committees on Financial Services, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 7721",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-7615-118",
+      "kind": "bill",
+      "title": "Daylight Act",
+      "date": "2024-03-15",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/7615",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Innovation, Data, and Commerce.",
+      "identifier": "H.R. 7615",
       "chamber": "house",
       "documentType": null
     },
@@ -39210,6 +39644,18 @@
       "summary": "Referred to the House Committee on Education and the Workforce.",
       "identifier": "H.Con.Res. 96",
       "chamber": "house"
+    },
+    {
+      "id": "hr-3385-118",
+      "kind": "bill",
+      "title": "To direct the Secretary of Commerce to submit to Congress a report containing an assessment of the value, cost, and feasibility of a trans-Atlantic submarine fiber optic cable connecting the contiguous United States, the United States Virgin Islands, Ghana, and Nigeria.",
+      "date": "2024-03-06",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3385",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 3385",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "s-3877-118",
@@ -41313,6 +41759,18 @@
       "chamber": "senate"
     },
     {
+      "id": "hr-1345-118",
+      "kind": "bill",
+      "title": "NTIA Policy and Cybersecurity Coordination Act",
+      "date": "2023-07-26",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/1345",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 1345",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-4945-118",
       "kind": "bill",
       "title": "COTA Act",
@@ -42462,6 +42920,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-3449-118",
+      "kind": "bill",
+      "title": "Eric’s Law",
+      "date": "2023-05-17",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3449",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 3449",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "s-1661-118",
       "kind": "bill",
       "title": "Strength in Diversity Act of 2023",
@@ -42516,6 +42986,18 @@
       "summary": "Referred to the Subcommittee on Economic Opportunity.",
       "identifier": "H.R. 2932",
       "chamber": "house"
+    },
+    {
+      "id": "hr-3090-118",
+      "kind": "bill",
+      "title": "PAST Act of 2023",
+      "date": "2023-05-12",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3090",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Innovation, Data, and Commerce.",
+      "identifier": "H.R. 3090",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-3249-118",
@@ -42597,6 +43079,18 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
       "identifier": "S. 1512",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-1526-118",
+      "kind": "bill",
+      "title": "NTIA Policy and Cybersecurity Coordination Act",
+      "date": "2023-05-10",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1526",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "S. 1526",
       "chamber": "senate",
       "documentType": null
     },
@@ -42999,6 +43493,18 @@
       "documentType": null
     },
     {
+      "id": "s-1212-118",
+      "kind": "bill",
+      "title": "Securing and Enabling Commerce Using Remote and Electronic Notarization Act of 2023",
+      "date": "2023-04-19",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1212",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 1212",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-1220-118",
       "kind": "bill",
       "title": "U.S. and Pacific Islands Forum Partnership Act",
@@ -43280,6 +43786,18 @@
       "documentType": null
     },
     {
+      "id": "hr-1370-118",
+      "kind": "bill",
+      "title": "Communications Security Act",
+      "date": "2023-03-24",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/1370",
+      "source": "Congress.gov",
+      "summary": "Ordered to be Reported by the Yeas and Nays: 49 - 0.",
+      "identifier": "H.R. 1370",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-1800-118",
       "kind": "bill",
       "title": "Stop Funding Our Adversaries Act of 2023",
@@ -43448,6 +43966,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-1474-118",
+      "kind": "bill",
+      "title": "To allow States to elect to observe year-round daylight saving time, and for other purposes.",
+      "date": "2023-03-17",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/1474",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Innovation, Data, and Commerce.",
+      "identifier": "H.R. 1474",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-1625-118",
       "kind": "bill",
       "title": "St. Patrick’s Day Act",
@@ -43583,6 +44113,18 @@
       "chamber": "senate"
     },
     {
+      "id": "hr-1123-118",
+      "kind": "bill",
+      "title": "Understanding Cybersecurity of Mobile Networks Act",
+      "date": "2023-03-08",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/1123",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 1123",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-1476-118",
       "kind": "bill",
       "title": "PPP Shell Company Discovery Act",
@@ -43707,6 +44249,18 @@
       "chamber": "senate"
     },
     {
+      "id": "hr-1059-118",
+      "kind": "bill",
+      "title": "SECURE Notarization Act of 2023",
+      "date": "2023-02-28",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/1059",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "H.R. 1059",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-1217-118",
       "kind": "bill",
       "title": "DRILL Now Act",
@@ -43749,6 +44303,18 @@
       "summary": "Referred to the House Committee on Education and the Workforce.",
       "identifier": "H.R. 1200",
       "chamber": "house"
+    },
+    {
+      "id": "s-529-118",
+      "kind": "bill",
+      "title": "Eric’s Law",
+      "date": "2023-02-27",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/529",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 529",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-1048-118",
@@ -44014,7 +44580,8 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on the Judiciary.",
       "identifier": "S. 298",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hconres-13-118",
@@ -44281,6 +44848,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-660-118",
+      "kind": "bill",
+      "title": "Ethan's Law",
+      "date": "2023-01-31",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/660",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 660",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-690-118",
       "kind": "bill",
       "title": "Taliban Rare Earth Minerals Sanctions Act",
@@ -44290,6 +44869,18 @@
       "summary": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 690",
       "chamber": "house"
+    },
+    {
+      "id": "s-173-118",
+      "kind": "bill",
+      "title": "Ethan's Law",
+      "date": "2023-01-31",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/173",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 173",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-188-118",
@@ -44333,7 +44924,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 625",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-639-118",
@@ -44393,6 +44985,30 @@
       "chamber": "house"
     },
     {
+      "id": "hr-511-118",
+      "kind": "bill",
+      "title": "American Apprenticeship Act",
+      "date": "2023-01-25",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/511",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Education and the Workforce.",
+      "identifier": "H.R. 511",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "s-83-118",
+      "kind": "bill",
+      "title": "American Apprenticeship Act",
+      "date": "2023-01-25",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/83",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "identifier": "S. 83",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-446-118",
       "kind": "bill",
       "title": "Ensuring the Safety of Our Mail Act of 2023",
@@ -44447,6 +45063,18 @@
       "summary": "Referred to the Subcommittee on Environment, Manufacturing, and Critical Materials.",
       "identifier": "H.R. 120",
       "chamber": "house"
+    },
+    {
+      "id": "hr-364-118",
+      "kind": "bill",
+      "title": "Daylight Act",
+      "date": "2023-01-20",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/364",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Innovation, Data, and Commerce.",
+      "identifier": "H.R. 364",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-430-118",
@@ -44678,6 +45306,18 @@
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 89",
       "chamber": "house"
+    },
+    {
+      "id": "hr-4046-117",
+      "kind": "bill",
+      "title": "NTIA Policy and Cybersecurity Coordination Act",
+      "date": "2022-12-30",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/4046",
+      "source": "Congress.gov",
+      "summary": "Placed on the Union Calendar, Calendar No. 487.",
+      "identifier": "H.R. 4046",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-4130-117",
@@ -44945,6 +45585,18 @@
       "documentType": null
     },
     {
+      "id": "hr-5441-117",
+      "kind": "bill",
+      "title": "PAST Act of 2022",
+      "date": "2022-11-15",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/5441",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 5441",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-9282-117",
       "kind": "bill",
       "title": "Veterans Protection from Fraud Act",
@@ -45196,7 +45848,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 9207",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hres-1441-117",
@@ -45587,6 +46240,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-3962-117",
+      "kind": "bill",
+      "title": "SECURE Notarization Act of 2022",
+      "date": "2022-07-28",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/3962",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "H.R. 3962",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-4990-117",
       "kind": "bill",
       "title": "ITS Codification Act",
@@ -45854,6 +46519,18 @@
       "summary": "Subcommittee Hearings Held.",
       "identifier": "H.R. 7329",
       "chamber": "house"
+    },
+    {
+      "id": "hr-7717-117",
+      "kind": "bill",
+      "title": "American Apprenticeship Act",
+      "date": "2022-05-11",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/7717",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Education and Labor.",
+      "identifier": "H.R. 7717",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "s-4174-117",
@@ -46395,6 +47072,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-2685-117",
+      "kind": "bill",
+      "title": "Understanding Cybersecurity of Mobile Networks Act",
+      "date": "2021-12-02",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/2685",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 2685",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-4778-117",
       "kind": "bill",
       "title": "District of Columbia Courts Vacancy Reduction Act",
@@ -46483,6 +47172,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-3151-117",
+      "kind": "bill",
+      "title": "Eric’s Law",
+      "date": "2021-11-09",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/3151",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "identifier": "H.R. 3151",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-3290-117",
       "kind": "bill",
       "title": "Disarming Felons Act",
@@ -46505,6 +47206,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-5906-117",
+      "kind": "bill",
+      "title": "DAYLIGHT Act",
+      "date": "2021-11-08",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/5906",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Consumer Protection and Commerce.",
+      "identifier": "H.R. 5906",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-4531-117",
       "kind": "bill",
       "title": "7(a) Loan Agent Oversight Act",
@@ -46513,6 +47226,18 @@
       "source": "Congress.gov",
       "summary": "Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship.",
       "identifier": "H.R. 4531",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-5826-117",
+      "kind": "bill",
+      "title": "To allow States to elect to observe year-round daylight saving time, and for other purposes.",
+      "date": "2021-11-03",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/5826",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Consumer Protection and Commerce.",
+      "identifier": "H.R. 5826",
       "chamber": "house",
       "documentType": null
     },
@@ -46627,7 +47352,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
       "identifier": "H.R. 2510",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "s-528-117",
@@ -46684,6 +47410,18 @@
       "summary": "Became Public Law No: 117-45.",
       "identifier": "S. 189",
       "chamber": "senate"
+    },
+    {
+      "id": "s-2979-117",
+      "kind": "bill",
+      "title": "NTIA Policy and Cybersecurity Coordination Act",
+      "date": "2021-10-07",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/2979",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "S. 2979",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-2908-117",
@@ -46921,6 +47659,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-3003-117",
+      "kind": "bill",
+      "title": "Promoting United States Wireless Leadership Act of 2021",
+      "date": "2021-07-21",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/3003",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 3003",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-3973-117",
       "kind": "bill",
       "title": "LIST Act of 2021",
@@ -46974,6 +47724,18 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (Sponsor introductory remarks on measure: CR S4778)",
       "identifier": "S. 2223",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-2295-117",
+      "kind": "bill",
+      "title": "PAST Act of 2021",
+      "date": "2021-06-24",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/2295",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "S. 2295",
       "chamber": "senate",
       "documentType": null
     },
@@ -47122,6 +47884,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-1721-117",
+      "kind": "bill",
+      "title": "Eric’s Law",
+      "date": "2021-05-19",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/1721",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 1721",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-1776-117",
       "kind": "bill",
       "title": "Regulations from the Executive in Need of Scrutiny Act of 2021",
@@ -47154,6 +47928,18 @@
       "summary": "Referred to the House Committee on Education and Labor.",
       "identifier": "H.R. 3225",
       "chamber": "house"
+    },
+    {
+      "id": "s-1625-117",
+      "kind": "bill",
+      "title": "Securing and Enabling Commerce Using Remote and Electronic Notarization Act of 2021",
+      "date": "2021-05-13",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/1625",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 1625",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-3072-117",
@@ -47297,7 +48083,8 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on the Judiciary.",
       "identifier": "S. 1108",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-1109-117",
@@ -47424,6 +48211,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-1026-117",
+      "kind": "bill",
+      "title": "American Apprenticeship Act",
+      "date": "2021-03-25",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/1026",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "identifier": "S. 1026",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "sres-135-117",
       "kind": "bill",
       "title": "A resolution recognizing the heritage, culture, and contributions of Latinas in the United States.",
@@ -47477,6 +48276,18 @@
       "summary": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
       "identifier": "H.R. 690",
       "chamber": "house"
+    },
+    {
+      "id": "hr-748-117",
+      "kind": "bill",
+      "title": "Ethan's Law",
+      "date": "2021-03-22",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/748",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "identifier": "H.R. 748",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "s-882-117",
@@ -47846,6 +48657,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-190-117",
+      "kind": "bill",
+      "title": "Ethan's Law",
+      "date": "2021-02-03",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/190",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 190",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "sjres-6-117",
       "kind": "bill",
       "title": "A joint resolution proposing an amendment to the Constitution of the United States relative to balancing the budget.",
@@ -47855,6 +48678,18 @@
       "summary": "Read twice and referred to the Committee on the Judiciary.",
       "identifier": "S.J.Res. 6",
       "chamber": "senate"
+    },
+    {
+      "id": "hr-214-117",
+      "kind": "bill",
+      "title": "Daylight Act",
+      "date": "2021-02-02",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/214",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Consumer Protection and Commerce.",
+      "identifier": "H.R. 214",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-448-117",
