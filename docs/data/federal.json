@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T05:39:24-05:00",
+  "updated": "2026-11-23T10:14:54-05:00",
   "items": [
     {
       "id": "fr-2026-23749",
@@ -440,7 +440,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/10159",
       "source": "Congress.gov",
-      "summary": "Presented to President.",
+      "summary": "Signed by President.",
       "identifier": "H.R. 10159",
       "chamber": "house",
       "documentType": null
@@ -662,6 +662,18 @@
       "documentType": null
     },
     {
+      "id": "hr-5284-119",
+      "kind": "bill",
+      "title": "Claiming Age Clarity Act",
+      "date": "2026-11-20",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5284",
+      "source": "Congress.gov",
+      "summary": "Signed by President.",
+      "identifier": "H.R. 5284",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-6213-119",
       "kind": "bill",
       "title": "Heat Workforce Standards Act of 2026",
@@ -670,6 +682,18 @@
       "source": "Congress.gov",
       "summary": "Placed on the Union Calendar, Calendar No. 783.",
       "identifier": "H.R. 6213",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-8352-119",
+      "kind": "bill",
+      "title": "Criminal History Access Act of 2026",
+      "date": "2026-11-20",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8352",
+      "source": "Congress.gov",
+      "summary": "Signed by President.",
+      "identifier": "H.R. 8352",
       "chamber": "house",
       "documentType": null
     },
@@ -6627,17 +6651,6 @@
       "chamber": "house"
     },
     {
-      "id": "hr-5284-119",
-      "kind": "bill",
-      "title": "Claiming Age Clarity Act",
-      "date": "2026-11-12",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5284",
-      "source": "Congress.gov",
-      "summary": "Presented to President.",
-      "identifier": "H.R. 5284",
-      "chamber": "house"
-    },
-    {
       "id": "hr-5549-119",
       "kind": "bill",
       "title": "Efficient Nuclear Licensing Hearings Act",
@@ -6669,17 +6682,6 @@
       "source": "Congress.gov",
       "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 715.",
       "identifier": "H.R. 7618",
-      "chamber": "house"
-    },
-    {
-      "id": "hr-8352-119",
-      "kind": "bill",
-      "title": "Criminal History Access Act of 2026",
-      "date": "2026-11-12",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8352",
-      "source": "Congress.gov",
-      "summary": "Presented to President.",
-      "identifier": "H.R. 8352",
       "chamber": "house"
     },
     {
@@ -6828,7 +6830,8 @@
       "source": "Congress.gov",
       "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 702.",
       "identifier": "S. 2970",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-3371-119",
@@ -7227,7 +7230,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Natural Resources.",
       "identifier": "H.R. 11004",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-11005-119",
@@ -8089,7 +8093,8 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on the Judiciary.",
       "identifier": "S. 5702",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-5703-119",
@@ -24543,6 +24548,18 @@
       "chamber": "house"
     },
     {
+      "id": "hres-896-119",
+      "kind": "bill",
+      "title": "Expressing support for designating November 2025 as \"National Career Development Month\".",
+      "date": "2025-11-19",
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/896",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Education and Workforce.",
+      "identifier": "H.Res. 896",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "s-495-119",
       "kind": "bill",
       "title": "Prove It Act of 2025",
@@ -38938,6 +38955,18 @@
       "documentType": null
     },
     {
+      "id": "s-4060-118",
+      "kind": "bill",
+      "title": "Justice for Incarcerated Moms Act",
+      "date": "2024-03-22",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4060",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 4060",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-1121-118",
       "kind": "bill",
       "title": "Protecting American Energy Production Act",
@@ -39024,6 +39053,18 @@
       "summary": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
       "identifier": "H.R. 6306",
       "chamber": "house"
+    },
+    {
+      "id": "hr-766-118",
+      "kind": "bill",
+      "title": "Dr. Michael C. Burgess Preventive Health Savings Act",
+      "date": "2024-03-20",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/766",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate.",
+      "identifier": "H.R. 766",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-7731-118",
@@ -40189,6 +40230,18 @@
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 6436",
       "chamber": "house"
+    },
+    {
+      "id": "hres-873-118",
+      "kind": "bill",
+      "title": "Expressing support for designating November 2023 as \"National Career Development Month\".",
+      "date": "2023-11-15",
+      "url": "https://www.congress.gov/bill/118th-congress/house-resolution/873",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Education and the Workforce.",
+      "identifier": "H.Res. 873",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "s-3314-118",
@@ -44880,6 +44933,18 @@
       "chamber": "senate"
     },
     {
+      "id": "hres-1462-117",
+      "kind": "bill",
+      "title": "Expressing support for designating November 2022 as \"National Career Development Month\".",
+      "date": "2022-11-16",
+      "url": "https://www.congress.gov/bill/117th-congress/house-resolution/1462",
+      "source": "Congress.gov",
+      "summary": "Sponsor introductory remarks on measure. (H8554)",
+      "identifier": "H.Res. 1462",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-9282-117",
       "kind": "bill",
       "title": "Veterans Protection from Fraud Act",
@@ -46461,6 +46526,18 @@
       "summary": "Referred to the House Committee on Education and Labor.",
       "identifier": "H.R. 5813",
       "chamber": "house"
+    },
+    {
+      "id": "hres-758-117",
+      "kind": "bill",
+      "title": "Expressing support for designating November 2021 as \"National Career Development Month\".",
+      "date": "2021-11-01",
+      "url": "https://www.congress.gov/bill/117th-congress/house-resolution/758",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Education and Labor.",
+      "identifier": "H.Res. 758",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hres-724-117",
