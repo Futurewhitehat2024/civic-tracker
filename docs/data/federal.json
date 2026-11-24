@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T17:34:13-05:00",
+  "updated": "2026-11-23T23:03:40-05:00",
   "items": [
     {
       "id": "fr-2026-23749",
@@ -17940,6 +17940,18 @@
       "summary": "Referred to the House Committee on Energy and Commerce.",
       "identifier": "H.R. 9712",
       "chamber": "house"
+    },
+    {
+      "id": "hres-1432-119",
+      "kind": "bill",
+      "title": "Of inquiry requesting the President and directing the Secretary of Health and Human Services to transmit, respectively, certain documents to the House of Representatives relating to the freeze on State-based Temporary Assistance for Needy Families, Child Care and Development Fund, and Social Services Block Grant payments for California, Colorado, Illinois, Minnesota, and New York.",
+      "date": "2026-07-15",
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1432",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.Res. 1432",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "s-4239-119",
