@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T07:22:24-05:00",
+  "updated": "2026-11-24T10:12:21-05:00",
   "items": [
     {
       "id": "fr-2026-23851",
@@ -668,7 +668,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/10159",
       "source": "Congress.gov",
-      "summary": "Signed by President.",
+      "summary": "Became Public Law No: 119-146.",
       "identifier": "H.R. 10159",
       "chamber": "house",
       "documentType": null
@@ -680,7 +680,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/10167",
       "source": "Congress.gov",
-      "summary": "Signed by President.",
+      "summary": "Became Public Law No: 119-143.",
       "identifier": "H.R. 10167",
       "chamber": "house",
       "documentType": null
@@ -896,7 +896,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5284",
       "source": "Congress.gov",
-      "summary": "Signed by President.",
+      "summary": "Became Public Law No: 119-144.",
       "identifier": "H.R. 5284",
       "chamber": "house",
       "documentType": null
@@ -920,7 +920,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8352",
       "source": "Congress.gov",
-      "summary": "Signed by President.",
+      "summary": "Became Public Law No: 119-145.",
       "identifier": "H.R. 8352",
       "chamber": "house",
       "documentType": null
@@ -968,7 +968,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1135",
       "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
+      "summary": "Held at the desk.",
       "identifier": "S. 1135",
       "chamber": "senate",
       "documentType": null
@@ -980,7 +980,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1288",
       "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
+      "summary": "Held at the desk.",
       "identifier": "S. 1288",
       "chamber": "senate",
       "documentType": null
@@ -992,7 +992,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2479",
       "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
+      "summary": "Held at the desk.",
       "identifier": "S. 2479",
       "chamber": "senate",
       "documentType": null
@@ -1040,7 +1040,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3321",
       "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
+      "summary": "Held at the desk.",
       "identifier": "S. 3321",
       "chamber": "senate",
       "documentType": null
@@ -1076,7 +1076,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4035",
       "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
+      "summary": "Held at the desk.",
       "identifier": "S. 4035",
       "chamber": "senate",
       "documentType": null
@@ -1088,7 +1088,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4238",
       "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
+      "summary": "Held at the desk.",
       "identifier": "S. 4238",
       "chamber": "senate",
       "documentType": null
@@ -1112,7 +1112,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4445",
       "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
+      "summary": "Held at the desk.",
       "identifier": "S. 4445",
       "chamber": "senate",
       "documentType": null
@@ -1124,7 +1124,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4448",
       "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
+      "summary": "Held at the desk.",
       "identifier": "S. 4448",
       "chamber": "senate",
       "documentType": null
@@ -1136,7 +1136,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4538",
       "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
+      "summary": "Held at the desk.",
       "identifier": "S. 4538",
       "chamber": "senate",
       "documentType": null
@@ -1208,7 +1208,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/580",
       "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
+      "summary": "Held at the desk.",
       "identifier": "S. 580",
       "chamber": "senate",
       "documentType": null
@@ -13921,7 +13921,7 @@
       "date": "2026-10-05",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5600",
       "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
+      "summary": "Held at the desk.",
       "identifier": "S. 5600",
       "chamber": "senate",
       "documentType": null
@@ -18927,6 +18927,18 @@
       "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
       "identifier": "S. 4817",
       "chamber": "senate"
+    },
+    {
+      "id": "s-4821-119",
+      "kind": "bill",
+      "title": "STOP Scams Against Seniors Act",
+      "date": "2026-06-17",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4821",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 4821",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-4800-119",

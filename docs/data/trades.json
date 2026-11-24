@@ -1,6 +1,21 @@
 {
-  "updated": "2026-11-24T07:22:24-05:00",
+  "updated": "2026-11-24T10:12:21-05:00",
   "items": [
+    {
+      "id": "house-ptr-20036848",
+      "member": "Daniel Meuser",
+      "chamber": "house",
+      "party": "Republican",
+      "state": "PA",
+      "transactionType": "scanned filing",
+      "asset": "Scanned periodic transaction report",
+      "ticker": null,
+      "amountRange": "See official filing",
+      "transactionDate": null,
+      "filingDate": "2026-11-24",
+      "owner": null,
+      "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036848.pdf"
+    },
     {
       "id": "house-ptr-20036844-1",
       "member": "Thomas H. Kean Jr",
