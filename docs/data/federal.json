@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T06:10:22-05:00",
+  "updated": "2026-11-25T09:52:36-05:00",
   "items": [
     {
       "id": "fr-2026-23960",
@@ -650,6 +650,30 @@
       "documentType": null
     },
     {
+      "id": "hr-11152-119",
+      "kind": "bill",
+      "title": "ERISA Health Plan Anti-Kickback Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11152",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Education and Workforce.",
+      "identifier": "H.R. 11152",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11153-119",
+      "kind": "bill",
+      "title": "To extend and improve expiring prepared and response authorities of the Department of Health and Human Services.",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11153",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 11153",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-11154-119",
       "kind": "bill",
       "title": "Fight Fires and Fight Cancer Act",
@@ -694,6 +718,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Science, Space, and Technology.",
       "identifier": "H.R. 11157",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11158-119",
+      "kind": "bill",
+      "title": "Unaccompanied Children Protection and Accountability Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11158",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 11158",
       "chamber": "house",
       "documentType": null
     },
@@ -758,6 +794,18 @@
       "documentType": null
     },
     {
+      "id": "hr-11164-119",
+      "kind": "bill",
+      "title": "DeWeese Reservoir Expansion Project Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11164",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Transportation and Infrastructure.",
+      "identifier": "H.R. 11164",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-1653-119",
       "kind": "bill",
       "title": "Civil Investigative Demand Reform Act of 2026",
@@ -778,6 +826,18 @@
       "source": "Congress.gov",
       "summary": "Presented to President.",
       "identifier": "H.R. 2302",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-2347-119",
+      "kind": "bill",
+      "title": "Bipartisan American Affordability and Jobs Act of 2026",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2347",
+      "source": "Congress.gov",
+      "summary": "Message on Senate action sent to the House.",
+      "identifier": "H.R. 2347",
       "chamber": "house",
       "documentType": null
     },
@@ -1032,6 +1092,42 @@
       "identifier": "2026-23838",
       "chamber": null,
       "documentType": "Proposed Rule"
+    },
+    {
+      "id": "hr-1550-119",
+      "kind": "bill",
+      "title": "Strengthening America’s Turning Point Act",
+      "date": "2026-11-23",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1550",
+      "source": "Congress.gov",
+      "summary": "Became Public Law No: 119-147.",
+      "identifier": "H.R. 1550",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-4930-119",
+      "kind": "bill",
+      "title": "To expand the sharing of information with respect to suspected violations of intellectual property rights in trade.",
+      "date": "2026-11-23",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4930",
+      "source": "Congress.gov",
+      "summary": "Became Public Law No: 119-148.",
+      "identifier": "H.R. 4930",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-8552-119",
+      "kind": "bill",
+      "title": "Veterans’ Compensation Cost-of-Living Adjustment Act of 2026",
+      "date": "2026-11-23",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8552",
+      "source": "Congress.gov",
+      "summary": "Became Public Law No: 119-149.",
+      "identifier": "H.R. 8552",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "fr-2026-23667",
@@ -3070,18 +3166,6 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 11127",
-      "chamber": "house",
-      "documentType": null
-    },
-    {
-      "id": "hr-2347-119",
-      "kind": "bill",
-      "title": "Bipartisan American Affordability and Jobs Act of 2026",
-      "date": "2026-11-19",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2347",
-      "source": "Congress.gov",
-      "summary": "Passed Senate with an amendment by Yea-Nay Vote. 62 - 33. Record Vote Number: 270.",
-      "identifier": "H.R. 2347",
       "chamber": "house",
       "documentType": null
     },
@@ -5766,17 +5850,6 @@
       "chamber": "house"
     },
     {
-      "id": "hr-4930-119",
-      "kind": "bill",
-      "title": "To expand the sharing of information with respect to suspected violations of intellectual property rights in trade.",
-      "date": "2026-11-17",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4930",
-      "source": "Congress.gov",
-      "summary": "Presented to President.",
-      "identifier": "H.R. 4930",
-      "chamber": "house"
-    },
-    {
       "id": "hr-5267-119",
       "kind": "bill",
       "title": "American Franchise Act",
@@ -5796,17 +5869,6 @@
       "source": "Congress.gov",
       "summary": "Placed on the Union Calendar, Calendar No. 778.",
       "identifier": "H.R. 5525",
-      "chamber": "house"
-    },
-    {
-      "id": "hr-8552-119",
-      "kind": "bill",
-      "title": "Veterans’ Compensation Cost-of-Living Adjustment Act of 2026",
-      "date": "2026-11-17",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8552",
-      "source": "Congress.gov",
-      "summary": "Presented to President.",
-      "identifier": "H.R. 8552",
       "chamber": "house"
     },
     {
@@ -7433,17 +7495,6 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Homeland Security, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 11032",
-      "chamber": "house"
-    },
-    {
-      "id": "hr-1550-119",
-      "kind": "bill",
-      "title": "Strengthening America’s Turning Point Act",
-      "date": "2026-11-12",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1550",
-      "source": "Congress.gov",
-      "summary": "Presented to President.",
-      "identifier": "H.R. 1550",
       "chamber": "house"
     },
     {
@@ -9601,7 +9652,8 @@
       "source": "Congress.gov",
       "summary": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 690.",
       "identifier": "S. 2378",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-3226-119",
@@ -21534,6 +21586,18 @@
       "source": "Congress.gov",
       "summary": "Became Public Law No: 119-86.",
       "identifier": "H.R. 7147",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-8594-119",
+      "kind": "bill",
+      "title": "Congressional Gold Medal For Inspiring Great Heroism and Tenacity (FIGHT) Act",
+      "date": "2026-04-30",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8594",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Financial Services.",
+      "identifier": "H.R. 8594",
       "chamber": "house",
       "documentType": null
     },
@@ -33874,7 +33938,8 @@
       "source": "Congress.gov",
       "summary": "Resolution agreed to in Senate without amendment by Unanimous Consent. (consideration: CR S1434; text: 02/25/2025 CR S1352-1358)",
       "identifier": "S.Res. 94",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-1590-119",
@@ -37124,6 +37189,18 @@
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 97",
       "chamber": "house"
+    },
+    {
+      "id": "sres-4-119",
+      "kind": "bill",
+      "title": "A resolution notifying the President of the United States of the election of a President pro tempore.",
+      "date": "2025-01-03",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/4",
+      "source": "Congress.gov",
+      "summary": "Submitted in the Senate, considered, and agreed to without amendment by Unanimous Consent. (consideration: CR S6; text: CR S6)",
+      "identifier": "S.Res. 4",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "sres-7-119",
