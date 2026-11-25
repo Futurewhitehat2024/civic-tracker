@@ -1,6 +1,294 @@
 {
-  "updated": "2026-11-24T19:34:55-05:00",
+  "updated": "2026-11-25T06:10:22-05:00",
   "items": [
+    {
+      "id": "fr-2026-23960",
+      "kind": "federal_register",
+      "title": "Medicare Program; Contract Year 2028 Policy and Technical Changes to the Medicare Advantage Program, Medicare Prescription Drug Benefit Program, and Programs of All-Inclusive Care for the Elderly",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23960/medicare-program-contract-year-2028-policy-and-technical-changes-to-the-medicare-advantage-program",
+      "source": "Federal Register",
+      "summary": "This proposed rule would revise the Medicare Advantage (Part C), Medicare Prescription Drug Benefit (Part D), and Programs of All- Inclusive Care for the Elderly regulations to implement changes related to marketing and communications, drug coverage, enrollment processes, special needs plans, and other programmatic areas. Additionally, it would establish and implement a mandatory Medicare Advantage (MA) CMS Innovation Center model.",
+      "identifier": "2026-23960",
+      "chamber": null,
+      "documentType": "Proposed Rule"
+    },
+    {
+      "id": "fr-2026-23962",
+      "kind": "federal_register",
+      "title": "Renaming Narcotic Treatment Program (NTP) to Opioid Treatment Program (OTP) in DEA Regulations",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23962/renaming-narcotic-treatment-program-ntp-to-opioid-treatment-program-otp-in-dea-regulations",
+      "source": "Federal Register",
+      "summary": "This final rule updates Drug Enforcement Administration regulations to change the name of Narcotic Treatment Programs to Opioid Treatment Programs. This action is a nomenclature change and makes no substantive changes to the definition of a narcotic drug in the Controlled Substances Act or the definition of a narcotic treatment program in the implementing regulations.",
+      "identifier": "2026-23962",
+      "chamber": null,
+      "documentType": "Rule"
+    },
+    {
+      "id": "fr-2026-23963",
+      "kind": "federal_register",
+      "title": "Airworthiness Directives; Pilatus Aircraft Ltd. Airplanes",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23963/airworthiness-directives-pilatus-aircraft-ltd-airplanes",
+      "source": "Federal Register",
+      "summary": "The FAA is superseding Airworthiness Directive (AD) 2021-11- 08, which applied to all Pilatus Aircraft Ltd. (Pilatus) Model PC-6, PC-6-H1, PC-6-H2, PC-6/350, PC-6/350-H1, PC-6/350-H2, PC-6/A, PC-6/A- H1, PC-6/A-H2, PC-6/B-H2, PC-6/B1-H2, PC-6/B2-H2, PC-6/B2-H4, PC-6/C- H2, and PC-6/C1-H2 airplanes. AD 2021-11-08 required revising the airworthiness limitations section (ALS) of the existing aircraft maintenance manual (AMM) or instructions for continued airworthiness (ICA) to incorporate new airworthiness limitations and adding an additional eddy current inspection of the fuselage wing fittings and wing-to-fuselage fittings if the last inspection was performed using an earlier version of the required material. Since the FAA issued AD 2021- 11-08, the FAA has determined that new or more restrictive airworthiness limitations are necessary. This AD requires revising the ALS of the existing AMM or ICA for these airplanes. The FAA is issuing this AD to address the unsafe condition on these products.",
+      "identifier": "2026-23963",
+      "chamber": null,
+      "documentType": "Rule"
+    },
+    {
+      "id": "fr-2026-23968",
+      "kind": "federal_register",
+      "title": "Endangered and Threatened Wildlife and Plants; Endangered Species Status for Peppered Shiner",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23968/endangered-and-threatened-wildlife-and-plants-endangered-species-status-for-peppered-shiner",
+      "source": "Federal Register",
+      "summary": "We, the U.S. Fish and Wildlife Service (Service), propose to list the peppered shiner (Miniellus perpallidus), a fish species from southeast Oklahoma and southern Arkansas, as an endangered species under the Endangered Species Act of 1973, as amended (Act). This determination also serves as our 12-month finding on a petition to list the peppered shiner. After a review of the best available scientific and commercial information, we find that listing the species is warranted. Accordingly, we propose to list the peppered shiner as an endangered species under the Act. If finalized as proposed, this rule would add this species to the List of Endangered and Threatened Wildlife and extend the Act's protections to the species.",
+      "identifier": "2026-23968",
+      "chamber": null,
+      "documentType": "Proposed Rule"
+    },
+    {
+      "id": "fr-2026-23969",
+      "kind": "federal_register",
+      "title": "Endangered and Threatened Wildlife and Plants; Endangered Species Status for the Rio Grande Shiner",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23969/endangered-and-threatened-wildlife-and-plants-endangered-species-status-for-the-rio-grande-shiner",
+      "source": "Federal Register",
+      "summary": "We, the U.S. Fish and Wildlife Service (Service), propose to list the Rio Grande shiner (Notropis jemezanus), a fish species from the Rio Grande Basin in New Mexico, Texas, and Mexico, as an endangered species under the Endangered Species Act of 1973, as amended (Act). This determination also serves as our 12-month finding on a petition to list the Rio Grande shiner. After a review of the best scientific and commercial data available, we find that listing the species is warranted. If we finalize this rule as proposed, it would add this species to the List of Endangered and Threatened Wildlife and extend the Act's protections to the species. We find that critical habitat for this species is not determinable at this time.",
+      "identifier": "2026-23969",
+      "chamber": null,
+      "documentType": "Proposed Rule"
+    },
+    {
+      "id": "fr-2026-23970",
+      "kind": "federal_register",
+      "title": "Airworthiness Directives; Airbus Canada Limited Partnership (Type Certificate Previously Held by C Series Aircraft Limited Partnership (CSALP); Bombardier, Inc.) Airplanes",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23970/airworthiness-directives-airbus-canada-limited-partnership-type-certificate-previously-held-by-c",
+      "source": "Federal Register",
+      "summary": "The FAA is adopting a new airworthiness directive (AD) for certain Airbus Canada Limited Partnership Model BD-500-1A10 and BD-500- 1A11 airplanes. This AD was prompted by a report of multiple in-service failures of pressure regulating shutoff valves (PRSOVs). This AD requires revising the existing airplane flight manual (AFM) to incorporate procedures for reducing the thrust lever or shutting down the engine when the BLEED LEAK caution message is persistent, prohibits operation in known or forecasted icing conditions under certain minimum equipment list (MEL) provisions where the only operative PRSOV is an affected part, and requires replacement of affected PRSOVs with improved PRSOVs. The FAA is issuing this AD to address the unsafe condition on these products.",
+      "identifier": "2026-23970",
+      "chamber": null,
+      "documentType": "Rule"
+    },
+    {
+      "id": "fr-2026-23977",
+      "kind": "federal_register",
+      "title": "Establishment of Class E Airspace; Canton, TX",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23977/establishment-of-class-e-airspace-canton-tx",
+      "source": "Federal Register",
+      "summary": "This action proposes to establish Class E airspace at Mother Frances-Canton Heliport, Canton, TX. The FAA is proposing this action to support new instrument procedures and instrument flight rule (IFR) operations.",
+      "identifier": "2026-23977",
+      "chamber": null,
+      "documentType": "Proposed Rule"
+    },
+    {
+      "id": "fr-2026-23979",
+      "kind": "federal_register",
+      "title": "Airworthiness Directives; The Boeing Company Airplanes",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23979/airworthiness-directives-the-boeing-company-airplanes",
+      "source": "Federal Register",
+      "summary": "The FAA proposes to adopt a new airworthiness directive (AD) for certain The Boeing Company Model 757-200 and -300 series airplanes. This proposed AD was prompted by a report of missing and/or incorrectly installed lockwire on backshells found during engineering validation tests in the wing leading edge and engine struts for high intensity radiated field (HIRF)/lightning protection features. This proposed AD would require inspection of the backshells at the left- and right-wing leading edge and nacelle strut for missing and incorrectly installed lockwire and applicable on-condition actions. The FAA is proposing this AD to address the unsafe condition on these products.",
+      "identifier": "2026-23979",
+      "chamber": null,
+      "documentType": "Proposed Rule"
+    },
+    {
+      "id": "fr-2026-23985",
+      "kind": "federal_register",
+      "title": "Airworthiness Directives; Airbus SAS Airplanes",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23985/airworthiness-directives-airbus-sas-airplanes",
+      "source": "Federal Register",
+      "summary": "The FAA proposes to supersede Airworthiness Directive (AD) 2024-19-04, which applies to all Airbus SAS Model A350-941 and -1041 airplanes. AD 2024-19-04 requires a one-time detailed inspection of the engine nacelle anti-icing (NAI) forward bulkhead locating holes for elongation and loose fasteners and applicable corrective actions and prohibits the installation of affected parts under certain conditions. Since the FAA issued AD 2024-19-04, it has been determined that affected parts must accumulate at least 2,000 flight cycles (FC) since installation prior to the inspection to ensure that the inspection will detect discrepancies. This proposed AD would continue to require the actions in AD 2024-19-04 and would amend the compliance time for the inspection. This proposed AD would also prohibit the installation of affected parts under certain conditions. The FAA is proposing this AD to address the unsafe condition on these products.",
+      "identifier": "2026-23985",
+      "chamber": null,
+      "documentType": "Proposed Rule"
+    },
+    {
+      "id": "fr-2026-23989",
+      "kind": "federal_register",
+      "title": "Fisheries of the Exclusive Economic Zone Off Alaska; Atka Mackerel in the Bering Sea Subarea and Eastern Aleutian District of the Bering Sea and Aleutian Islands Management Area",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23989/fisheries-of-the-exclusive-economic-zone-off-alaska-atka-mackerel-in-the-bering-sea-subarea-and",
+      "source": "Federal Register",
+      "summary": "NMFS is prohibiting directed fishing for Atka mackerel in the Bering Sea subarea and Eastern Aleutian District (BS/EAI) of the Bering Sea and Aleutian Islands management area (BSAI) by vessels participating in the BSAI trawl limited access sector fishery. This action is necessary to prevent exceeding the 2026 total allowable catch (TAC) of Atka mackerel in the BS/EAI allocated to vessels participating in the BSAI trawl limited access sector fishery.",
+      "identifier": "2026-23989",
+      "chamber": null,
+      "documentType": "Rule"
+    },
+    {
+      "id": "fr-2026-23990",
+      "kind": "federal_register",
+      "title": "Control of Communicable Diseases; Foreign Quarantine",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23990/control-of-communicable-diseases-foreign-quarantine",
+      "source": "Federal Register",
+      "summary": "The Centers for Disease Control and Prevention (CDC), in the Department of Health and Human Services (HHS), is extending the expiration date of the interim final rule published on May 27, 2026. This interim final rule removes an exemption for lawful permanent residents from application of regulations implementing section 362 of the Public Health Service (PHS) Act, which authorizes the Secretary, acting through the CDC Director or other delegate, to suspend the introduction of persons from designated countries or places, if required, in the interest of public health.",
+      "identifier": "2026-23990",
+      "chamber": null,
+      "documentType": "Rule"
+    },
+    {
+      "id": "fr-2026-23993",
+      "kind": "federal_register",
+      "title": "Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Eastern Aleutian District of the Bering Sea and Aleutian Islands Management Area",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23993/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-ocean-perch-in-the-eastern-aleutian",
+      "source": "Federal Register",
+      "summary": "NMFS is prohibiting directed fishing for Pacific ocean perch in the Eastern Aleutian district (EAI) of the Bering Sea and Aleutian Islands management area (BSAI) by vessels participating in the BSAI trawl limited access sector fishery. This action is necessary to prevent exceeding the 2026 total allowable catch (TAC) of Pacific ocean perch in the EAI allocated to vessels participating in the BSAI trawl limited access sector fishery.",
+      "identifier": "2026-23993",
+      "chamber": null,
+      "documentType": "Rule"
+    },
+    {
+      "id": "fr-2026-23994",
+      "kind": "federal_register",
+      "title": "Thresholds Increase for the Major Assets Prohibition of the Depository Institution Management Interlocks Act Rule",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23994/thresholds-increase-for-the-major-assets-prohibition-of-the-depository-institution-management",
+      "source": "Federal Register",
+      "summary": "The NCUA Board (Board) is issuing a final rule increasing two thresholds in its regulation implementing management official interlocks for purposes of the Depository Institution Management Interlocks Act (DIMIA). DIMIA authorizes NCUA to adjust the major assets prohibition thresholds through regulation to respond to inflation or market changes. This final rule increases both major assets prohibition thresholds to $10 billion to account for changes in the United States banking market since 1996. Additionally, the final rule removes a presumption related to depository institutions controlled or managed by persons who are members of a minority group or women.",
+      "identifier": "2026-23994",
+      "chamber": null,
+      "documentType": "Rule"
+    },
+    {
+      "id": "fr-2026-23996",
+      "kind": "federal_register",
+      "title": "Corporate Credit Unions",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23996/corporate-credit-unions",
+      "source": "Federal Register",
+      "summary": "The NCUA Board (Board) is amending its regulations for corporate credit unions by removing the requirement that a corporate credit union's asset and liability management committee (ALCO) must have at least one member who is also a member of the corporate credit union's board of directors. The final rule also removes filing requirements related to a corporate credit union's annual report and any management letter or other report issued by its independent public accountant. The intended effect is to reduce unnecessary regulatory burden and provide corporate credit unions with greater flexibility.",
+      "identifier": "2026-23996",
+      "chamber": null,
+      "documentType": "Rule"
+    },
+    {
+      "id": "fr-2026-23997",
+      "kind": "federal_register",
+      "title": "Supervisory Committee Audits And Verifications",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23997/supervisory-committee-audits-and-verifications",
+      "source": "Federal Register",
+      "summary": "The NCUA Board (Board) is amending its regulations governing supervisory committee audits to eliminate unnecessary, redundant, and overly prescriptive provisions. The final rule is necessary to reduce regulatory burden, increase operational flexibility for federally insured credit unions (FICUs), and streamline the rules by removing requirements that are outdated or duplicative of other authorities. The intended effect of the final rule is to simplify compliance for FICUs without compromising the integrity of the audit process.",
+      "identifier": "2026-23997",
+      "chamber": null,
+      "documentType": "Rule"
+    },
+    {
+      "id": "fr-2026-23999",
+      "kind": "federal_register",
+      "title": "Additions to the Entity List",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23999/additions-to-the-entity-list",
+      "source": "Federal Register",
+      "summary": "In this rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by adding 7 entities to the Entity List, under the destinations of Malaysia, Singapore, and Thailand. These entities have been determined by the U.S. Government to be acting contrary to the national security or foreign policy interests of the United States.",
+      "identifier": "2026-23999",
+      "chamber": null,
+      "documentType": "Rule"
+    },
+    {
+      "id": "fr-2026-24003",
+      "kind": "federal_register",
+      "title": "Petition for Rulemaking To Consider Amendments to Regulations Governing Interim Use of Rights-of-Way as Trails",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-24003/petition-for-rulemaking-to-consider-amendments-to-regulations-governing-interim-use-of-rights-of-way",
+      "source": "Federal Register",
+      "summary": "The Board partially grants a petition for rulemaking and proposes amendments to its regulations implementing section 208 of the National Trails System Act Amendments of 1983 to streamline the railbanking process. Under the proposal, the Board would no longer issue Notices or Certificates of Interim Trail Use during trail-use negotiations. Only after an agreement is reached would the Board issue an order authorizing transfer to the trail sponsor. Abandonment authority would no longer be prerequisite to railbanking. The Board would also confirm that by authorizing transfer the Board is not exercising any power of eminent domain or authorizing a taking.",
+      "identifier": "2026-24003",
+      "chamber": null,
+      "documentType": "Proposed Rule"
+    },
+    {
+      "id": "fr-2026-24009",
+      "kind": "federal_register",
+      "title": "VIAVI Solutions; Filing of Color Additive Petition",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-24009/viavi-solutions-filing-of-color-additive-petition",
+      "source": "Federal Register",
+      "summary": "The Food and Drug Administration (FDA or we) is announcing that we have filed a color additive petition, submitted by VIAVI Solutions, proposing that the color additive regulations be amended to provide for the safe use of magnesium fluoride-aluminum flake for use in nail polish at a maximum level of 16 percent of the final product.",
+      "identifier": "2026-24009",
+      "chamber": null,
+      "documentType": "Proposed Rule"
+    },
+    {
+      "id": "fr-2026-24010",
+      "kind": "federal_register",
+      "title": "Safety Zone; Brownsville Ship Channel, Brownsville, TX",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-24010/safety-zone-brownsville-ship-channel-brownsville-tx",
+      "source": "Federal Register",
+      "summary": "The Coast Guard is establishing a temporary safety zone for navigable waters on the Brownsville Ship Channel. The safety zone is needed to protect personnel, vessels, and the marine environment from potential hazards associated with an over-sized dead ship tow transiting the area. Entry of vessels or persons into this zone is prohibited unless specifically authorized by the Captain of the Port, Sector Corpus Christi, or their designated representative.",
+      "identifier": "2026-24010",
+      "chamber": null,
+      "documentType": "Rule"
+    },
+    {
+      "id": "fr-2026-24013",
+      "kind": "federal_register",
+      "title": "Auction of Flexible-Use Licenses in the Upper C-Band for Next-Generation Wireless Services; Notice and Filing Requirements, Minimum Opening Bids, Upfront Payments, and Other Procedures for Auction 115; Bidding Scheduled To Begin April 27, 2027",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-24013/auction-of-flexible-use-licenses-in-the-upper-c-band-for-next-generation-wireless-services-notice",
+      "source": "Federal Register",
+      "summary": "This document summarizes the procedures, deadlines, upfront payment, and minimum opening bid amounts adopted in the Auction 115 Procedures Public Notice for the Federal Communications Commission's (Commission) upcoming auction of 3,248 new flexible-use licenses in the 3.98-4.14 GHz portion of the Upper C-band. The Auction 115 Procedures Public Notice summarized here provides details regarding the procedures, terms, conditions, dates, and deadlines governing participation in Auction 115 bidding, as well as an overview of the post-auction application and payment processes.",
+      "identifier": "2026-24013",
+      "chamber": null,
+      "documentType": "Rule"
+    },
+    {
+      "id": "fr-2026-24017",
+      "kind": "federal_register",
+      "title": "Airworthiness Directives; The Boeing Company Airplanes",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-24017/airworthiness-directives-the-boeing-company-airplanes",
+      "source": "Federal Register",
+      "summary": "The FAA proposes to adopt a new airworthiness directive (AD) for certain The Boeing Company Model 707 airplanes; Model 720 and 720B series airplanes; Model 727C, 727-100, -100C, -200, and -200F series airplanes; and Model 747-100, -100B, -100B SUD, -200B, -200C, -200F, - 300, 747SR, and 747SP series airplanes. This proposed AD was prompted by reports that using some adaptors while performing tests of the cabin altitude warning switch (CAWS) could lead to incorrect failures. This proposed AD would require repetitive operational tests or replacements of the CAWS and applicable on-condition actions. The FAA is proposing this AD to address the unsafe condition on these products.",
+      "identifier": "2026-24017",
+      "chamber": null,
+      "documentType": "Proposed Rule"
+    },
+    {
+      "id": "fr-2026-24018",
+      "kind": "federal_register",
+      "title": "Establishment of Class E Airspace; Trading Bay Production Airport, Trading Bay, AK",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-24018/establishment-of-class-e-airspace-trading-bay-production-airport-trading-bay-ak",
+      "source": "Federal Register",
+      "summary": "This action establishes Class E airspace extending upward from 700 feet above the surface at Trading Bay Production Airport, Trading Bay, AK. This action supports the safety and management of instrument flight rules (IFR) operations at the airport.",
+      "identifier": "2026-24018",
+      "chamber": null,
+      "documentType": "Rule"
+    },
+    {
+      "id": "fr-2026-24113",
+      "kind": "federal_register",
+      "title": "National Adoption Month, 2026",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-24113/national-adoption-month-2026",
+      "source": "Federal Register",
+      "summary": null,
+      "identifier": "2026-24113",
+      "chamber": null,
+      "documentType": "Proclamation"
+    },
+    {
+      "id": "fr-2026-24114",
+      "kind": "executive_order",
+      "title": "Protecting the Executive's Privileges and Enhancing Efficiencies in Federal Contracting",
+      "date": "2026-11-25",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-24114/protecting-the-executives-privileges-and-enhancing-efficiencies-in-federal-contracting",
+      "source": "Federal Register",
+      "summary": null,
+      "identifier": "EO 14439",
+      "chamber": null,
+      "documentType": "Executive Order"
+    },
     {
       "id": "fr-2026-23851",
       "kind": "federal_register",
@@ -228,6 +516,378 @@
       "identifier": "2026-23953",
       "chamber": null,
       "documentType": "Rule"
+    },
+    {
+      "id": "hr-10234-119",
+      "kind": "bill",
+      "title": "CLEAR Forms Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10234",
+      "source": "Congress.gov",
+      "summary": "Placed on the Union Calendar, Calendar No. 790.",
+      "identifier": "H.R. 10234",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11142-119",
+      "kind": "bill",
+      "title": "Stop Insider Trading Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11142",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on House Administration.",
+      "identifier": "H.R. 11142",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11143-119",
+      "kind": "bill",
+      "title": "Voter ID Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11143",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on House Administration.",
+      "identifier": "H.R. 11143",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11144-119",
+      "kind": "bill",
+      "title": "Research Security Act of 2026",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11144",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Science, Space, and Technology.",
+      "identifier": "H.R. 11144",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11145-119",
+      "kind": "bill",
+      "title": "To provide for the establishment of a U.S.-Kenya Agricultural and Critical Minerals Trade Partnership.",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11145",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 11145",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11146-119",
+      "kind": "bill",
+      "title": "To direct the Director of the National Institute of Standards and Technology, in consultation with the Secretary of Education, to develop recommendations of best practices for educational agencies entering into contracts with education technology companies, to ensure the protection of personally identifiable information of students, and for other purposes.",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11146",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 11146",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11147-119",
+      "kind": "bill",
+      "title": "To prevent discrimination and retaliation against incarcerated workers, and for other purposes.",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11147",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on the Judiciary, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 11147",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11148-119",
+      "kind": "bill",
+      "title": "To authorize appropriations for occupational education and training programs of the Bureau of Prisons, and for other purposes.",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11148",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 11148",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11149-119",
+      "kind": "bill",
+      "title": "Correctional Facilities Occupational Safety and Health Act of 2026",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11149",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Education and Workforce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 11149",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11150-119",
+      "kind": "bill",
+      "title": "To prohibit the Attorney General from requiring compliance with certain laws, memoranda, and Executive Orders in determining eligibility for grants.",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11150",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 11150",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11151-119",
+      "kind": "bill",
+      "title": "Smarter Pretrial Detention for Drug Charges Act of 2026",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11151",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 11151",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11154-119",
+      "kind": "bill",
+      "title": "Fight Fires and Fight Cancer Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11154",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Oversight and Government Reform.",
+      "identifier": "H.R. 11154",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11155-119",
+      "kind": "bill",
+      "title": "To amend title 38, United States Code, to establish a presumption that sarcoidosis is a service-connected disease for certain veterans.",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11155",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Veterans' Affairs.",
+      "identifier": "H.R. 11155",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11156-119",
+      "kind": "bill",
+      "title": "To direct the Secretary of Veterans Affairs to seek to enter into an agreement with the National Academies of Sciences, Engineering, and Medicine to review the presumptions of service connection for chronic diseases, and for other purposes.",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11156",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Veterans' Affairs.",
+      "identifier": "H.R. 11156",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11157-119",
+      "kind": "bill",
+      "title": "RSI Safety Act of 2026",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11157",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Science, Space, and Technology.",
+      "identifier": "H.R. 11157",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11159-119",
+      "kind": "bill",
+      "title": "RECEIPTS Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11159",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Armed Services.",
+      "identifier": "H.R. 11159",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11160-119",
+      "kind": "bill",
+      "title": "DEATH BETS Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11160",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Agriculture.",
+      "identifier": "H.R. 11160",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11161-119",
+      "kind": "bill",
+      "title": "Chronic Condition Management Modernization Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11161",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 11161",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11162-119",
+      "kind": "bill",
+      "title": "Collaborative Combat Aircraft Sustainment and Readiness Assessment Act of 2026",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11162",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Armed Services.",
+      "identifier": "H.R. 11162",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-11163-119",
+      "kind": "bill",
+      "title": "MediKids Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11163",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 11163",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-1653-119",
+      "kind": "bill",
+      "title": "Civil Investigative Demand Reform Act of 2026",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1653",
+      "source": "Congress.gov",
+      "summary": "Placed on the Union Calendar, Calendar No. 785.",
+      "identifier": "H.R. 1653",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-2302-119",
+      "kind": "bill",
+      "title": "Shingle Springs Band of Miwok Indians Land Transfer Act of 2025",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2302",
+      "source": "Congress.gov",
+      "summary": "Presented to President.",
+      "identifier": "H.R. 2302",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-2400-119",
+      "kind": "bill",
+      "title": "Pit River Land Transfer Act of 2026",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2400",
+      "source": "Congress.gov",
+      "summary": "Presented to President.",
+      "identifier": "H.R. 2400",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-4936-119",
+      "kind": "bill",
+      "title": "TRAPS Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4936",
+      "source": "Congress.gov",
+      "summary": "Placed on the Union Calendar, Calendar No. 784.",
+      "identifier": "H.R. 4936",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-5254-119",
+      "kind": "bill",
+      "title": "Gateway Partnership Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5254",
+      "source": "Congress.gov",
+      "summary": "Presented to President.",
+      "identifier": "H.R. 5254",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-5889-119",
+      "kind": "bill",
+      "title": "Eviction Helpline Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5889",
+      "source": "Congress.gov",
+      "summary": "Placed on the Union Calendar, Calendar No. 786.",
+      "identifier": "H.R. 5889",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-7030-119",
+      "kind": "bill",
+      "title": "Securing Facilities for Mental Health Services Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7030",
+      "source": "Congress.gov",
+      "summary": "Placed on the Union Calendar, Calendar No. 787.",
+      "identifier": "H.R. 7030",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-7834-119",
+      "kind": "bill",
+      "title": "Safe Cloud Storage Act",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7834",
+      "source": "Congress.gov",
+      "summary": "Presented to President.",
+      "identifier": "H.R. 7834",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-7866-119",
+      "kind": "bill",
+      "title": "American Lending Fairness Act of 2026",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7866",
+      "source": "Congress.gov",
+      "summary": "Placed on the Union Calendar, Calendar No. 788.",
+      "identifier": "H.R. 7866",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-8454-119",
+      "kind": "bill",
+      "title": "To provide for the transfer of administrative jurisdiction over certain Federal land in the State of California, and for other purposes.",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8454",
+      "source": "Congress.gov",
+      "summary": "Presented to President.",
+      "identifier": "H.R. 8454",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-8957-119",
+      "kind": "bill",
+      "title": "American Reserve Modernization Act of 2026",
+      "date": "2026-11-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8957",
+      "source": "Congress.gov",
+      "summary": "Placed on the Union Calendar, Calendar No. 789.",
+      "identifier": "H.R. 8957",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "fr-2026-23749",
@@ -736,7 +1396,7 @@
     {
       "id": "hr-11132-119",
       "kind": "bill",
-      "title": "To authorize capital punishment for murder more consistently, to provide sound capital sentencing procedures, to enable the execution of Federal capital sentences, to avoid unjustified delay in the execution of capital sentences, to accord finality to state capital judgments subject to United States Supreme Court review, and for other purposes.",
+      "title": "To authorize capital punishment for murder more consistently, to provide sound capital sentencing procedures, to enable the execution of Federal capital sentences, to avoid unjustified delay in the execution of capital sentences, to accord finality to State capital judgments subject to United States Supreme Court review, and for other purposes.",
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/11132",
       "source": "Congress.gov",
@@ -1924,7 +2584,7 @@
     {
       "id": "hr-11087-119",
       "kind": "bill",
-      "title": "To authorize assistance to support activities relating to the clearance of landmines, unexploded ordnance, and other explosive remnants of war in Cambodia, Laos, and Vietnam, to recognize the refugee and immigrant communities who supported and defended the Armed Forces during the conflict in Southeast Asia, including Hmong, Cham, Cambodian, Iu-Mien, Khmu, Lao, Montagnard, and Vietnamese Americans, and for other purposes.",
+      "title": "Legacies of War Recognition and Unexploded Ordnance Removal Act",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/11087",
       "source": "Congress.gov",
@@ -1948,7 +2608,7 @@
     {
       "id": "hr-11089-119",
       "kind": "bill",
-      "title": "To require the Subcommittee on Ocean Science and Technology of the National Science and Technology Council to establish the Interagency Working Group on Coastal Blue Carbon, require the Interagency Working Group to produce a national map and inventory of coastal blue carbon ecosystems, require the Administrator of the National Oceanic and Atmospheric Administration to carry out pilot programs to protect intact and restore degraded coastal blue carbon ecosystems, require the Secretary of the Smithsonian Institution to establish the Coastal Carbon Data Clearinghouse, require the Administrator to seek to enter into an agreement with the National Academies of Science, Engineering, and Medicine to conduct an assessment regarding geologic stores of carbon dioxide, require the Administrator to establish the Coastal Blue Carbon Inventory Program, and require the Administrator to conduct a national assessment to quantify the carbon sequestration potential of coastal blue carbon ecosystems.",
+      "title": "Coastal Restoration Act of 2026",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/11089",
       "source": "Congress.gov",
@@ -2068,7 +2728,7 @@
     {
       "id": "hr-11099-119",
       "kind": "bill",
-      "title": "To amend the Social Security Act to prevent the Commissioner from collecting overpayments from a child in certain circumstances, and for other purposes.",
+      "title": "Children Are Relieved of Overpayments Act",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/11099",
       "source": "Congress.gov",
@@ -2080,7 +2740,7 @@
     {
       "id": "hr-11100-119",
       "kind": "bill",
-      "title": "To establish prohibitions on certain entities with respect to data centers, data center services, and cloud services, and for other purposes.",
+      "title": "Digital Infrastructure Security Act of 2026",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/11100",
       "source": "Congress.gov",
@@ -2548,7 +3208,7 @@
     {
       "id": "s-5771-119",
       "kind": "bill",
-      "title": "A bill to require the Secretary of Defense to carry out a pilot program for the development and use of an online real estate inventory tool, and for other purposes.",
+      "title": "Military HOME Act",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5771",
       "source": "Congress.gov",
@@ -2560,7 +3220,7 @@
     {
       "id": "s-5772-119",
       "kind": "bill",
-      "title": "A bill to require the Secretary of Defense to establish a program to augment holistic rehabilitative care for beneficiaries with limb loss or limb dysfunction through peer mentoring, education, and community outreach, and for other purposes.",
+      "title": "Military Family Limb Loss Support Act",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5772",
       "source": "Congress.gov",
@@ -2596,7 +3256,7 @@
     {
       "id": "s-5775-119",
       "kind": "bill",
-      "title": "A bill to amend title 38, United States Code, to expand eligibility for supportive services for very low-income veteran families to include former members of the reserve components of the Armed Forces, and for other purposes.",
+      "title": "Supportive Services for National Guard and Reserve Veterans and Families Act",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5775",
       "source": "Congress.gov",
@@ -2608,7 +3268,7 @@
     {
       "id": "s-5776-119",
       "kind": "bill",
-      "title": "A bill to amend title 5, United States Code, to permit a Federal employee to take parental bereavement leave with respect to the death of a child who is younger than 26 years of age, and for other purposes.",
+      "title": "Parental Bereavement Leave Expansion Act of 2026",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5776",
       "source": "Congress.gov",
@@ -2632,7 +3292,7 @@
     {
       "id": "s-5778-119",
       "kind": "bill",
-      "title": "A bill to direct the Secretary of Defense to establish a pilot program for partnerships between covered basic needs banks and military installations to provide diapers and diapering supplies to military families.",
+      "title": "Military Family Diaper Assistance Act",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5778",
       "source": "Congress.gov",
@@ -2644,7 +3304,7 @@
     {
       "id": "s-5779-119",
       "kind": "bill",
-      "title": "A bill to require the Secretary of Defense to establish a pilot program on blood pressure monitoring for at-risk pregnant and postpartum beneficiaries under the TRICARE program to increase the rate of early detection of hypertensive disorder related to pregnancy and postpartum, and for other purposes.",
+      "title": "Preeclampsia Prevention for Military Moms Act",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5779",
       "source": "Congress.gov",
@@ -3453,7 +4113,7 @@
     {
       "id": "hr-11055-119",
       "kind": "bill",
-      "title": "To amend the Homeland Security Act of 2002 to establish within the Cybersecurity and Infrastructure Security Agency a pilot program to be known as the \"BRIDGE AI Mission Program\" to recruit and manage artificial intelligence and emerging technology professionals on a temporary basis to support the core mission of the Agency, and for other purposes.",
+      "title": "BRIDGE AI Act",
       "date": "2026-11-18",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/11055",
       "source": "Congress.gov",
@@ -3585,7 +4245,7 @@
     {
       "id": "hr-11066-119",
       "kind": "bill",
-      "title": "To direct the National Institute of Justice to collect, study, and analyze online content created by mass shooters in an effort to early identify potential mass shooters.",
+      "title": "Identifying Mass Shooters Act",
       "date": "2026-11-18",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/11066",
       "source": "Congress.gov",
@@ -3787,18 +4447,6 @@
       "documentType": null
     },
     {
-      "id": "hr-5254-119",
-      "kind": "bill",
-      "title": "Gateway Partnership Act",
-      "date": "2026-11-18",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5254",
-      "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
-      "identifier": "H.R. 5254",
-      "chamber": "house",
-      "documentType": null
-    },
-    {
       "id": "hr-5470-119",
       "kind": "bill",
       "title": "Route 66 National Historic Trail Designation Act",
@@ -3915,18 +4563,6 @@
       "source": "Congress.gov",
       "summary": "Ordered to be Reported in the Nature of a Substitute by Unanimous Consent.",
       "identifier": "H.R. 8276",
-      "chamber": "house",
-      "documentType": null
-    },
-    {
-      "id": "hr-8454-119",
-      "kind": "bill",
-      "title": "To provide for the transfer of administrative jurisdiction over certain Federal land in the State of California, and for other purposes.",
-      "date": "2026-11-18",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8454",
-      "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
-      "identifier": "H.R. 8454",
       "chamber": "house",
       "documentType": null
     },
@@ -4437,7 +5073,7 @@
     {
       "id": "s-5752-119",
       "kind": "bill",
-      "title": "A bill to increase utilization of breast cancer risk assessment tools, and for other purposes.",
+      "title": "Know Your Risk Act",
       "date": "2026-11-18",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5752",
       "source": "Congress.gov",
@@ -4449,7 +5085,7 @@
     {
       "id": "s-5753-119",
       "kind": "bill",
-      "title": "A bill to restrict immigration enforcement actions at airports, to limit information sharing by U.S. Immigration Enforcement and the Transportation Security Administration, and for other purposes.",
+      "title": "Travel Without Fear Act",
       "date": "2026-11-18",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5753",
       "source": "Congress.gov",
@@ -4485,7 +5121,7 @@
     {
       "id": "s-5756-119",
       "kind": "bill",
-      "title": "A bill to require a school that receives support under the E-Rate program of the Federal Communications Commission to allow parents of students attending that school to opt-out of screen-based instruction, and for other purposes.",
+      "title": "FOCUS Act",
       "date": "2026-11-18",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5756",
       "source": "Congress.gov",
@@ -4497,7 +5133,7 @@
     {
       "id": "s-5757-119",
       "kind": "bill",
-      "title": "A bill to amend the Fair Credit Reporting Act to modify the civil liability requirements to include requirements relating to class actions, and for other purposes.",
+      "title": "FCRA Liability Harmonization Act",
       "date": "2026-11-18",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5757",
       "source": "Congress.gov",
@@ -4509,7 +5145,7 @@
     {
       "id": "s-5758-119",
       "kind": "bill",
-      "title": "A bill to amend title 38, United States Code, to provide additional entitlement to Post-9/11 Educational Assistance to certain veterans and members of the Armed Forces who require extra time to complete remedial and deficiency courses, and for other purposes.",
+      "title": "VET Extension Act of 2026",
       "date": "2026-11-18",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5758",
       "source": "Congress.gov",
@@ -4545,7 +5181,7 @@
     {
       "id": "s-5761-119",
       "kind": "bill",
-      "title": "A bill to require the priority and consideration of using native plants in Federal projects, and for other purposes.",
+      "title": "Building Native Habitats at Federal Facilities Act",
       "date": "2026-11-18",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5761",
       "source": "Congress.gov",
@@ -4569,7 +5205,7 @@
     {
       "id": "s-5763-119",
       "kind": "bill",
-      "title": "A bill to amend the CALM Act to include video streaming services, and for other purposes.",
+      "title": "CALM Modernization Act of 2026",
       "date": "2026-11-18",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5763",
       "source": "Congress.gov",
@@ -4581,7 +5217,7 @@
     {
       "id": "s-5764-119",
       "kind": "bill",
-      "title": "A bill to amend title 28, United States Code, to authorize the Attorney General to transfer certain amounts from the working capital fund of the Department of Justice to the Crime Victims Fund, and for other purposes.",
+      "title": "Crime Victims Fund Prioritization Act",
       "date": "2026-11-18",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5764",
       "source": "Congress.gov",
@@ -4605,7 +5241,7 @@
     {
       "id": "s-5766-119",
       "kind": "bill",
-      "title": "A bill to prohibit stealth bots, and for other purposes.",
+      "title": "Stealth Bot Prohibition Act",
       "date": "2026-11-18",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5766",
       "source": "Congress.gov",
@@ -4629,7 +5265,7 @@
     {
       "id": "s-5768-119",
       "kind": "bill",
-      "title": "A bill to amend the Food and Nutrition Act of 2008 to expand the eligibility of students to participate in the supplemental nutrition assistance program, establish college student food insecurity demonstration programs, and for other purposes.",
+      "title": "Student Food Security Act of 2026",
       "date": "2026-11-18",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5768",
       "source": "Congress.gov",
@@ -5119,30 +5755,6 @@
       "documentType": null
     },
     {
-      "id": "hr-2302-119",
-      "kind": "bill",
-      "title": "Shingle Springs Band of Miwok Indians Land Transfer Act of 2025",
-      "date": "2026-11-17",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2302",
-      "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
-      "identifier": "H.R. 2302",
-      "chamber": "house",
-      "documentType": null
-    },
-    {
-      "id": "hr-2400-119",
-      "kind": "bill",
-      "title": "Pit River Land Transfer Act of 2026",
-      "date": "2026-11-17",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2400",
-      "source": "Congress.gov",
-      "summary": "Motion to reconsider laid on the table Agreed to without objection.",
-      "identifier": "H.R. 2400",
-      "chamber": "house",
-      "documentType": null
-    },
-    {
       "id": "hr-3495-119",
       "kind": "bill",
       "title": "Direct Seller and Real Estate Agent Harmonization Act",
@@ -5185,18 +5797,6 @@
       "summary": "Placed on the Union Calendar, Calendar No. 778.",
       "identifier": "H.R. 5525",
       "chamber": "house"
-    },
-    {
-      "id": "hr-7834-119",
-      "kind": "bill",
-      "title": "Safe Cloud Storage Act",
-      "date": "2026-11-17",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7834",
-      "source": "Congress.gov",
-      "summary": "Message on Senate action sent to the House.",
-      "identifier": "H.R. 7834",
-      "chamber": "house",
-      "documentType": null
     },
     {
       "id": "hr-8552-119",
@@ -8901,7 +9501,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Oversight and Government Reform.",
       "identifier": "H.R. 10967",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-10968-119",
@@ -10754,7 +11355,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 10937",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-10938-119",
@@ -14745,7 +15347,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 10554",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-10557-119",
@@ -15523,6 +16126,18 @@
       "documentType": null
     },
     {
+      "id": "hr-10425-119",
+      "kind": "bill",
+      "title": "Environmental Health Restoration Act of 2026",
+      "date": "2026-09-16",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10425",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Natural Resources, Agriculture, and Transportation and Infrastructure, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 10425",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-10426-119",
       "kind": "bill",
       "title": "Backlog Justice Act of 2026",
@@ -15628,6 +16243,18 @@
       "documentType": null
     },
     {
+      "id": "hr-2713-119",
+      "kind": "bill",
+      "title": "MAIN Event Ticketing Act",
+      "date": "2026-09-16",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2713",
+      "source": "Congress.gov",
+      "summary": "Ordered to be Reported (Amended) by the Yeas and Nays: 36 - 0.",
+      "identifier": "H.R. 2713",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-3342-119",
       "kind": "bill",
       "title": "BOP Direct-Hire Authority Act",
@@ -15647,17 +16274,6 @@
       "source": "Congress.gov",
       "summary": "Subcommittee Hearings Held",
       "identifier": "H.R. 3717",
-      "chamber": "house"
-    },
-    {
-      "id": "hr-4936-119",
-      "kind": "bill",
-      "title": "TRAPS Act",
-      "date": "2026-09-16",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4936",
-      "source": "Congress.gov",
-      "summary": "Ordered to be Reported (Amended) by the Yeas and Nays: 49 - 0.",
-      "identifier": "H.R. 4936",
       "chamber": "house"
     },
     {
@@ -15681,18 +16297,6 @@
       "source": "Congress.gov",
       "summary": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 628.",
       "identifier": "H.R. 5517",
-      "chamber": "house",
-      "documentType": null
-    },
-    {
-      "id": "hr-5889-119",
-      "kind": "bill",
-      "title": "Eviction Helpline Act",
-      "date": "2026-09-16",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5889",
-      "source": "Congress.gov",
-      "summary": "Ordered to be Reported (Amended) by the Yeas and Nays: 47 - 2.",
-      "identifier": "H.R. 5889",
       "chamber": "house",
       "documentType": null
     },
@@ -16806,6 +17410,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-10044-119",
+      "kind": "bill",
+      "title": "AI Tax and Work Protection Act",
+      "date": "2026-08-06",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10044",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 10044",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-10045-119",
       "kind": "bill",
       "title": "Protect American Values Act",
@@ -17418,6 +18034,18 @@
       "documentType": null
     },
     {
+      "id": "hr-9914-119",
+      "kind": "bill",
+      "title": "Collaboration on Adversarial Threats and Security Risks Act",
+      "date": "2026-07-23",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9914",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 9914",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-9921-119",
       "kind": "bill",
       "title": "American Shipyard Investment Act of 2026",
@@ -17774,6 +18402,18 @@
       "summary": "Ordered to be Reported in the Nature of a Substitute (Amended) by Voice Vote.",
       "identifier": "H.R. 9326",
       "chamber": "house"
+    },
+    {
+      "id": "hr-9799-119",
+      "kind": "bill",
+      "title": "Online Sellers’ Bill of Rights Act of 2026",
+      "date": "2026-07-21",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9799",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 9799",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-9800-119",
@@ -18444,6 +19084,18 @@
       "summary": "Referred to the Subcommittee on Border Security and Enforcement.",
       "identifier": "H.R. 9374",
       "chamber": "house"
+    },
+    {
+      "id": "hr-9594-119",
+      "kind": "bill",
+      "title": "No PFAS in Cosmetics Act",
+      "date": "2026-07-06",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9594",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 9594",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-9580-119",
@@ -19563,7 +20215,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on the Judiciary, and in addition to the Committees on Energy and Commerce, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 9137",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-9144-119",
@@ -19816,6 +20469,18 @@
       "documentType": null
     },
     {
+      "id": "hr-9056-119",
+      "kind": "bill",
+      "title": "Community Flood Resilience Act",
+      "date": "2026-05-29",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9056",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Financial Services.",
+      "identifier": "H.R. 9056",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-9029-119",
       "kind": "bill",
       "title": "Coal Cleanup Taxpayer Protection Act of 2026",
@@ -19846,7 +20511,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Foreign Affairs.",
       "identifier": "H.R. 9043",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-9044-119",
@@ -20224,6 +20890,18 @@
       "summary": "Referred to the Committee on Armed Services, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 8925",
       "chamber": "house"
+    },
+    {
+      "id": "hr-8938-119",
+      "kind": "bill",
+      "title": "Biotechnology Workforce Alignment Act of 2026",
+      "date": "2026-05-20",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8938",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Science, Space, and Technology.",
+      "identifier": "H.R. 8938",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-8939-119",
@@ -21381,6 +22059,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-8425-119",
+      "kind": "bill",
+      "title": "Strengthening the Vaccines for Children Program Act of 2026",
+      "date": "2026-04-21",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8425",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 8425",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "s-4365-119",
       "kind": "bill",
       "title": "FAFSA Verification Efficiency Act",
@@ -21456,6 +22146,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Armed Services.",
       "identifier": "H.R. 8336",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-8339-119",
+      "kind": "bill",
+      "title": "Drug Origin Transparency Act of 2026",
+      "date": "2026-04-16",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8339",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 8339",
       "chamber": "house",
       "documentType": null
     },
@@ -21754,6 +22456,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-8241-119",
+      "kind": "bill",
+      "title": "Power for the People Act of 2026",
+      "date": "2026-04-09",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8241",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 8241",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-7942-119",
       "kind": "bill",
       "title": "DEATH BETS Act",
@@ -21905,6 +22619,18 @@
       "documentType": null
     },
     {
+      "id": "hr-2247-119",
+      "kind": "bill",
+      "title": "Airmen Certificate Accessibility Act",
+      "date": "2026-03-25",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2247",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 2247",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-3410-119",
       "kind": "bill",
       "title": "Supersonic Aviation Modernization Act",
@@ -21913,6 +22639,18 @@
       "source": "Congress.gov",
       "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "identifier": "H.R. 3410",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-5663-119",
+      "kind": "bill",
+      "title": "ACPAC Modernization Act",
+      "date": "2026-03-25",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5663",
+      "source": "Congress.gov",
+      "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "H.R. 5663",
       "chamber": "house",
       "documentType": null
     },
@@ -22432,6 +23170,18 @@
       "documentType": null
     },
     {
+      "id": "hr-7932-119",
+      "kind": "bill",
+      "title": "HONOR Gold Star Families Act",
+      "date": "2026-03-12",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7932",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Armed Services.",
+      "identifier": "H.R. 7932",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "s-4091-119",
       "kind": "bill",
       "title": "Habitat Connectivity on Working Lands Act of 2026",
@@ -22533,6 +23283,18 @@
       "summary": "Referred to the House Committee on Energy and Commerce.",
       "identifier": "H.R. 7875",
       "chamber": "house"
+    },
+    {
+      "id": "hr-7884-119",
+      "kind": "bill",
+      "title": "Healthcare is Human Act of 2026",
+      "date": "2026-03-09",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7884",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 7884",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-537-119",
@@ -22715,7 +23477,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Energy and Commerce.",
       "identifier": "H.R. 7779",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "s-3958-119",
@@ -24172,6 +24935,18 @@
       "documentType": null
     },
     {
+      "id": "hr-6830-119",
+      "kind": "bill",
+      "title": "Fair Competition for Small Business Act of 2025",
+      "date": "2025-12-17",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6830",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 6830",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "s-1508-119",
       "kind": "bill",
       "title": "Shivwits Band of Paiutes Jurisdictional Clarity Act",
@@ -24578,7 +25353,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Foreign Affairs.",
       "identifier": "H.Res. 925",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "s-3329-119",
@@ -24673,6 +25449,18 @@
       "documentType": null
     },
     {
+      "id": "hr-5875-119",
+      "kind": "bill",
+      "title": "COWS Act of 2025",
+      "date": "2025-12-02",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5875",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
+      "identifier": "H.R. 5875",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-6093-119",
       "kind": "bill",
       "title": "Agricultural Cooperative Energy Savings Act of 2025",
@@ -24760,6 +25548,18 @@
       "source": "Congress.gov",
       "summary": "Placed on the Union Calendar, Calendar No. 339.",
       "identifier": "H.R. 5167",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-6324-119",
+      "kind": "bill",
+      "title": "Retirement Simplification and Clarity Act",
+      "date": "2025-11-28",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6324",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 6324",
       "chamber": "house",
       "documentType": null
     },
@@ -25398,6 +26198,18 @@
       "chamber": "senate"
     },
     {
+      "id": "hr-5874-119",
+      "kind": "bill",
+      "title": "Firearm Access During Shutdowns Act",
+      "date": "2025-10-31",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5874",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on the Judiciary, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 5874",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hres-843-119",
       "kind": "bill",
       "title": "Supporting the designation of October 30 as the \"International Day of Political Prisoners\".",
@@ -25695,7 +26507,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 5684",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-5621-119",
@@ -25707,6 +26520,18 @@
       "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 5621",
       "chamber": "house"
+    },
+    {
+      "id": "hr-5622-119",
+      "kind": "bill",
+      "title": "National Gun Violence Research Act of 2025",
+      "date": "2025-09-30",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5622",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on the Judiciary, and in addition to the Committees on Science, Space, and Technology, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 5622",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-5664-119",
@@ -26202,6 +27027,30 @@
       "chamber": "house"
     },
     {
+      "id": "hr-5350-119",
+      "kind": "bill",
+      "title": "FAIR Act of 2025",
+      "date": "2025-09-15",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5350",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 5350",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-5364-119",
+      "kind": "bill",
+      "title": "STOP FRAUD in Medicaid Act",
+      "date": "2025-09-15",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5364",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 5364",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hres-705-119",
       "kind": "bill",
       "title": "Expressing support for the designation of the week beginning on September 14, 2025, as \"Celebrate Community Week\".",
@@ -26606,6 +27455,18 @@
       "summary": "Read twice and referred to the Committee on Finance.",
       "identifier": "S. 2725",
       "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "hr-4669-119",
+      "kind": "bill",
+      "title": "FEMA Act of 2025",
+      "date": "2025-09-03",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4669",
+      "source": "Congress.gov",
+      "summary": "Ordered to be Reported (Amended) by the Yeas and Nays: 57 - 3.",
+      "identifier": "H.R. 4669",
+      "chamber": "house",
       "documentType": null
     },
     {
@@ -27505,7 +28366,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on the Judiciary, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 4640",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-4688-119",
@@ -28798,7 +29660,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the Subcommittee on Transportation and Maritime Security.",
       "identifier": "H.R. 3708",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-3757-119",
@@ -28961,6 +29824,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the Subcommittee on Oversight and Investigations.",
       "identifier": "H.R. 3261",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-3624-119",
+      "kind": "bill",
+      "title": "Improving Mental Health Access for Students Act",
+      "date": "2025-05-29",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3624",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Education and Workforce.",
+      "identifier": "H.R. 3624",
       "chamber": "house",
       "documentType": null
     },
@@ -30051,7 +30926,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Ways and Means, and in addition to the Committees on Small Business, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 3105",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-3112-119",
@@ -30412,6 +31288,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Ways and Means.",
       "identifier": "H.R. 2912",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-1288-119",
+      "kind": "bill",
+      "title": "DRIVE Act of 2025",
+      "date": "2025-04-11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1288",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Health.",
+      "identifier": "H.R. 1288",
       "chamber": "house",
       "documentType": null
     },
@@ -31166,6 +32054,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-2486-119",
+      "kind": "bill",
+      "title": "Heating and Cooling Relief Act",
+      "date": "2025-03-31",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2486",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 2486",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-2487-119",
       "kind": "bill",
       "title": "Transgender Health Care Access Act",
@@ -31732,6 +32632,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-2228-119",
+      "kind": "bill",
+      "title": "Survivor Benefits Fairness Act",
+      "date": "2025-03-18",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2228",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Veterans' Affairs.",
+      "identifier": "H.R. 2228",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-2231-119",
       "kind": "bill",
       "title": "Motorsports Fairness and Permanency Act of 2025",
@@ -32051,7 +32963,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Ways and Means.",
       "identifier": "H.R. 2048",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-2059-119",
@@ -33389,6 +34302,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-1464-119",
+      "kind": "bill",
+      "title": "MODERN WIC Act of 2025",
+      "date": "2025-02-21",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1464",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Education and Workforce.",
+      "identifier": "H.R. 1464",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-1466-119",
       "kind": "bill",
       "title": "Cardiac Arrest Survival Act of 2025",
@@ -33866,7 +34791,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Ways and Means.",
       "identifier": "H.R. 1340",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-1341-119",
@@ -35517,7 +36443,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on the Judiciary, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 7",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "s-184-119",
