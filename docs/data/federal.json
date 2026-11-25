@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T10:12:21-05:00",
+  "updated": "2026-11-24T19:34:55-05:00",
   "items": [
     {
       "id": "fr-2026-23851",
@@ -932,7 +932,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8469",
       "source": "Congress.gov",
-      "summary": "Motion to proceed to consideration of measure made in Senate.",
+      "summary": "Motion to proceed to consideration of measure made in Senate. (consideration: CR S5847)",
       "identifier": "H.R. 8469",
       "chamber": "house",
       "documentType": null
@@ -1412,7 +1412,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/967",
       "source": "Congress.gov",
-      "summary": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent.",
+      "summary": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5835; text: CR S5843-5844)",
       "identifier": "S.Res. 967",
       "chamber": "senate",
       "documentType": null
@@ -1424,7 +1424,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/968",
       "source": "Congress.gov",
-      "summary": "Referred to the Committee on Commerce, Science, and Transportation.",
+      "summary": "Referred to the Committee on Commerce, Science, and Transportation. (text: CR S5844)",
       "identifier": "S.Res. 968",
       "chamber": "senate",
       "documentType": null
@@ -1436,7 +1436,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/969",
       "source": "Congress.gov",
-      "summary": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent.",
+      "summary": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5847; text: CR S5844)",
       "identifier": "S.Res. 969",
       "chamber": "senate",
       "documentType": null
@@ -1448,7 +1448,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/970",
       "source": "Congress.gov",
-      "summary": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent.",
+      "summary": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5847; text: CR S5844-5845)",
       "identifier": "S.Res. 970",
       "chamber": "senate",
       "documentType": null
@@ -1460,7 +1460,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/971",
       "source": "Congress.gov",
-      "summary": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent.",
+      "summary": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5847; text: CR S5845)",
       "identifier": "S.Res. 971",
       "chamber": "senate",
       "documentType": null
@@ -1472,7 +1472,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/972",
       "source": "Congress.gov",
-      "summary": "Referred to the Committee on the Judiciary.",
+      "summary": "Referred to the Committee on the Judiciary. (text: CR S5845-5846)",
       "identifier": "S.Res. 972",
       "chamber": "senate",
       "documentType": null
@@ -1484,7 +1484,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/973",
       "source": "Congress.gov",
-      "summary": "Referred to the Committee on the Judiciary.",
+      "summary": "Referred to the Committee on the Judiciary. (text: CR S5846)",
       "identifier": "S.Res. 973",
       "chamber": "senate",
       "documentType": null
@@ -1496,7 +1496,7 @@
       "date": "2026-11-20",
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/974",
       "source": "Congress.gov",
-      "summary": "Referred to the Committee on the Judiciary.",
+      "summary": "Referred to the Committee on the Judiciary. (text: CR S5846)",
       "identifier": "S.Res. 974",
       "chamber": "senate",
       "documentType": null
@@ -5311,7 +5311,8 @@
       "source": "Congress.gov",
       "summary": "Held at the desk.",
       "identifier": "S. 2887",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-3296-119",
@@ -5322,7 +5323,8 @@
       "source": "Congress.gov",
       "summary": "Held at the desk.",
       "identifier": "S. 3296",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-3493-119",
@@ -7559,7 +7561,8 @@
       "source": "Congress.gov",
       "summary": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5572-5573; text: CR S5575)",
       "identifier": "S.Res. 956",
-      "chamber": "senate"
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "sres-957-119",
@@ -15109,6 +15112,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-5482-119",
+      "kind": "bill",
+      "title": "PREP Act",
+      "date": "2026-09-23",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5482",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 5482",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-5486-119",
       "kind": "bill",
       "title": "A bill to amend the African Growth and Opportunity Act to exclude from eligibility each sub-Saharan African country that does not effectively enforce its environmental laws and fulfill its international environmental obligations.",
@@ -15769,6 +15784,18 @@
       "source": "Congress.gov",
       "summary": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
       "identifier": "H.R. 9332",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-9503-119",
+      "kind": "bill",
+      "title": "Officer Leslie Coffelt U.S. Secret Service Police Act of 2026",
+      "date": "2026-09-16",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9503",
+      "source": "Congress.gov",
+      "summary": "Ordered to be Reported (Amended) by Voice Vote.",
+      "identifier": "H.R. 9503",
       "chamber": "house",
       "documentType": null
     },
@@ -19343,6 +19370,18 @@
       "chamber": "house"
     },
     {
+      "id": "s-1157-119",
+      "kind": "bill",
+      "title": "Women and Lung Cancer Research and Preventive Services Act of 2025",
+      "date": "2026-06-09",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1157",
+      "source": "Congress.gov",
+      "summary": "Held at the desk.",
+      "identifier": "S. 1157",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-4724-119",
       "kind": "bill",
       "title": "No Toxic Chemicals in Food Packaging Act of 2026",
@@ -20049,6 +20088,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-4631-119",
+      "kind": "bill",
+      "title": "Expanding Whistleblower Protections for Contractors Act of 2026",
+      "date": "2026-05-21",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4631",
+      "source": "Congress.gov",
+      "summary": "Held at the desk.",
+      "identifier": "S. 4631",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-4633-119",
       "kind": "bill",
       "title": "Unmanned and Autonomous Systems Strategy Act of 2026",
@@ -20351,6 +20402,18 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
       "identifier": "S. 4576",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-4553-119",
+      "kind": "bill",
+      "title": "Aaron Salter, Jr., Responsible Body Armor Possession Act",
+      "date": "2026-05-18",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4553",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 4553",
       "chamber": "senate",
       "documentType": null
     },
@@ -20920,6 +20983,18 @@
       "summary": "Referred to the Committee on Foreign Relations. (text: CR S2176-2177)",
       "identifier": "S.Res. 713",
       "chamber": "senate"
+    },
+    {
+      "id": "sres-717-119",
+      "kind": "bill",
+      "title": "A resolution honoring the memory of Jereima \"Jeri\" Bustamante on the eighth anniversary of her passing.",
+      "date": "2026-04-30",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/717",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on the Judiciary. (text: CR S2179)",
+      "identifier": "S.Res. 717",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-8571-119",
@@ -22297,6 +22372,18 @@
       "summary": "Referred to the House Committee on Ways and Means.",
       "identifier": "H.R. 7944",
       "chamber": "house"
+    },
+    {
+      "id": "hr-7946-119",
+      "kind": "bill",
+      "title": "Jury Duty Exemption for Breastfeeding Act of 2026",
+      "date": "2026-03-16",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7946",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on the Judiciary, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 7946",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-7896-119",
@@ -26308,6 +26395,18 @@
       "documentType": null
     },
     {
+      "id": "hr-4449-119",
+      "kind": "bill",
+      "title": "Advocating for Small Business Act",
+      "date": "2025-09-08",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4449",
+      "source": "Congress.gov",
+      "summary": "Placed on the Union Calendar, Calendar No. 207.",
+      "identifier": "H.R. 4449",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-5170-119",
       "kind": "bill",
       "title": "CABLE Leadership Act",
@@ -29370,6 +29469,18 @@
       "documentType": null
     },
     {
+      "id": "hr-3408-119",
+      "kind": "bill",
+      "title": "Pathways to Policing Act",
+      "date": "2025-05-14",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3408",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 3408",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "s-1757-119",
       "kind": "bill",
       "title": "Efficient Nuclear Licensing Hearings Act",
@@ -31735,6 +31846,18 @@
       "chamber": "senate"
     },
     {
+      "id": "s-1023-119",
+      "kind": "bill",
+      "title": "Social Security Overpayment Relief Act",
+      "date": "2025-03-13",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1023",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Finance.",
+      "identifier": "S. 1023",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-1026-119",
       "kind": "bill",
       "title": "Tar Sands Tax Loophole Elimination Act",
@@ -31783,6 +31906,30 @@
       "documentType": null
     },
     {
+      "id": "s-1002-119",
+      "kind": "bill",
+      "title": "Deliver for Democracy Act",
+      "date": "2025-03-12",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1002",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "identifier": "S. 1002",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-1004-119",
+      "kind": "bill",
+      "title": "Pregnant and Postpartum Women Treatment Reauthorization Act",
+      "date": "2025-03-12",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1004",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "identifier": "S. 1004",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-981-119",
       "kind": "bill",
       "title": "Foreign Agents Transparency Act",
@@ -31791,6 +31938,18 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Foreign Relations.",
       "identifier": "S. 981",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-983-119",
+      "kind": "bill",
+      "title": "Hearing Device Coverage Clarification Act",
+      "date": "2025-03-12",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/983",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Finance.",
+      "identifier": "S. 983",
       "chamber": "senate",
       "documentType": null
     },
@@ -32025,6 +32184,18 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
       "identifier": "S. 946",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-959-119",
+      "kind": "bill",
+      "title": "Tariff Transparency Act of 2025",
+      "date": "2025-03-11",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/959",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Finance.",
+      "identifier": "S. 959",
       "chamber": "senate",
       "documentType": null
     },
@@ -33988,6 +34159,18 @@
       "chamber": "senate"
     },
     {
+      "id": "sres-76-119",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on Health, Education, Labor and Pensions.",
+      "date": "2025-02-12",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/76",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S931-932)",
+      "identifier": "S.Res. 76",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-1186-119",
       "kind": "bill",
       "title": "CREEPER Act 2.0",
@@ -34155,6 +34338,54 @@
       "documentType": null
     },
     {
+      "id": "sres-69-119",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on Armed Services.",
+      "date": "2025-02-11",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/69",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S862)",
+      "identifier": "S.Res. 69",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "sres-70-119",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on Energy and Natural Resources.",
+      "date": "2025-02-11",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/70",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S862-863)",
+      "identifier": "S.Res. 70",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "sres-71-119",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on Small Business and Entrepreneurship.",
+      "date": "2025-02-11",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/71",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S863)",
+      "identifier": "S.Res. 71",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "sres-74-119",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on Veterans' Affairs.",
+      "date": "2025-02-11",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/74",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S864)",
+      "identifier": "S.Res. 74",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-1154-119",
       "kind": "bill",
       "title": "Space Infrastructure Act",
@@ -34197,6 +34428,18 @@
       "summary": "Referred to the House Committee on Energy and Commerce.",
       "identifier": "H.R. 1178",
       "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "s-501-119",
+      "kind": "bill",
+      "title": "Strategy for Public Health Preparedness and Response to Artificial Intelligence Threats",
+      "date": "2025-02-10",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/501",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "identifier": "S. 501",
+      "chamber": "senate",
       "documentType": null
     },
     {
@@ -34564,6 +34807,30 @@
       "summary": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
       "identifier": "S. 485",
       "chamber": "senate"
+    },
+    {
+      "id": "sres-62-119",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Special Committee on Aging.",
+      "date": "2025-02-06",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/62",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S797-798)",
+      "identifier": "S.Res. 62",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "sres-65-119",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on the Judiciary.",
+      "date": "2025-02-06",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/65",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S799)",
+      "identifier": "S.Res. 65",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-1002-119",
@@ -35930,6 +36197,18 @@
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 97",
       "chamber": "house"
+    },
+    {
+      "id": "sres-7-119",
+      "kind": "bill",
+      "title": "A resolution fixing the hour of daily meeting of the Senate.",
+      "date": "2025-01-03",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/7",
+      "source": "Congress.gov",
+      "summary": "Submitted in the Senate, considered, and agreed to without amendment by Unanimous Consent. (consideration: CR S7; text: CR S7)",
+      "identifier": "S.Res. 7",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-1348-118",
@@ -37919,6 +38198,18 @@
       "documentType": null
     },
     {
+      "id": "hr-9576-118",
+      "kind": "bill",
+      "title": "Pathways to Policing Act",
+      "date": "2024-09-12",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/9576",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 9576",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "s-5051-118",
       "kind": "bill",
       "title": "Washington’s Trail—1753 National Historic Trail Feasibility Study Act of 2024",
@@ -38677,6 +38968,30 @@
       "summary": "Referred to the House Committee on Education and the Workforce.",
       "identifier": "H.R. 8875",
       "chamber": "house"
+    },
+    {
+      "id": "hr-8842-118",
+      "kind": "bill",
+      "title": "Preventing Pretrial Gun Purchases Act",
+      "date": "2024-06-26",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/8842",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 8842",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "s-4612-118",
+      "kind": "bill",
+      "title": "Preventing Pretrial Gun Purchases Act",
+      "date": "2024-06-20",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4612",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 4612",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-4620-118",
@@ -39604,6 +39919,18 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (Sponsor introductory remarks on measure: CR S2669-2671)",
       "identifier": "S. 4081",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "sres-627-118",
+      "kind": "bill",
+      "title": "A resolution honoring the memory of Jereima \"Jeri\" Bustamante on the sixth anniversary of her passing.",
+      "date": "2024-04-08",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-resolution/627",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S.Res. 627",
       "chamber": "senate",
       "documentType": null
     },
@@ -40648,6 +40975,18 @@
       "chamber": "senate"
     },
     {
+      "id": "hr-6908-118",
+      "kind": "bill",
+      "title": "Jury Duty Exemption for Breastfeeding Act of 2023",
+      "date": "2023-12-29",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/6908",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on the Judiciary, and in addition to the Committee on Oversight and Accountability, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 6908",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "s-229-118",
       "kind": "bill",
       "title": "Securing Semiconductor Supply Chains Act of 2023",
@@ -40781,6 +41120,18 @@
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 6697",
       "chamber": "house"
+    },
+    {
+      "id": "s-3424-118",
+      "kind": "bill",
+      "title": "Strengthening Communities of Recovery Act",
+      "date": "2023-12-06",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3424",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "identifier": "S. 3424",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hr-2980-118",
@@ -43961,6 +44312,18 @@
       "chamber": "senate"
     },
     {
+      "id": "sres-146-118",
+      "kind": "bill",
+      "title": "A resolution honoring the memory of Jereima \"Jeri\" Bustamante on the fifth anniversary of her passing.",
+      "date": "2023-03-30",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-resolution/146",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on the Judiciary. (text: CR S1100-1101)",
+      "identifier": "S.Res. 146",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "s-1042-118",
       "kind": "bill",
       "title": "One Stop Shop for Small Business Licensing Act of 2023",
@@ -44759,6 +45122,18 @@
       "chamber": "senate"
     },
     {
+      "id": "sres-56-118",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on the Judiciary.",
+      "date": "2023-02-13",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-resolution/56",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S354)",
+      "identifier": "S.Res. 56",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-924-118",
       "kind": "bill",
       "title": "Stop the Delta Tunnel Act",
@@ -44827,6 +45202,42 @@
       "chamber": "senate"
     },
     {
+      "id": "sres-38-118",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on Armed Services.",
+      "date": "2023-02-09",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-resolution/38",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S324)",
+      "identifier": "S.Res. 38",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "sres-39-118",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenses by the Committee on Veterans' Affairs.",
+      "date": "2023-02-09",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-resolution/39",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S324-325)",
+      "identifier": "S.Res. 39",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "sres-42-118",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on Health, Education, Labor, and Pensions.",
+      "date": "2023-02-09",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-resolution/42",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S326)",
+      "identifier": "S.Res. 42",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "sres-43-118",
       "kind": "bill",
       "title": "An original resolution authorizing expenditures by the Committee on Homeland Security and Governmental Affairs.",
@@ -44836,6 +45247,18 @@
       "summary": "Referred to the Committee on Rules and Administration. (text: CR S326-327)",
       "identifier": "S.Res. 43",
       "chamber": "senate"
+    },
+    {
+      "id": "sres-44-118",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on Energy and Natural Resources.",
+      "date": "2023-02-09",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-resolution/44",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S327-328)",
+      "identifier": "S.Res. 44",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "sres-51-118",
@@ -44857,6 +45280,30 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on the Judiciary.",
       "identifier": "S. 298",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "sres-34-118",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Special Committee on Aging.",
+      "date": "2023-02-07",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-resolution/34",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S268)",
+      "identifier": "S.Res. 34",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "sres-37-118",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on Small Business and Entrepreneurship.",
+      "date": "2023-02-07",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-resolution/37",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S270)",
+      "identifier": "S.Res. 37",
       "chamber": "senate",
       "documentType": null
     },
@@ -45585,6 +46032,18 @@
       "chamber": "house"
     },
     {
+      "id": "sres-6-118",
+      "kind": "bill",
+      "title": "A resolution fixing the hour of daily meeting of the Senate.",
+      "date": "2023-01-03",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-resolution/6",
+      "source": "Congress.gov",
+      "summary": "Submitted in the Senate, considered, and agreed to without amendment by Unanimous Consent. (consideration: CR S7; text: CR S7)",
+      "identifier": "S.Res. 6",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-4046-117",
       "kind": "bill",
       "title": "NTIA Policy and Cybersecurity Coordination Act",
@@ -46048,6 +46507,30 @@
       "summary": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
       "identifier": "H.R. 6997",
       "chamber": "house"
+    },
+    {
+      "id": "hr-7558-117",
+      "kind": "bill",
+      "title": "Breastfeeding Mothers Jury Duty Exclusion Act of 2022",
+      "date": "2022-11-01",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/7558",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.",
+      "identifier": "H.R. 7558",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-7826-117",
+      "kind": "bill",
+      "title": "Pathways to Policing Act",
+      "date": "2022-11-01",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/7826",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.",
+      "identifier": "H.R. 7826",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-7839-117",
@@ -46867,6 +47350,18 @@
       "documentType": null
     },
     {
+      "id": "s-4149-117",
+      "kind": "bill",
+      "title": "Preventing Pretrial Gun Purchases Act",
+      "date": "2022-05-05",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-bill/4149",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on the Judiciary.",
+      "identifier": "S. 4149",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hr-1508-117",
       "kind": "bill",
       "title": "Guidance Clarity Act of 2021",
@@ -46957,6 +47452,18 @@
       "summary": "Referred to the House Committee on Education and Labor.",
       "identifier": "H.Res. 1046",
       "chamber": "house"
+    },
+    {
+      "id": "sres-587-117",
+      "kind": "bill",
+      "title": "A resolution honoring the memory of Jereima \"Jeri\" Bustamante on the fourth anniversary of her passing.",
+      "date": "2022-04-07",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-resolution/587",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on the Judiciary. (text: CR S2098)",
+      "identifier": "S.Res. 587",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "hres-1042-117",
@@ -48410,6 +48917,18 @@
       "chamber": "senate"
     },
     {
+      "id": "sres-150-117",
+      "kind": "bill",
+      "title": "A resolution honoring the memory of Jereima \"Jeri\" Bustamante on the third anniversary of her passing.",
+      "date": "2021-04-13",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-resolution/150",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on the Judiciary. (text: CR S1898-1899)",
+      "identifier": "S.Res. 150",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hres-300-117",
       "kind": "bill",
       "title": "Expressing support for the designation of April 8, 2021, as \"Remanufacturing Day\".",
@@ -48879,6 +49398,18 @@
       "chamber": "senate"
     },
     {
+      "id": "sres-69-117",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on the Judiciary.",
+      "date": "2021-02-22",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-resolution/69",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S774-775)",
+      "identifier": "S.Res. 69",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "hres-138-117",
       "kind": "bill",
       "title": "Supporting the goals and ideals of International Mother Language Day in bringing attention to the importance of preserving linguistic and cultural heritage through education.",
@@ -48890,6 +49421,42 @@
       "chamber": "house"
     },
     {
+      "id": "sres-58-117",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on Small Business and Entrepreneurship.",
+      "date": "2021-02-13",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-resolution/58",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S743-744)",
+      "identifier": "S.Res. 58",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "sres-59-117",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on Veterans' Affairs.",
+      "date": "2021-02-13",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-resolution/59",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S744)",
+      "identifier": "S.Res. 59",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "sres-60-117",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on Energy and Natural Resources.",
+      "date": "2021-02-13",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-resolution/60",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S744-745)",
+      "identifier": "S.Res. 60",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
       "id": "sres-48-117",
       "kind": "bill",
       "title": "An original resolution authorizing expenditures by the Committee on Homeland Security and Governmental Affairs.",
@@ -48899,6 +49466,18 @@
       "summary": "Referred to the Committee on Rules and Administration. (text: CR S710-711)",
       "identifier": "S.Res. 48",
       "chamber": "senate"
+    },
+    {
+      "id": "sres-55-117",
+      "kind": "bill",
+      "title": "An original resolution authorizing expenditures by the Committee on Health, Education, Labor, and Pensions.",
+      "date": "2021-02-12",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-resolution/55",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Rules and Administration. (text: CR S714)",
+      "identifier": "S.Res. 55",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "sres-56-117",
@@ -49111,6 +49690,18 @@
       "summary": "Referred to the Subcommittee on Space and Aeronautics.",
       "identifier": "H.R. 52",
       "chamber": "house"
+    },
+    {
+      "id": "sres-3-117",
+      "kind": "bill",
+      "title": "A resolution fixing the hour of daily meeting of the Senate.",
+      "date": "2021-01-03",
+      "url": "https://www.congress.gov/bill/117th-congress/senate-resolution/3",
+      "source": "Congress.gov",
+      "summary": "Message on Senate action sent to the House.",
+      "identifier": "S.Res. 3",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-3669-116",
