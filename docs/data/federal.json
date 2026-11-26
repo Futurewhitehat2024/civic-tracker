@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T05:45:41-05:00",
+  "updated": "2026-11-26T15:06:11-05:00",
   "items": [
     {
       "id": "fr-2026-23960",
@@ -16122,6 +16122,18 @@
       "summary": "Subcommittee Hearings Held",
       "identifier": "H.R. 10117",
       "chamber": "house"
+    },
+    {
+      "id": "hr-10184-119",
+      "kind": "bill",
+      "title": "Consumer Financial Protection Accountability and Reform Act of 2026",
+      "date": "2026-09-16",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10184",
+      "source": "Congress.gov",
+      "summary": "Ordered to be Reported (Amended) by the Yeas and Nays: 28 - 21.",
+      "identifier": "H.R. 10184",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-10280-119",
@@ -42718,6 +42730,18 @@
       "documentType": null
     },
     {
+      "id": "hr-4770-118",
+      "kind": "bill",
+      "title": "Chesapeake Bay Science, Education, and Ecosystem Enhancement Act of 2023",
+      "date": "2024-04-02",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/4770",
+      "source": "Congress.gov",
+      "summary": "Placed on the Union Calendar, Calendar No. 359.",
+      "identifier": "H.R. 4770",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-7706-118",
       "kind": "bill",
       "title": "Safe Drinking Water for Disadvantaged Communities Act",
@@ -44627,6 +44651,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-5944-118",
+      "kind": "bill",
+      "title": "SEAfood Act",
+      "date": "2023-10-25",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/5944",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Natural Resources, and in addition to the Committee on Education and the Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 5944",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-6002-118",
       "kind": "bill",
       "title": "21st Century Entrepreneurship Act",
@@ -45420,6 +45456,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-3951-118",
+      "kind": "bill",
+      "title": "Sustaining Healthy Ecosystems, Livelihoods, and Local Seafood Act",
+      "date": "2023-07-28",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3951",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Livestock, Dairy, and Poultry.",
+      "identifier": "H.R. 3951",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-3990-118",
       "kind": "bill",
       "title": "Forest Data Modernization Act of 2023",
@@ -45431,6 +45479,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-4013-118",
+      "kind": "bill",
+      "title": "AQUAA Act",
+      "date": "2023-07-28",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/4013",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Livestock, Dairy, and Poultry.",
+      "identifier": "H.R. 4013",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-4058-118",
       "kind": "bill",
       "title": "Healthy SNAP Act of 2023",
@@ -45439,6 +45499,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the Subcommittee on Nutrition, Foreign Agriculture, and Horticulture.",
       "identifier": "H.R. 4058",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-4127-118",
+      "kind": "bill",
+      "title": "Fair Access to Agriculture Disaster Programs Act",
+      "date": "2023-07-28",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/4127",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit.",
+      "identifier": "H.R. 4127",
       "chamber": "house",
       "documentType": null
     },
@@ -45463,6 +45535,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Agriculture, and in addition to the Committees on Financial Services, Foreign Affairs, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 5078",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-5087-118",
+      "kind": "bill",
+      "title": "SEAS Act",
+      "date": "2023-07-28",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/5087",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Agriculture.",
+      "identifier": "H.R. 5087",
       "chamber": "house",
       "documentType": null
     },
@@ -45531,6 +45615,18 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
       "identifier": "S. 2583",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-2619-118",
+      "kind": "bill",
+      "title": "Promoting American Competition in Aquaculture Research Act",
+      "date": "2023-07-27",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2619",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2619",
       "chamber": "senate",
       "documentType": null
     },
@@ -45692,6 +45788,18 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
       "identifier": "S. 2504",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-2534-118",
+      "kind": "bill",
+      "title": "Chesapeake Bay Science, Education, and Ecosystem Enhancement Act of 2023",
+      "date": "2023-07-26",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2534",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "S. 2534",
       "chamber": "senate",
       "documentType": null
     },
@@ -46235,6 +46343,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-3542-118",
+      "kind": "bill",
+      "title": "Promoting American Competition in Aquaculture Research Act",
+      "date": "2023-06-23",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3542",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
+      "identifier": "H.R. 3542",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-3595-118",
       "kind": "bill",
       "title": "MORE USDA Grants Act",
@@ -46289,6 +46409,18 @@
       "source": "Congress.gov",
       "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "identifier": "S. 2121",
+      "chamber": "senate",
+      "documentType": null
+    },
+    {
+      "id": "s-2211-118",
+      "kind": "bill",
+      "title": "Sustaining Healthy Ecosystems, Livelihoods, and Local Seafood Act",
+      "date": "2023-06-22",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2211",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "identifier": "S. 2211",
       "chamber": "senate",
       "documentType": null
     },
@@ -46529,6 +46661,18 @@
       "summary": "Referred to the House Committee on Oversight and Accountability.",
       "identifier": "H.Res. 480",
       "chamber": "house"
+    },
+    {
+      "id": "s-1861-118",
+      "kind": "bill",
+      "title": "AQUAA Act",
+      "date": "2023-06-07",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1861",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "identifier": "S. 1861",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-1816-118",
@@ -47301,6 +47445,18 @@
       "source": "Congress.gov",
       "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "identifier": "H.R. 1339",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-1020-118",
+      "kind": "bill",
+      "title": "BAITS Act",
+      "date": "2023-04-28",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/1020",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Livestock, Dairy, and Poultry.",
+      "identifier": "H.R. 1020",
       "chamber": "house",
       "documentType": null
     },
