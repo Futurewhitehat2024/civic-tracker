@@ -61,6 +61,11 @@ jobs:
           if [ -f docs/data/federal-notices.json ]; then
             git add docs/data/federal-notices.json
           fi
+          for path in docs/data/deadlines.json docs/data/deadlines.ics docs/data/coverage.json docs/data/counties.json docs/data/manifest.json docs/data/v1; do
+            if [ -e "$path" ]; then
+              git add "$path"
+            fi
+          done
           if python -m scrapers.commit_gate; then
             git commit -m "Update scraped federal and trade records"
             git push

@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-25T19:13:01-05:00",
+  "updated": "2026-11-25T21:59:13-05:00",
   "items": [
+    {
+      "id": "collier-meetings",
+      "name": "Collier County meetings",
+      "lastRun": "2026-11-25T21:59:13-05:00",
+      "records": 15,
+      "errors": []
+    },
     {
       "id": "congress-bills",
       "name": "Congress.gov bills",
@@ -27,6 +34,13 @@
       "name": "House roll-call votes",
       "lastRun": "2026-11-25T19:13:01-05:00",
       "records": 0,
+      "errors": []
+    },
+    {
+      "id": "lee-meetings",
+      "name": "Lee County meetings",
+      "lastRun": "2026-11-25T21:59:13-05:00",
+      "records": 3,
       "errors": []
     },
     {

@@ -8,6 +8,13 @@ STATE_DIR = ROOT / "state"
 FEDERAL_PATH = DATA_DIR / "federal.json"
 TRADES_PATH = DATA_DIR / "trades.json"
 STATUS_PATH = DATA_DIR / "status.json"
+DEADLINES_PATH = DATA_DIR / "deadlines.json"
+DEADLINES_ICS_PATH = DATA_DIR / "deadlines.ics"
+COVERAGE_PATH = DATA_DIR / "coverage.json"
+COUNTIES_PATH = DATA_DIR / "counties.json"
+MANIFEST_PATH = DATA_DIR / "manifest.json"
+EXPORT_DIR = DATA_DIR / "v1"
+SCHEMA_VERSION = "1.1.0"
 
 USER_AGENT = (
     "CivicTracker-bot/1.0 (+https://github.com/Futurewhitehat2024/civic-tracker)"

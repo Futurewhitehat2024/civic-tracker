@@ -2,7 +2,7 @@
 
 from scrapers.context import RunContext
 from scrapers.store import quarantine, touch_feed, upsert_items, upsert_status
-from scrapers.validate import validate_federal, validate_status, validate_trade
+from scrapers.validate import validate_county, validate_federal, validate_status, validate_trade
 
 
 def publish_federal(
@@ -39,6 +39,21 @@ def publish_trades(
         "filingDate",
         replace_prefix=replace_prefix,
         drop_id=drop_id,
+    )
+
+
+def publish_counties(
+    ctx: RunContext,
+    source_id: str,
+    items: list[dict],
+) -> tuple[int, list[str]]:
+    return _publish(
+        ctx,
+        source_id,
+        items,
+        validate_county,
+        ctx.federal_path.with_name("counties.json"),
+        "date",
     )
 
 

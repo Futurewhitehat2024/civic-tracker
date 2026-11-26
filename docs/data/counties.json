@@ -1,0 +1,383 @@
+{
+  "updated": "2026-11-25T22:00:34-05:00",
+  "items": [
+    {
+      "id": "fl-collier-1708",
+      "kind": "meeting",
+      "title": "Tourist Development Council Meeting",
+      "date": "2026-12-15",
+      "url": "https://colliercofl.portal.civicclerk.com/event/1708",
+      "source": "Collier County CivicClerk",
+      "summary": "Tourist Development Council",
+      "identifier": "1708",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-1676",
+      "kind": "meeting",
+      "title": "Metropolitan Planning Organization Meeting",
+      "date": "2026-12-11",
+      "url": "https://colliercofl.portal.civicclerk.com/event/1676",
+      "source": "Collier County CivicClerk",
+      "summary": "Metropolitan Planning Organization",
+      "identifier": "1676",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-1582",
+      "kind": "meeting",
+      "title": "Hearing Examiner Meeting",
+      "date": "2026-12-10",
+      "url": "https://colliercofl.portal.civicclerk.com/event/1582",
+      "source": "Collier County CivicClerk",
+      "summary": "Hearing Examiner",
+      "identifier": "1582",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-2879",
+      "kind": "meeting",
+      "title": "Board of County Commissioners Meeting",
+      "date": "2026-12-08",
+      "url": "https://colliercofl.portal.civicclerk.com/event/2879",
+      "source": "Collier County CivicClerk",
+      "summary": "Board of County Commissioners",
+      "identifier": "2879",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-2851",
+      "kind": "meeting",
+      "title": "Special Magistrate Hearing",
+      "date": "2026-12-04",
+      "url": "https://colliercofl.portal.civicclerk.com/event/2851",
+      "source": "Collier County CivicClerk",
+      "summary": "Special Magistrate",
+      "identifier": "2851",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-1488",
+      "kind": "meeting",
+      "title": "Planning Commission Meeting",
+      "date": "2026-12-03",
+      "url": "https://colliercofl.portal.civicclerk.com/event/1488",
+      "source": "Collier County CivicClerk",
+      "summary": "Planning Commission",
+      "identifier": "1488",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-lee-302",
+      "kind": "meeting",
+      "title": "Lee Board of County Commissioners",
+      "date": "2026-12-01",
+      "url": "https://leecofl.portal.civicclerk.com/event/302",
+      "source": "Lee County CivicClerk",
+      "summary": "Lee Board of County Commissioners Regular Meeting",
+      "identifier": "302",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12071"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-1720",
+      "kind": "meeting",
+      "title": "Advisory Boards",
+      "date": "2026-11-28",
+      "url": "https://colliercofl.portal.civicclerk.com/event/1720",
+      "source": "Collier County CivicClerk",
+      "summary": "Advisory Boards",
+      "identifier": "1720",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-2867",
+      "kind": "meeting",
+      "title": "Hearing Examiner Meeting (4th Thurs)",
+      "date": "2026-11-26",
+      "url": "https://colliercofl.portal.civicclerk.com/event/2867",
+      "source": "Collier County CivicClerk",
+      "summary": "Hearing Examiner",
+      "identifier": "2867",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-1759",
+      "kind": "meeting",
+      "title": "Special Magistrate Animal Control Hearing",
+      "date": "2026-11-20",
+      "url": "https://colliercofl.portal.civicclerk.com/event/1759",
+      "source": "Collier County CivicClerk",
+      "summary": "Special Magistrate",
+      "identifier": "1759",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-2836",
+      "kind": "meeting",
+      "title": "Planning Commission Meeting",
+      "date": "2026-11-19",
+      "url": "https://colliercofl.portal.civicclerk.com/event/2836",
+      "source": "Collier County CivicClerk",
+      "summary": "Planning Commission",
+      "identifier": "2836",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-2926",
+      "kind": "meeting",
+      "title": "Productivity Committee",
+      "date": "2026-11-19",
+      "url": "https://colliercofl.portal.civicclerk.com/event/2926",
+      "source": "Collier County CivicClerk",
+      "summary": "Productivity Committee",
+      "identifier": "2926",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-1746",
+      "kind": "meeting",
+      "title": "Code Enforcement Board Meeting",
+      "date": "2026-11-18",
+      "url": "https://colliercofl.portal.civicclerk.com/event/1746",
+      "source": "Collier County CivicClerk",
+      "summary": "Code Enforcement Board",
+      "identifier": "1746",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-1707",
+      "kind": "meeting",
+      "title": "Tourist Development Council Meeting",
+      "date": "2026-11-17",
+      "url": "https://colliercofl.portal.civicclerk.com/event/1707",
+      "source": "Collier County CivicClerk",
+      "summary": "Tourist Development Council",
+      "identifier": "1707",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-lee-1347",
+      "kind": "meeting",
+      "title": "Lee Board of County Commissioners Workshop",
+      "date": "2026-11-17",
+      "url": "https://leecofl.portal.civicclerk.com/event/1347",
+      "source": "Lee County CivicClerk",
+      "summary": "Lee Board of County Commissioners Regular Meeting",
+      "identifier": "1347",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12071"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-lee-314",
+      "kind": "meeting",
+      "title": "Lee Board of County Commissioners",
+      "date": "2026-11-17",
+      "url": "https://leecofl.portal.civicclerk.com/event/314",
+      "source": "Lee County CivicClerk",
+      "summary": "Lee Board of County Commissioners Regular Meeting",
+      "identifier": "314",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12071"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-1685",
+      "kind": "meeting",
+      "title": "Metropolitan Planning Organization Meeting",
+      "date": "2026-11-13",
+      "url": "https://colliercofl.portal.civicclerk.com/event/1685",
+      "source": "Collier County CivicClerk",
+      "summary": "MEETING CANCELLED",
+      "identifier": "1685",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    },
+    {
+      "id": "fl-collier-1557",
+      "kind": "meeting",
+      "title": "Hearing Examiner Meeting",
+      "date": "2026-11-12",
+      "url": "https://colliercofl.portal.civicclerk.com/event/1557",
+      "source": "Collier County CivicClerk",
+      "summary": "Hearing Examiner",
+      "identifier": "1557",
+      "chamber": null,
+      "documentType": "Meeting",
+      "tags": [],
+      "jurisdiction": {
+        "level": "county",
+        "state": "FL",
+        "countyFips": "12021"
+      },
+      "commentsCloseOn": null,
+      "effectiveOn": null,
+      "agencies": null
+    }
+  ]
+}

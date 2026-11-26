@@ -14,6 +14,7 @@ from scrapers.config import (
 )
 from scrapers.context import RunContext
 from scrapers.dates import now_iso, parse_cli_date, today_et
+from scrapers.enrich import finalize_package_data
 from scrapers.http_client import PoliteClient
 from scrapers.runner import parse_sources, run_sources
 
@@ -39,12 +40,17 @@ def main(argv: list[str] | None = None) -> int:
         default=os.environ.get("SCRAPE_TO") or None,
         help="Backfill end date YYYY-MM-DD. Default: today in America/New_York.",
     )
+    parser.add_argument(
+        "--finalize-only",
+        action="store_true",
+        help="Skip source fetches. Enrich stored feeds and write package exports.",
+    )
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(message)s")
     # httpx logs the full request URL at INFO. That URL can carry the API key.
     logging.getLogger("httpx").setLevel(logging.WARNING)
     logging.getLogger("httpcore").setLevel(logging.WARNING)
-    source_ids = parse_sources(args.sources)
+    source_ids = [] if args.finalize_only else parse_sources(args.sources)
     cli_start = parse_cli_date(args.from_date, "--from")
     cli_end = parse_cli_date(args.to_date, "--to")
     key = os.environ.get(API_KEY_ENV, "").strip()
@@ -66,5 +72,8 @@ def main(argv: list[str] | None = None) -> int:
             today=today_et(),
             now=now_iso(),
         )
-        run_sources(ctx, source_ids)
+        if args.finalize_only:
+            finalize_package_data(ctx)
+        else:
+            run_sources(ctx, source_ids)
     return 0

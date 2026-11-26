@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.1.0",
+  "updated": "2026-11-25T22:00:34-05:00",
+  "datasets": [
+    {
+      "id": "federal",
+      "title": "Federal actions",
+      "json": "v1/federal.json",
+      "csv": "v1/federal.csv",
+      "count": 4774,
+      "lastUpdated": "2026-11-25T22:00:34-05:00",
+      "schemaVersion": "1.1.0"
+    },
+    {
+      "id": "federal-notices",
+      "title": "Federal Register notices",
+      "json": "v1/federal-notices.json",
+      "csv": "v1/federal-notices.csv",
+      "count": 395,
+      "lastUpdated": "2026-11-25T22:00:34-05:00",
+      "schemaVersion": "1.1.0"
+    },
+    {
+      "id": "deadlines",
+      "title": "Comment deadlines and effective dates",
+      "json": "v1/deadlines.json",
+      "csv": "v1/deadlines.csv",
+      "count": 0,
+      "lastUpdated": "2026-11-25T22:00:34-05:00",
+      "schemaVersion": "1.1.0"
+    },
+    {
+      "id": "counties",
+      "title": "Florida county meetings",
+      "json": "v1/counties.json",
+      "csv": "v1/counties.csv",
+      "count": 18,
+      "lastUpdated": "2026-11-25T22:00:34-05:00",
+      "schemaVersion": "1.1.0"
+    },
+    {
+      "id": "coverage",
+      "title": "Jurisdiction coverage and county packs",
+      "json": "v1/coverage.json",
+      "csv": "v1/coverage.csv",
+      "count": 67,
+      "lastUpdated": "2026-11-25T22:00:34-05:00",
+      "schemaVersion": "1.1.0"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "trades",
+      "reason": "Congressional stock-trade filings stay on the free public news page and are not part of the package API or bulk export."
+    }
+  ]
+}

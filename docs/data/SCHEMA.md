@@ -1,6 +1,8 @@
 # Feed JSON schema
 
-The static site reads three files. Scrapers should overwrite these files in place. Do not commit API keys or credentials next to them.
+The static site reads the original three feed files. Scrapers also write package files used by the data-based GovWatcher tiers. Overwrite files in place. Do not commit API keys or credentials next to them. Congressional stock-trade filings in `trades.json` stay out of every package export.
+
+Schema version `1.1.0` adds optional package fields (`tags`, `jurisdiction`, `commentsCloseOn`, `effectiveOn`, `agencies`) and the derived files listed at the end of this document.
 
 Each file is a JSON object:
 
@@ -38,6 +40,11 @@ Item fields:
 | `identifier` | no | string or `null` | Bill number, vote number, executive-order number, or Federal Register document number. |
 | `chamber` | no | string or `null` | `house`, `senate`, or `null` for executive and register items. |
 | `documentType` | no | string or `null` | Federal Register label such as `Rule`, `Proposed Rule`, `Notice`, `Executive Order`, or `Proclamation`. `null` for bills and votes. Notices live in `federal-notices.json`, which uses this same item shape. |
+| `tags` | no | array of strings | Sorted slugs. Federal Register documents and executive orders may be tagged `tariff`, `section-232`, `section-301`, `ieepa`, `hts`, `ustr`, `ita`, `cbp`, `usitc`, or `bis`. Bills and votes use `[]`. |
+| `jurisdiction` | no | object | `{ "level": "federal" \| "state" \| "county", "state": "FL" or null, "countyFips": "12021" or null }`. Federal records use `level: "federal"`. |
+| `commentsCloseOn` | no | string or `null` | Federal Register `comments_close_on` date. Present after a live scrape or a successful backfill. Omitted on older rows until then. |
+| `effectiveOn` | no | string or `null` | Federal Register `effective_on` date. Same presence rule as `commentsCloseOn`. |
+| `agencies` | no | array of strings or `null` | Official issuing-agency names from the Federal Register. |
 
 Example item (not committed as data):
 
@@ -118,3 +125,43 @@ Example item (not committed as data):
   "errors": []
 }
 ```
+
+
+## Package files (schema 1.1.0)
+
+These files support the data-based packages. They are rewritten at the end of each scraper run, including `--finalize-only`. `trades.json` is never copied into them.
+
+### `deadlines.json` and `deadlines.ics`
+
+One item per comment deadline or effective date found on Federal Register records in `federal.json` and `federal-notices.json`.
+
+| Field | Required | Type | Notes |
+| --- | --- | --- | --- |
+| `id` | yes | string | `{recordId}-comment-due` or `{recordId}-effective`. |
+| `recordId` | yes | string | The federal or notice record id. |
+| `kind` | yes | string | `comment_due` or `effective`. |
+| `date` | yes | string | The deadline or effective date. |
+| `title` | yes | string | Prefixes the source title with `Comment due:` or `Effective date:`. |
+| `url` | yes | string | Official Federal Register page. |
+| `source` | yes | string | Usually `Federal Register`. |
+| `documentType` | no | string or `null` | Copied from the source record. |
+| `tags` | no | array of strings | Copied from the source record. |
+| `jurisdiction` | no | object | Copied from the source record. |
+
+`deadlines.ics` is a deterministic iCalendar file of the same items, for calendar import.
+
+### `coverage.json`
+
+Florida county registry used for county packs and per-state pricing. Adjacency comes from the U.S. Census Bureau County Adjacency File. Collier (`12021`) and Lee (`12071`) are `in_test`. The other 65 Florida counties are `planned`. A county pack is the home county plus its Florida neighbors (`pack`).
+
+### `counties.json`
+
+County meeting records, same item shape as `federal.json` except `kind` is `meeting` and `jurisdiction.level` is `county`. Collier and Lee collectors read the official CivicClerk public Events API and are opt-in (`--sources counties`). They are not part of the default `all` group until a county is marked live.
+
+### `manifest.json` and `v1/`
+
+`manifest.json` lists each package dataset, its count, `lastUpdated`, `schemaVersion`, and paths to the versioned JSON and CSV copies under `docs/data/v1/`. The manifest also records that `trades` is excluded from the package API.
+
+### Not collected by the scraper
+
+The influencer referral program is a site and billing feature. Official public data-breach notice sources are documented in [`PLANNED-SOURCES.md`](PLANNED-SOURCES.md). There is no live breach collector yet.

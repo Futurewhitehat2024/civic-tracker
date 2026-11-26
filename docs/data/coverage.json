@@ -1,0 +1,1589 @@
+{
+  "updated": "2026-11-25T22:00:34-05:00",
+  "schemaVersion": "1.1.0",
+  "states": [
+    {
+      "code": "FL",
+      "name": "Florida",
+      "status": "in_test",
+      "counties": [
+        {
+          "name": "Alachua",
+          "fullName": "Alachua County, FL",
+          "fips": "12001",
+          "status": "planned",
+          "borders": [
+            "12007",
+            "12023",
+            "12041",
+            "12075",
+            "12083",
+            "12107",
+            "12125"
+          ],
+          "pack": [
+            "12001",
+            "12007",
+            "12023",
+            "12041",
+            "12075",
+            "12083",
+            "12107",
+            "12125"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Baker",
+          "fullName": "Baker County, FL",
+          "fips": "12003",
+          "status": "planned",
+          "borders": [
+            "12007",
+            "12019",
+            "12023",
+            "12031",
+            "12089",
+            "12125",
+            "13049",
+            "13065",
+            "13299"
+          ],
+          "pack": [
+            "12003",
+            "12007",
+            "12019",
+            "12023",
+            "12031",
+            "12089",
+            "12125"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Bay",
+          "fullName": "Bay County, FL",
+          "fips": "12005",
+          "status": "planned",
+          "borders": [
+            "12013",
+            "12045",
+            "12063",
+            "12131",
+            "12133"
+          ],
+          "pack": [
+            "12005",
+            "12013",
+            "12045",
+            "12063",
+            "12131",
+            "12133"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Bradford",
+          "fullName": "Bradford County, FL",
+          "fips": "12007",
+          "status": "planned",
+          "borders": [
+            "12001",
+            "12003",
+            "12019",
+            "12107",
+            "12125"
+          ],
+          "pack": [
+            "12007",
+            "12001",
+            "12003",
+            "12019",
+            "12107",
+            "12125"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Brevard",
+          "fullName": "Brevard County, FL",
+          "fips": "12009",
+          "status": "planned",
+          "borders": [
+            "12061",
+            "12095",
+            "12097",
+            "12117",
+            "12127"
+          ],
+          "pack": [
+            "12009",
+            "12061",
+            "12095",
+            "12097",
+            "12117",
+            "12127"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Broward",
+          "fullName": "Broward County, FL",
+          "fips": "12011",
+          "status": "planned",
+          "borders": [
+            "12021",
+            "12051",
+            "12086",
+            "12099"
+          ],
+          "pack": [
+            "12011",
+            "12021",
+            "12051",
+            "12086",
+            "12099"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Calhoun",
+          "fullName": "Calhoun County, FL",
+          "fips": "12013",
+          "status": "planned",
+          "borders": [
+            "12005",
+            "12039",
+            "12045",
+            "12063",
+            "12077"
+          ],
+          "pack": [
+            "12013",
+            "12005",
+            "12039",
+            "12045",
+            "12063",
+            "12077"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Charlotte",
+          "fullName": "Charlotte County, FL",
+          "fips": "12015",
+          "status": "planned",
+          "borders": [
+            "12027",
+            "12043",
+            "12051",
+            "12055",
+            "12071",
+            "12115"
+          ],
+          "pack": [
+            "12015",
+            "12027",
+            "12043",
+            "12051",
+            "12055",
+            "12071",
+            "12115"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Citrus",
+          "fullName": "Citrus County, FL",
+          "fips": "12017",
+          "status": "planned",
+          "borders": [
+            "12053",
+            "12075",
+            "12083",
+            "12119"
+          ],
+          "pack": [
+            "12017",
+            "12053",
+            "12075",
+            "12083",
+            "12119"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Clay",
+          "fullName": "Clay County, FL",
+          "fips": "12019",
+          "status": "planned",
+          "borders": [
+            "12003",
+            "12007",
+            "12031",
+            "12107",
+            "12109"
+          ],
+          "pack": [
+            "12019",
+            "12003",
+            "12007",
+            "12031",
+            "12107",
+            "12109"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Collier",
+          "fullName": "Collier County, FL",
+          "fips": "12021",
+          "status": "in_test",
+          "borders": [
+            "12011",
+            "12051",
+            "12071",
+            "12086",
+            "12087"
+          ],
+          "pack": [
+            "12021",
+            "12011",
+            "12051",
+            "12071",
+            "12086",
+            "12087"
+          ],
+          "sources": [
+            {
+              "type": "civicclerk",
+              "tenant": "colliercofl",
+              "api": "https://colliercofl.api.civicclerk.com/v1/Events",
+              "portal": "https://colliercofl.portal.civicclerk.com/"
+            },
+            {
+              "type": "iqm2_rss",
+              "url": "https://colliercountyfl.iqm2.com/Services/RSS.aspx?Feed=Calendar",
+              "note": "Legacy meeting-calendar RSS. CivicClerk is the current official portal."
+            }
+          ]
+        },
+        {
+          "name": "Columbia",
+          "fullName": "Columbia County, FL",
+          "fips": "12023",
+          "status": "planned",
+          "borders": [
+            "12001",
+            "12003",
+            "12041",
+            "12047",
+            "12121",
+            "12125",
+            "13065",
+            "13101"
+          ],
+          "pack": [
+            "12023",
+            "12001",
+            "12003",
+            "12041",
+            "12047",
+            "12121",
+            "12125"
+          ],
+          "sources": []
+        },
+        {
+          "name": "DeSoto",
+          "fullName": "DeSoto County, FL",
+          "fips": "12027",
+          "status": "planned",
+          "borders": [
+            "12015",
+            "12043",
+            "12049",
+            "12055",
+            "12081",
+            "12115"
+          ],
+          "pack": [
+            "12027",
+            "12015",
+            "12043",
+            "12049",
+            "12055",
+            "12081",
+            "12115"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Dixie",
+          "fullName": "Dixie County, FL",
+          "fips": "12029",
+          "status": "planned",
+          "borders": [
+            "12041",
+            "12067",
+            "12075",
+            "12123"
+          ],
+          "pack": [
+            "12029",
+            "12041",
+            "12067",
+            "12075",
+            "12123"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Duval",
+          "fullName": "Duval County, FL",
+          "fips": "12031",
+          "status": "planned",
+          "borders": [
+            "12003",
+            "12019",
+            "12089",
+            "12109"
+          ],
+          "pack": [
+            "12031",
+            "12003",
+            "12019",
+            "12089",
+            "12109"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Escambia",
+          "fullName": "Escambia County, FL",
+          "fips": "12033",
+          "status": "planned",
+          "borders": [
+            "01003",
+            "01053",
+            "12113"
+          ],
+          "pack": [
+            "12033",
+            "12113"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Flagler",
+          "fullName": "Flagler County, FL",
+          "fips": "12035",
+          "status": "planned",
+          "borders": [
+            "12107",
+            "12109",
+            "12127"
+          ],
+          "pack": [
+            "12035",
+            "12107",
+            "12109",
+            "12127"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Franklin",
+          "fullName": "Franklin County, FL",
+          "fips": "12037",
+          "status": "planned",
+          "borders": [
+            "12045",
+            "12077",
+            "12129"
+          ],
+          "pack": [
+            "12037",
+            "12045",
+            "12077",
+            "12129"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Gadsden",
+          "fullName": "Gadsden County, FL",
+          "fips": "12039",
+          "status": "planned",
+          "borders": [
+            "12013",
+            "12063",
+            "12073",
+            "12077",
+            "13087",
+            "13131",
+            "13253"
+          ],
+          "pack": [
+            "12039",
+            "12013",
+            "12063",
+            "12073",
+            "12077"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Gilchrist",
+          "fullName": "Gilchrist County, FL",
+          "fips": "12041",
+          "status": "planned",
+          "borders": [
+            "12001",
+            "12023",
+            "12029",
+            "12067",
+            "12075",
+            "12121"
+          ],
+          "pack": [
+            "12041",
+            "12001",
+            "12023",
+            "12029",
+            "12067",
+            "12075",
+            "12121"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Glades",
+          "fullName": "Glades County, FL",
+          "fips": "12043",
+          "status": "planned",
+          "borders": [
+            "12015",
+            "12027",
+            "12051",
+            "12055",
+            "12071",
+            "12085",
+            "12093",
+            "12099"
+          ],
+          "pack": [
+            "12043",
+            "12015",
+            "12027",
+            "12051",
+            "12055",
+            "12071",
+            "12085",
+            "12093",
+            "12099"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Gulf",
+          "fullName": "Gulf County, FL",
+          "fips": "12045",
+          "status": "planned",
+          "borders": [
+            "12005",
+            "12013",
+            "12037",
+            "12077"
+          ],
+          "pack": [
+            "12045",
+            "12005",
+            "12013",
+            "12037",
+            "12077"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Hamilton",
+          "fullName": "Hamilton County, FL",
+          "fips": "12047",
+          "status": "planned",
+          "borders": [
+            "12023",
+            "12079",
+            "12121",
+            "13027",
+            "13101",
+            "13185"
+          ],
+          "pack": [
+            "12047",
+            "12023",
+            "12079",
+            "12121"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Hardee",
+          "fullName": "Hardee County, FL",
+          "fips": "12049",
+          "status": "planned",
+          "borders": [
+            "12027",
+            "12055",
+            "12057",
+            "12081",
+            "12105"
+          ],
+          "pack": [
+            "12049",
+            "12027",
+            "12055",
+            "12057",
+            "12081",
+            "12105"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Hendry",
+          "fullName": "Hendry County, FL",
+          "fips": "12051",
+          "status": "planned",
+          "borders": [
+            "12011",
+            "12015",
+            "12021",
+            "12043",
+            "12071",
+            "12085",
+            "12093",
+            "12099"
+          ],
+          "pack": [
+            "12051",
+            "12011",
+            "12015",
+            "12021",
+            "12043",
+            "12071",
+            "12085",
+            "12093",
+            "12099"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Hernando",
+          "fullName": "Hernando County, FL",
+          "fips": "12053",
+          "status": "planned",
+          "borders": [
+            "12017",
+            "12101",
+            "12119"
+          ],
+          "pack": [
+            "12053",
+            "12017",
+            "12101",
+            "12119"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Highlands",
+          "fullName": "Highlands County, FL",
+          "fips": "12055",
+          "status": "planned",
+          "borders": [
+            "12015",
+            "12027",
+            "12043",
+            "12049",
+            "12093",
+            "12097",
+            "12105"
+          ],
+          "pack": [
+            "12055",
+            "12015",
+            "12027",
+            "12043",
+            "12049",
+            "12093",
+            "12097",
+            "12105"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Hillsborough",
+          "fullName": "Hillsborough County, FL",
+          "fips": "12057",
+          "status": "planned",
+          "borders": [
+            "12049",
+            "12081",
+            "12101",
+            "12103",
+            "12105"
+          ],
+          "pack": [
+            "12057",
+            "12049",
+            "12081",
+            "12101",
+            "12103",
+            "12105"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Holmes",
+          "fullName": "Holmes County, FL",
+          "fips": "12059",
+          "status": "planned",
+          "borders": [
+            "01061",
+            "12063",
+            "12131",
+            "12133"
+          ],
+          "pack": [
+            "12059",
+            "12063",
+            "12131",
+            "12133"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Indian River",
+          "fullName": "Indian River County, FL",
+          "fips": "12061",
+          "status": "planned",
+          "borders": [
+            "12009",
+            "12093",
+            "12097",
+            "12111"
+          ],
+          "pack": [
+            "12061",
+            "12009",
+            "12093",
+            "12097",
+            "12111"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Jackson",
+          "fullName": "Jackson County, FL",
+          "fips": "12063",
+          "status": "planned",
+          "borders": [
+            "01061",
+            "01069",
+            "12005",
+            "12013",
+            "12039",
+            "12059",
+            "12077",
+            "12133",
+            "13253"
+          ],
+          "pack": [
+            "12063",
+            "12005",
+            "12013",
+            "12039",
+            "12059",
+            "12077",
+            "12133"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Jefferson",
+          "fullName": "Jefferson County, FL",
+          "fips": "12065",
+          "status": "planned",
+          "borders": [
+            "12073",
+            "12079",
+            "12123",
+            "12129",
+            "13027",
+            "13275"
+          ],
+          "pack": [
+            "12065",
+            "12073",
+            "12079",
+            "12123",
+            "12129"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Lafayette",
+          "fullName": "Lafayette County, FL",
+          "fips": "12067",
+          "status": "planned",
+          "borders": [
+            "12029",
+            "12041",
+            "12079",
+            "12121",
+            "12123"
+          ],
+          "pack": [
+            "12067",
+            "12029",
+            "12041",
+            "12079",
+            "12121",
+            "12123"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Lake",
+          "fullName": "Lake County, FL",
+          "fips": "12069",
+          "status": "planned",
+          "borders": [
+            "12083",
+            "12095",
+            "12097",
+            "12105",
+            "12117",
+            "12119",
+            "12127"
+          ],
+          "pack": [
+            "12069",
+            "12083",
+            "12095",
+            "12097",
+            "12105",
+            "12117",
+            "12119",
+            "12127"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Lee",
+          "fullName": "Lee County, FL",
+          "fips": "12071",
+          "status": "in_test",
+          "borders": [
+            "12015",
+            "12021",
+            "12043",
+            "12051"
+          ],
+          "pack": [
+            "12071",
+            "12015",
+            "12021",
+            "12043",
+            "12051"
+          ],
+          "sources": [
+            {
+              "type": "civicclerk",
+              "tenant": "leecofl",
+              "api": "https://leecofl.api.civicclerk.com/v1/Events",
+              "portal": "https://leecofl.portal.civicclerk.com/"
+            }
+          ]
+        },
+        {
+          "name": "Leon",
+          "fullName": "Leon County, FL",
+          "fips": "12073",
+          "status": "planned",
+          "borders": [
+            "12039",
+            "12065",
+            "12077",
+            "12129",
+            "13131",
+            "13275"
+          ],
+          "pack": [
+            "12073",
+            "12039",
+            "12065",
+            "12077",
+            "12129"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Levy",
+          "fullName": "Levy County, FL",
+          "fips": "12075",
+          "status": "planned",
+          "borders": [
+            "12001",
+            "12017",
+            "12029",
+            "12041",
+            "12083"
+          ],
+          "pack": [
+            "12075",
+            "12001",
+            "12017",
+            "12029",
+            "12041",
+            "12083"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Liberty",
+          "fullName": "Liberty County, FL",
+          "fips": "12077",
+          "status": "planned",
+          "borders": [
+            "12013",
+            "12037",
+            "12039",
+            "12045",
+            "12063",
+            "12073",
+            "12129"
+          ],
+          "pack": [
+            "12077",
+            "12013",
+            "12037",
+            "12039",
+            "12045",
+            "12063",
+            "12073",
+            "12129"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Madison",
+          "fullName": "Madison County, FL",
+          "fips": "12079",
+          "status": "planned",
+          "borders": [
+            "12047",
+            "12065",
+            "12067",
+            "12121",
+            "12123",
+            "13027",
+            "13185"
+          ],
+          "pack": [
+            "12079",
+            "12047",
+            "12065",
+            "12067",
+            "12121",
+            "12123"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Manatee",
+          "fullName": "Manatee County, FL",
+          "fips": "12081",
+          "status": "planned",
+          "borders": [
+            "12027",
+            "12049",
+            "12057",
+            "12105",
+            "12115"
+          ],
+          "pack": [
+            "12081",
+            "12027",
+            "12049",
+            "12057",
+            "12105",
+            "12115"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Marion",
+          "fullName": "Marion County, FL",
+          "fips": "12083",
+          "status": "planned",
+          "borders": [
+            "12001",
+            "12017",
+            "12069",
+            "12075",
+            "12107",
+            "12119",
+            "12127"
+          ],
+          "pack": [
+            "12083",
+            "12001",
+            "12017",
+            "12069",
+            "12075",
+            "12107",
+            "12119",
+            "12127"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Martin",
+          "fullName": "Martin County, FL",
+          "fips": "12085",
+          "status": "planned",
+          "borders": [
+            "12043",
+            "12051",
+            "12093",
+            "12099",
+            "12111"
+          ],
+          "pack": [
+            "12085",
+            "12043",
+            "12051",
+            "12093",
+            "12099",
+            "12111"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Miami-Dade",
+          "fullName": "Miami-Dade County, FL",
+          "fips": "12086",
+          "status": "planned",
+          "borders": [
+            "12011",
+            "12021",
+            "12087"
+          ],
+          "pack": [
+            "12086",
+            "12011",
+            "12021",
+            "12087"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Monroe",
+          "fullName": "Monroe County, FL",
+          "fips": "12087",
+          "status": "planned",
+          "borders": [
+            "12021",
+            "12086"
+          ],
+          "pack": [
+            "12087",
+            "12021",
+            "12086"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Nassau",
+          "fullName": "Nassau County, FL",
+          "fips": "12089",
+          "status": "planned",
+          "borders": [
+            "12003",
+            "12031",
+            "13039",
+            "13049"
+          ],
+          "pack": [
+            "12089",
+            "12003",
+            "12031"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Okaloosa",
+          "fullName": "Okaloosa County, FL",
+          "fips": "12091",
+          "status": "planned",
+          "borders": [
+            "01039",
+            "01053",
+            "12113",
+            "12131"
+          ],
+          "pack": [
+            "12091",
+            "12113",
+            "12131"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Okeechobee",
+          "fullName": "Okeechobee County, FL",
+          "fips": "12093",
+          "status": "planned",
+          "borders": [
+            "12043",
+            "12051",
+            "12055",
+            "12061",
+            "12085",
+            "12097",
+            "12099",
+            "12105",
+            "12111"
+          ],
+          "pack": [
+            "12093",
+            "12043",
+            "12051",
+            "12055",
+            "12061",
+            "12085",
+            "12097",
+            "12099",
+            "12105",
+            "12111"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Orange",
+          "fullName": "Orange County, FL",
+          "fips": "12095",
+          "status": "planned",
+          "borders": [
+            "12009",
+            "12069",
+            "12097",
+            "12105",
+            "12117",
+            "12127"
+          ],
+          "pack": [
+            "12095",
+            "12009",
+            "12069",
+            "12097",
+            "12105",
+            "12117",
+            "12127"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Osceola",
+          "fullName": "Osceola County, FL",
+          "fips": "12097",
+          "status": "planned",
+          "borders": [
+            "12009",
+            "12055",
+            "12061",
+            "12069",
+            "12093",
+            "12095",
+            "12105"
+          ],
+          "pack": [
+            "12097",
+            "12009",
+            "12055",
+            "12061",
+            "12069",
+            "12093",
+            "12095",
+            "12105"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Palm Beach",
+          "fullName": "Palm Beach County, FL",
+          "fips": "12099",
+          "status": "planned",
+          "borders": [
+            "12011",
+            "12043",
+            "12051",
+            "12085",
+            "12093"
+          ],
+          "pack": [
+            "12099",
+            "12011",
+            "12043",
+            "12051",
+            "12085",
+            "12093"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Pasco",
+          "fullName": "Pasco County, FL",
+          "fips": "12101",
+          "status": "planned",
+          "borders": [
+            "12053",
+            "12057",
+            "12103",
+            "12105",
+            "12119"
+          ],
+          "pack": [
+            "12101",
+            "12053",
+            "12057",
+            "12103",
+            "12105",
+            "12119"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Pinellas",
+          "fullName": "Pinellas County, FL",
+          "fips": "12103",
+          "status": "planned",
+          "borders": [
+            "12057",
+            "12101"
+          ],
+          "pack": [
+            "12103",
+            "12057",
+            "12101"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Polk",
+          "fullName": "Polk County, FL",
+          "fips": "12105",
+          "status": "planned",
+          "borders": [
+            "12049",
+            "12055",
+            "12057",
+            "12069",
+            "12081",
+            "12093",
+            "12095",
+            "12097",
+            "12101",
+            "12119"
+          ],
+          "pack": [
+            "12105",
+            "12049",
+            "12055",
+            "12057",
+            "12069",
+            "12081",
+            "12093",
+            "12095",
+            "12097",
+            "12101",
+            "12119"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Putnam",
+          "fullName": "Putnam County, FL",
+          "fips": "12107",
+          "status": "planned",
+          "borders": [
+            "12001",
+            "12007",
+            "12019",
+            "12035",
+            "12083",
+            "12109",
+            "12127"
+          ],
+          "pack": [
+            "12107",
+            "12001",
+            "12007",
+            "12019",
+            "12035",
+            "12083",
+            "12109",
+            "12127"
+          ],
+          "sources": []
+        },
+        {
+          "name": "St. Johns",
+          "fullName": "St. Johns County, FL",
+          "fips": "12109",
+          "status": "planned",
+          "borders": [
+            "12019",
+            "12031",
+            "12035",
+            "12107"
+          ],
+          "pack": [
+            "12109",
+            "12019",
+            "12031",
+            "12035",
+            "12107"
+          ],
+          "sources": []
+        },
+        {
+          "name": "St. Lucie",
+          "fullName": "St. Lucie County, FL",
+          "fips": "12111",
+          "status": "planned",
+          "borders": [
+            "12061",
+            "12085",
+            "12093"
+          ],
+          "pack": [
+            "12111",
+            "12061",
+            "12085",
+            "12093"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Santa Rosa",
+          "fullName": "Santa Rosa County, FL",
+          "fips": "12113",
+          "status": "planned",
+          "borders": [
+            "01053",
+            "12033",
+            "12091"
+          ],
+          "pack": [
+            "12113",
+            "12033",
+            "12091"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Sarasota",
+          "fullName": "Sarasota County, FL",
+          "fips": "12115",
+          "status": "planned",
+          "borders": [
+            "12015",
+            "12027",
+            "12081"
+          ],
+          "pack": [
+            "12115",
+            "12015",
+            "12027",
+            "12081"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Seminole",
+          "fullName": "Seminole County, FL",
+          "fips": "12117",
+          "status": "planned",
+          "borders": [
+            "12009",
+            "12069",
+            "12095",
+            "12127"
+          ],
+          "pack": [
+            "12117",
+            "12009",
+            "12069",
+            "12095",
+            "12127"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Sumter",
+          "fullName": "Sumter County, FL",
+          "fips": "12119",
+          "status": "planned",
+          "borders": [
+            "12017",
+            "12053",
+            "12069",
+            "12083",
+            "12101",
+            "12105"
+          ],
+          "pack": [
+            "12119",
+            "12017",
+            "12053",
+            "12069",
+            "12083",
+            "12101",
+            "12105"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Suwannee",
+          "fullName": "Suwannee County, FL",
+          "fips": "12121",
+          "status": "planned",
+          "borders": [
+            "12023",
+            "12041",
+            "12047",
+            "12067",
+            "12079"
+          ],
+          "pack": [
+            "12121",
+            "12023",
+            "12041",
+            "12047",
+            "12067",
+            "12079"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Taylor",
+          "fullName": "Taylor County, FL",
+          "fips": "12123",
+          "status": "planned",
+          "borders": [
+            "12029",
+            "12065",
+            "12067",
+            "12079"
+          ],
+          "pack": [
+            "12123",
+            "12029",
+            "12065",
+            "12067",
+            "12079"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Union",
+          "fullName": "Union County, FL",
+          "fips": "12125",
+          "status": "planned",
+          "borders": [
+            "12001",
+            "12003",
+            "12007",
+            "12023"
+          ],
+          "pack": [
+            "12125",
+            "12001",
+            "12003",
+            "12007",
+            "12023"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Volusia",
+          "fullName": "Volusia County, FL",
+          "fips": "12127",
+          "status": "planned",
+          "borders": [
+            "12009",
+            "12035",
+            "12069",
+            "12083",
+            "12095",
+            "12107",
+            "12117"
+          ],
+          "pack": [
+            "12127",
+            "12009",
+            "12035",
+            "12069",
+            "12083",
+            "12095",
+            "12107",
+            "12117"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Wakulla",
+          "fullName": "Wakulla County, FL",
+          "fips": "12129",
+          "status": "planned",
+          "borders": [
+            "12037",
+            "12065",
+            "12073",
+            "12077"
+          ],
+          "pack": [
+            "12129",
+            "12037",
+            "12065",
+            "12073",
+            "12077"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Walton",
+          "fullName": "Walton County, FL",
+          "fips": "12131",
+          "status": "planned",
+          "borders": [
+            "01039",
+            "01061",
+            "12005",
+            "12059",
+            "12091",
+            "12133"
+          ],
+          "pack": [
+            "12131",
+            "12005",
+            "12059",
+            "12091",
+            "12133"
+          ],
+          "sources": []
+        },
+        {
+          "name": "Washington",
+          "fullName": "Washington County, FL",
+          "fips": "12133",
+          "status": "planned",
+          "borders": [
+            "12005",
+            "12059",
+            "12063",
+            "12131"
+          ],
+          "pack": [
+            "12133",
+            "12005",
+            "12059",
+            "12063",
+            "12131"
+          ],
+          "sources": []
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "inTest": [
+      "12021",
+      "12071"
+    ],
+    "planned": [
+      "12001",
+      "12003",
+      "12005",
+      "12007",
+      "12009",
+      "12011",
+      "12013",
+      "12015",
+      "12017",
+      "12019",
+      "12023",
+      "12027",
+      "12029",
+      "12031",
+      "12033",
+      "12035",
+      "12037",
+      "12039",
+      "12041",
+      "12043",
+      "12045",
+      "12047",
+      "12049",
+      "12051",
+      "12053",
+      "12055",
+      "12057",
+      "12059",
+      "12061",
+      "12063",
+      "12065",
+      "12067",
+      "12069",
+      "12073",
+      "12075",
+      "12077",
+      "12079",
+      "12081",
+      "12083",
+      "12085",
+      "12086",
+      "12087",
+      "12089",
+      "12091",
+      "12093",
+      "12095",
+      "12097",
+      "12099",
+      "12101",
+      "12103",
+      "12105",
+      "12107",
+      "12109",
+      "12111",
+      "12113",
+      "12115",
+      "12117",
+      "12119",
+      "12121",
+      "12123",
+      "12125",
+      "12127",
+      "12129",
+      "12131",
+      "12133"
+    ],
+    "live": []
+  },
+  "notes": {
+    "congressionalTrades": "Congressional stock-trade filings are collected for the free public news page only. They are not included in package exports.",
+    "influencerProgram": "The influencer referral program is a site and billing feature. The scraper does not collect it.",
+    "breaches": "No live breach collector yet. Official source research is in docs/data/PLANNED-SOURCES.md."
+  }
+}

@@ -3,11 +3,13 @@
 import logging
 
 from scrapers.context import Outcome, RunContext
+from scrapers.enrich import finalize_package_data
 from scrapers.publish import publish_status
 from scrapers.redact import redact
 from scrapers.sources.congress_bills import SOURCE_ID as BILLS_ID
 from scrapers.sources.congress_bills import SOURCE_NAME as BILLS_NAME
 from scrapers.sources.congress_bills import run_congress_bills
+from scrapers.sources.county_meetings import COLLIER, LEE, run_collier_meetings, run_lee_meetings
 from scrapers.sources.federal_register import SOURCE_ID as REGISTER_ID
 from scrapers.sources.federal_register import SOURCE_NAME as REGISTER_NAME
 from scrapers.sources.federal_register import run_federal_register
@@ -33,21 +35,28 @@ SOURCES: list[tuple[str, str, object]] = [
     (BILLS_ID, BILLS_NAME, run_congress_bills),
     (PTR_ID, PTR_NAME, run_house_ptr),
     (EFD_ID, EFD_NAME, run_senate_efd),
+    (COLLIER["id"], COLLIER["name"], run_collier_meetings),
+    (LEE["id"], LEE["name"], run_lee_meetings),
 ]
 
 FEDERAL_IDS = [REGISTER_ID, HOUSE_ID, SENATE_ID, BILLS_ID]
 TRADE_IDS = [PTR_ID, EFD_ID]
+COUNTY_IDS = [COLLIER["id"], LEE["id"]]
+DEFAULT_IDS = FEDERAL_IDS + TRADE_IDS
 
 
 def parse_sources(raw: str | None) -> list[str]:
     text = (raw or "all").strip().lower()
     known = {source_id for source_id, _name, _fn in SOURCES}
     if text in {"", "all"}:
-        return [source_id for source_id, _name, _fn in SOURCES]
+        # County stubs stay opt-in until a county is marked live.
+        return list(DEFAULT_IDS)
     if text == "federal":
         return list(FEDERAL_IDS)
     if text == "trades":
         return list(TRADE_IDS)
+    if text == "counties":
+        return list(COUNTY_IDS)
     selected: list[str] = []
     for part in text.split(","):
         name = part.strip().lower()
@@ -58,8 +67,13 @@ def parse_sources(raw: str | None) -> list[str]:
                 if source_id not in selected:
                     selected.append(source_id)
             continue
+        if name == "counties":
+            for source_id in COUNTY_IDS:
+                if source_id not in selected:
+                    selected.append(source_id)
+            continue
         if name not in known:
-            known_list = ", ".join(sorted(known | {"all", "federal", "trades"}))
+            known_list = ", ".join(sorted(known | {"all", "federal", "trades", "counties"}))
             raise SystemExit(f"Unknown source {name!r}. Choose from: {known_list}")
         if name not in selected:
             selected.append(name)
@@ -93,3 +107,4 @@ def run_sources(ctx: RunContext, source_ids: list[str]) -> None:
             },
         )
         log.info("%s records %s errors %s", source_id, outcome.records, len(errors))
+    finalize_package_data(ctx)

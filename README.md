@@ -24,6 +24,15 @@ The pages do not embed records. They fetch:
 - `docs/data/trades.json`
 - `docs/data/status.json`
 
+Package support files written by the same run:
+
+- `docs/data/deadlines.json` and `docs/data/deadlines.ics` — comment and effective dates
+- `docs/data/coverage.json` — Florida counties, status, and county packs
+- `docs/data/counties.json` — Collier and Lee meeting records when those sources are run
+- `docs/data/manifest.json` and `docs/data/v1/` — versioned JSON and CSV exports (schema 1.1.0)
+
+`trades.json` is not included in the package exports. `--sources counties` runs the Collier and Lee CivicClerk stubs; they are not part of `all` yet. `--finalize-only` enriches stored federal feeds and rewrites the package files without fetching new source records.
+
 Those files are committed empty and valid:
 
 ```json

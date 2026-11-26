@@ -11,9 +11,11 @@ from html import unescape
 
 from scrapers.config import FEDERAL_REGISTER_MAX_HITS, FEDERAL_REGISTER_PAGE_SIZE
 from scrapers.context import Outcome, RunContext
+from scrapers.geo import federal_jurisdiction
 from scrapers.http_client import HttpError
 from scrapers.publish import mark_checked, publish_federal
 from scrapers.store import load_state, quarantine, save_state
+from scrapers.tags import merge_agency_names, tag_tariff_trade
 from scrapers.windows import resolve_window, split_range, window_key
 
 log = logging.getLogger(__name__)
@@ -31,6 +33,9 @@ FIELDS = (
     "html_url",
     "abstract",
     "citation",
+    "agencies",
+    "comments_close_on",
+    "effective_on",
 )
 _TAGS = re.compile(r"<[^>]+>")
 
@@ -283,7 +288,7 @@ def _map_document(raw: dict, kind: str) -> dict:
         document_type = "Notice"
     else:
         raise ValueError(f"unknown Federal Register task {kind}")
-    return {
+    record = {
         "id": f"fr-{document_number.strip()}",
         "kind": feed_kind,
         "title": title.strip(),
@@ -294,7 +299,13 @@ def _map_document(raw: dict, kind: str) -> dict:
         "identifier": identifier,
         "chamber": None,
         "documentType": document_type,
+        "commentsCloseOn": _optional_iso_date(raw.get("comments_close_on")),
+        "effectiveOn": _optional_iso_date(raw.get("effective_on")),
+        "agencies": merge_agency_names(raw.get("agencies")),
+        "jurisdiction": federal_jurisdiction(),
     }
+    record["tags"] = tag_tariff_trade(record)
+    return record
 
 
 def _presidential_fields(
@@ -334,3 +345,12 @@ def _plain(value: object) -> str | None:
     text = unescape(_TAGS.sub(" ", value))
     text = re.sub(r"\s+", " ", text).strip()
     return text or None
+
+
+def _optional_iso_date(value: object) -> str | None:
+    if not isinstance(value, str) or len(value) < 10:
+        return None
+    day = value[:10]
+    if len(day) != 10 or day[4] != "-" or day[7] != "-":
+        return None
+    return day
