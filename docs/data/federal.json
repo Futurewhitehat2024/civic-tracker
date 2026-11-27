@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T09:14:10-05:00",
+  "updated": "2026-11-27T14:53:32-05:00",
   "items": [
     {
       "id": "fr-2026-24033",
@@ -14407,7 +14407,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on the Judiciary, Financial Services, Ways and Means, Oversight and Government Reform, and Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 10828",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-10832-119",
@@ -16517,6 +16518,18 @@
       "chamber": "house"
     },
     {
+      "id": "hr-10406-119",
+      "kind": "bill",
+      "title": "Jimmy Lai Hong Kong Political Prisoner Accountability Act of 2026",
+      "date": "2026-09-16",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10406",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on the Judiciary, and in addition to the Committees on Foreign Affairs, Financial Services, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 10406",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-10410-119",
       "kind": "bill",
       "title": "Educating Future Nurses Act",
@@ -16864,6 +16877,18 @@
       "summary": "Subcommittee Hearings Held",
       "identifier": "H.R. 9999",
       "chamber": "house"
+    },
+    {
+      "id": "s-5404-119",
+      "kind": "bill",
+      "title": "Jimmy Lai Hong Kong Political Prisoner Accountability Act of 2026",
+      "date": "2026-09-16",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5404",
+      "source": "Congress.gov",
+      "summary": "Read twice and referred to the Committee on Foreign Relations.",
+      "identifier": "S. 5404",
+      "chamber": "senate",
+      "documentType": null
     },
     {
       "id": "s-5411-119",
@@ -17612,6 +17637,18 @@
       "summary": "Referred to the House Committee on Science, Space, and Technology.",
       "identifier": "H.R. 10173",
       "chamber": "house"
+    },
+    {
+      "id": "hr-10177-119",
+      "kind": "bill",
+      "title": "Competition in State Healthcare Markets Act",
+      "date": "2026-08-27",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10177",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 10177",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-10183-119",
@@ -23063,6 +23100,18 @@
       "summary": "Referred to the Subcommittee on Health.",
       "identifier": "H.R. 7976",
       "chamber": "house"
+    },
+    {
+      "id": "hr-8222-119",
+      "kind": "bill",
+      "title": "End Russian Oil Windfalls Act",
+      "date": "2026-04-09",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8222",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 8222",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-8235-119",
@@ -32173,6 +32222,18 @@
       "summary": "Referred to the House Committee on Education and Workforce.",
       "identifier": "H.Res. 356",
       "chamber": "house"
+    },
+    {
+      "id": "hr-3017-119",
+      "kind": "bill",
+      "title": "Measuring State Healthcare Freedom Act",
+      "date": "2025-04-24",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3017",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 3017",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-3018-119",
