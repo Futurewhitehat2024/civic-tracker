@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T20:37:45-05:00",
+  "updated": "2026-11-28T08:30:20-05:00",
   "items": [
     {
       "id": "fr-2026-24033",
@@ -336,6 +336,30 @@
       "identifier": "2026-24236",
       "chamber": null,
       "documentType": "Memorandum"
+    },
+    {
+      "id": "hr-11165-119",
+      "kind": "bill",
+      "title": "To amend the Egg Products Inspection Act to protect the sale by small farms and use of ungraded shell eggs that are clean, sound, and clearly labeled, and for other purposes.",
+      "date": "2026-11-27",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11165",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Agriculture.",
+      "identifier": "H.R. 11165",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hres-1675-119",
+      "kind": "bill",
+      "title": "Commending and congratulating the Kansas City Current on winning the 2026 National Women's Soccer League Championship.",
+      "date": "2026-11-27",
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1675",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Oversight and Government Reform.",
+      "identifier": "H.Res. 1675",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "fr-2026-23960",
@@ -3448,7 +3472,7 @@
     {
       "id": "hr-11123-119",
       "kind": "bill",
-      "title": "To reform pattern or practice investigations conducted by the Department of Justice, and for other purposes.",
+      "title": "Enhancing Oversight to End Discrimination in Policing Act",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/11123",
       "source": "Congress.gov",
@@ -3460,7 +3484,7 @@
     {
       "id": "hr-11124-119",
       "kind": "bill",
-      "title": "To prohibit the termination of a temporary protected status designation for certain foreign states, and for other purposes.",
+      "title": "PROTECT Act",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/11124",
       "source": "Congress.gov",
@@ -3472,7 +3496,7 @@
     {
       "id": "hr-11125-119",
       "kind": "bill",
-      "title": "To authorize the Secretary of the Interior to cooperate with the State of California and other appropriate entities in conducting a hydrogeologic characterization, mapping, and modeling program for priority transboundary aquifers, and for other purposes.",
+      "title": "Transboundary Groundwater Research and Mapping Act",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/11125",
       "source": "Congress.gov",
@@ -3484,7 +3508,7 @@
     {
       "id": "hr-11126-119",
       "kind": "bill",
-      "title": "To amend the FAA Reauthorization Act of 2024 to require the Secretary of Transportation to issue a final rule relating to family seating on flights, and for other purposes.",
+      "title": "Families Fly Together Act of 2026",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/11126",
       "source": "Congress.gov",
@@ -3496,7 +3520,7 @@
     {
       "id": "hr-11127-119",
       "kind": "bill",
-      "title": "To direct the Director of the National Institute of Standards and Technology to establish benchmarks for the timely remediation of software vulnerabilities by owners and operators of critical infrastructure, to establish a grant program for patch modernization and the reduction of the exposure of operational technology, and for other purposes.",
+      "title": "Cyber Resilience for Critical Infrastructure Act",
       "date": "2026-11-19",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/11127",
       "source": "Congress.gov",
@@ -6205,7 +6229,8 @@
       "source": "Congress.gov",
       "summary": "Placed on the Union Calendar, Calendar No. 778.",
       "identifier": "H.R. 5525",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-8801-119",
@@ -6216,7 +6241,8 @@
       "source": "Congress.gov",
       "summary": "Placed on the Union Calendar, Calendar No. 779.",
       "identifier": "H.R. 8801",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-9607-119",
@@ -18660,7 +18686,8 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Small Business.",
       "identifier": "H.R. 9943",
-      "chamber": "house"
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-9944-119",
@@ -18986,6 +19013,18 @@
       "summary": "Ordered to be Reported in the Nature of a Substitute (Amended) by Voice Vote.",
       "identifier": "H.R. 9326",
       "chamber": "house"
+    },
+    {
+      "id": "hr-9795-119",
+      "kind": "bill",
+      "title": "Never Forget the Victims of Terrorism: Joseph D. Mistrulli and Alan Kleinberg USVSST Fund Solvency Act",
+      "date": "2026-07-21",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9795",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 9795",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-9799-119",
@@ -20134,6 +20173,18 @@
       "summary": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
       "identifier": "S. 4848",
       "chamber": "senate"
+    },
+    {
+      "id": "hr-9350-119",
+      "kind": "bill",
+      "title": "No 9/11 Family Left Behind Act of 2026",
+      "date": "2026-06-18",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9350",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on the Judiciary.",
+      "identifier": "H.R. 9350",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-9362-119",
@@ -22688,6 +22739,18 @@
       "source": "Congress.gov",
       "summary": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "identifier": "H.R. 1681",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-8210-119",
+      "kind": "bill",
+      "title": "A Stronger Workforce for America Act of 2026",
+      "date": "2026-04-21",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8210",
+      "source": "Congress.gov",
+      "summary": "Ordered to be Reported (Amended) by the Yeas and Nays: 19 - 14.",
+      "identifier": "H.R. 8210",
       "chamber": "house",
       "documentType": null
     },
@@ -27709,6 +27772,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on Ways and Means.",
       "identifier": "H.R. 5427",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-5434-119",
+      "kind": "bill",
+      "title": "988 LGBTQ+ Youth Access Act of 2025",
+      "date": "2025-09-17",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5434",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 5434",
       "chamber": "house",
       "documentType": null
     },
