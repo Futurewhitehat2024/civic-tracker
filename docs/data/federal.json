@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T14:53:32-05:00",
+  "updated": "2026-11-27T20:37:45-05:00",
   "items": [
     {
       "id": "fr-2026-24033",
@@ -16635,6 +16635,18 @@
       "documentType": null
     },
     {
+      "id": "hr-10459-119",
+      "kind": "bill",
+      "title": "Patriotic Corporations of America Act of 2026",
+      "date": "2026-09-16",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10459",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 10459",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-10473-119",
       "kind": "bill",
       "title": "Justice for Ukrainian Children Act",
@@ -17818,6 +17830,18 @@
       "summary": "Referred to the House Committee on Natural Resources.",
       "identifier": "H.R. 10073",
       "chamber": "house"
+    },
+    {
+      "id": "hr-10076-119",
+      "kind": "bill",
+      "title": "Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
+      "date": "2026-08-10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10076",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on the Judiciary, Oversight and Government Reform, Financial Services, Ways and Means, Rules, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 10076",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-10078-119",
@@ -25709,6 +25733,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the Subcommittee on Counterterrorism and Intelligence.",
       "identifier": "H.R. 6809",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-6856-119",
+      "kind": "bill",
+      "title": "Peace Through Strength Against Russia Act of 2025",
+      "date": "2025-12-18",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6856",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on the Judiciary, Financial Services, Ways and Means, Oversight and Government Reform, Energy and Commerce, and Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 6856",
       "chamber": "house",
       "documentType": null
     },
@@ -34972,6 +35008,18 @@
       "documentType": null
     },
     {
+      "id": "hr-1776-119",
+      "kind": "bill",
+      "title": "New Health Options Act of 2025",
+      "date": "2025-03-03",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1776",
+      "source": "Congress.gov",
+      "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "identifier": "H.R. 1776",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-1777-119",
       "kind": "bill",
       "title": "SECURE Notarization Act of 2025",
@@ -34980,6 +35028,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "identifier": "H.R. 1777",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-1779-119",
+      "kind": "bill",
+      "title": "SWAMP Act",
+      "date": "2025-03-03",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1779",
+      "source": "Congress.gov",
+      "summary": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+      "identifier": "H.R. 1779",
       "chamber": "house",
       "documentType": null
     },
@@ -35008,6 +35068,18 @@
       "documentType": null
     },
     {
+      "id": "hr-1794-119",
+      "kind": "bill",
+      "title": "United States-Abraham Accords Cooperation and Security Act of 2025",
+      "date": "2025-03-03",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1794",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Energy and Commerce.",
+      "identifier": "H.R. 1794",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
       "id": "hr-1796-119",
       "kind": "bill",
       "title": "Sickle Cell Disease and Other Heritable Blood Disorders Research, Surveillance, Prevention, and Treatment Act of 2025",
@@ -35017,6 +35089,18 @@
       "summary": "Referred to the House Committee on Energy and Commerce.",
       "identifier": "H.R. 1796",
       "chamber": "house"
+    },
+    {
+      "id": "hr-1805-119",
+      "kind": "bill",
+      "title": "ARCH Act",
+      "date": "2025-03-03",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1805",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Ways and Means.",
+      "identifier": "H.R. 1805",
+      "chamber": "house",
+      "documentType": null
     },
     {
       "id": "hr-1806-119",
@@ -35365,6 +35449,18 @@
       "source": "Congress.gov",
       "summary": "Referred to the House Committee on the Judiciary.",
       "identifier": "H.R. 1751",
+      "chamber": "house",
+      "documentType": null
+    },
+    {
+      "id": "hr-1760-119",
+      "kind": "bill",
+      "title": "USPS Act",
+      "date": "2025-02-27",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1760",
+      "source": "Congress.gov",
+      "summary": "Referred to the House Committee on Oversight and Government Reform.",
+      "identifier": "H.R. 1760",
       "chamber": "house",
       "documentType": null
     },
